@@ -1,5 +1,3 @@
-# Vaughan Mason Website
+# Fans allowed in Stadium - B&I Lions
 
-## This has to be the easiest way to update a website in the world!!!!
-
-Hello Matthew
+## April Fools
