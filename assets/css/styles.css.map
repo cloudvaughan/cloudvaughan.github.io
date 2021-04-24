@@ -6,9 +6,9 @@
 		"_sass/main.scss"
 	],
 	"sourcesContent": [
-		"@import \"main\";\n",
-		".current {\n  color: green;\n}\n"
+		"@import \"main\";\n\n",
+		".current {\n  color: green;\n}\n.nav\n{\n/*to define the position*/\nposition:absolute;\ntop:10px;\nright:20px;\nheight:100px;\ntext-transform:capitalize;\nopacity:0.5;\n\n}\n.nav ul li\n{\n list-style-type: none;\nmargin-top:5px;\n-webkit-transform:rotate(-35deg);\n-moz-transform:rotate(-35deg);\n-o-transform:rotate(-35deg);\n-ms-transform:rotate(-35deg);\ntransform:rotate(-35deg)\n}\n.nav ul li a\n{\nwidth:100px;\ndisplay:block;\nborder-top:1px #c0c3c2 solid;\nborder-bottom:1px #c0c3c2 solid;\nfont-size:20px;\ncolor:blue;\nbackground:#A8C5FF;\ntransition:width 0.2s;\ntransition:font-size 0.2s;\n\n}\n.nav ul li a:hover{\ncolor:#A8C5FF;\nbackground:blue;\nfont-size:22px;\n}\n.nav.fixed{\n    position: fixed;\n    top: 0;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACP,KAAK,EAAE,KAAK,GACb;;AACD,AAAA,IAAI,CACJ,EACA,0BAA0B,CAC1B,QAAQ,EAAC,QAAQ,EACjB,GAAG,EAAC,IAAI,EACR,KAAK,EAAC,IAAI,EACV,MAAM,EAAC,KAAK,EACZ,cAAc,EAAC,UAAU,EACzB,OAAO,EAAC,GAAG,GAEV;;AACD,AAAA,IAAI,CAAC,EAAE,CAAC,EAAE,CACV,EACC,eAAe,EAAE,IAAI,EACtB,UAAU,EAAC,GAAG,EACd,iBAAiB,EAAC,cAAc,EAChC,cAAc,EAAC,cAAc,EAC7B,YAAY,EAAC,cAAc,EAC3B,aAAa,EAAC,cAAc,EAC5B,SAAS,EAAC,cAAc,GACvB;;AACD,AAAA,IAAI,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CACZ,EACA,KAAK,EAAC,KAAK,EACX,OAAO,EAAC,KAAK,EACb,UAAU,EAAC,iBAAiB,EAC5B,aAAa,EAAC,iBAAiB,EAC/B,SAAS,EAAC,IAAI,EACd,KAAK,EAAC,IAAI,EACV,UAAU,EAAC,OAAO,EAClB,UAAU,EAAC,UAAU,EACrB,UAAU,EAAC,cAAc,GAExB;;AACD,AAAA,IAAI,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,KAAK,CAAA,EAClB,KAAK,EAAC,OAAO,EACb,UAAU,EAAC,IAAI,EACf,SAAS,EAAC,IAAI,GACb;;AACD,AAAA,IAAI,AAAA,MAAM,CAAA,EACN,QAAQ,EAAE,KAAK,EACf,GAAG,EAAE,CAAC,GACT"
 }

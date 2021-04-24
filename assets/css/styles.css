@@ -1,3 +1,13 @@
 .current { color: green; }
 
+.nav { /*to define the position*/ position: absolute; top: 10px; right: 20px; height: 100px; text-transform: capitalize; opacity: 0.5; }
+
+.nav ul li { list-style-type: none; margin-top: 5px; -webkit-transform: rotate(-35deg); -moz-transform: rotate(-35deg); -o-transform: rotate(-35deg); -ms-transform: rotate(-35deg); transform: rotate(-35deg); }
+
+.nav ul li a { width: 100px; display: block; border-top: 1px #c0c3c2 solid; border-bottom: 1px #c0c3c2 solid; font-size: 20px; color: blue; background: #A8C5FF; transition: width 0.2s; transition: font-size 0.2s; }
+
+.nav ul li a:hover { color: #A8C5FF; background: blue; font-size: 22px; }
+
+.nav.fixed { position: fixed; top: 0; }
+
 /*# sourceMappingURL=styles.css.map */
