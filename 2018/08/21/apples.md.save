@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NoSaM - Apples.md</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Apples.md</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Apples.md" />
+<meta name="author" content="jill" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An apple is a sweet, edible fruit produced by an apple tree." />
+<meta property="og:description" content="An apple is a sweet, edible fruit produced by an apple tree." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-21T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Apples.md" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"/2018/08/21/apples.md.save","headline":"Apples.md","dateModified":"2018-08-21T00:00:00+01:00","datePublished":"2018-08-21T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"/2018/08/21/apples.md.save"},"author":{"@type":"Person","name":"jill"},"description":"An apple is a sweet, edible fruit produced by an apple tree.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <nav class="nav">
+  
+    <a href="/" >Home</a>
+  
+    <a href="/about.html" >About</a>
+  
+    <a href="/blog.html" >Blog</a>
+  
+</nav>
+
+    <h1>Apples.md</h1>
+
+<p>
+  21 Aug 2018
+ </p>
+
+An apple is a sweet, edible fruit produced by an apple tree.
+
+Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.---
+layout: post
+author: jill
+---
+An apple is a sweet, edible fruit produced by an apple tree.
+
+Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.
+
+
+    
+  </body>
+  <aside class="aside">
+    <ul>
+      
+        <li>
+          <a href="/tech/management/2021/04/24/management-test.html">Management test</a>
+        </li>
+      
+        <li>
+          <a href="/tech/data/2021/04/24/Data-Test.html">Data test</a>
+        </li>
+      
+        <li>
+          <a href="/tech/cloud/2021/04/24/Training.html">Training</a>
+        </li>
+      
+        <li>
+          <a href="/tech/cloud/2021/04/24/Cloud-Test.html">Cloud test</a>
+        </li>
+      
+        <li>
+          <a href="/2021/04/24/Certifications.html">Certifications</a>
+        </li>
+      
+        <li>
+          <a href="/2018/08/21/apples.md.save">Apples.md</a>
+        </li>
+      
+    </ul>
+  </aside>
+  <footer>
+    <p>Vaughan Mason <br>
+    <a href="mailto:cloudvaughan@gmail.com">Mail Me</a>
+    </p>
+  </footer>
+</html>
