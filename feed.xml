@@ -1,64 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-26T10:49:30+01:00</updated><id>/feed.xml</id><entry><title type="html">Certifications</title><link href="/2021/04/24/Certifications.html" rel="alternate" type="text/html" title="Certifications" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/2021/04/24/Certifications</id><content type="html" xml:base="/2021/04/24/Certifications.html">&lt;p&gt;Certifications&lt;/p&gt;</content><author><name>Vaughan</name></author><category term="certifications" /><summary type="html">Certifications</summary></entry><entry><title type="html">Cloud test</title><link href="/tech/cloud/2021/04/24/Cloud-Test.html" rel="alternate" type="text/html" title="Cloud test" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/cloud/2021/04/24/Cloud%20Test</id><content type="html" xml:base="/tech/cloud/2021/04/24/Cloud-Test.html">&lt;p&gt;One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training. I’m sharing a few below and will update, please share more with me on twitter @cloudvaughan&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-26T14:06:19+01:00</updated><id>/feed.xml</id><entry><title type="html">Upcoming Posts</title><link href="/2021/04/25/upcomingposts.html" rel="alternate" type="text/html" title="Upcoming Posts" /><published>2021-04-25T00:00:00+01:00</published><updated>2021-04-25T00:00:00+01:00</updated><id>/2021/04/25/upcomingposts</id><content type="html" xml:base="/2021/04/25/upcomingposts.html">&lt;h1 id=&quot;collection-of-future-posts&quot;&gt;Collection of Future Posts&lt;/h1&gt;
 
-&lt;p&gt;Cloud Training
-A Cloud Guru
-Great platform, a lot of focus on AWS but the content for Microsoft and Google is growing. It using a subscription model but is very reasonable as you get access to a ton of content.
-Microsoft Learning Docs
-This a free platform offered by Microsoft, great as you can search for content based on roles. You earn badges and can track you status if you log in. Works great with the Azure Sandbox environment.
-Microsoft Cloud Society
-Cloud Society. The one-stop learning platform that helps you boost your cloud skills with a range of free courses.
-AWS Training
-Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.
-Podcasts
-Screaming in the Cloud
-This podcast is amazing, Corey Quinn unpacks a range of topics in a take no prisoners manner. He cuts through the bull and no one is safe.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cloud Native&lt;/li&gt;
+  &lt;li&gt;DAMA&lt;/li&gt;
+  &lt;li&gt;Devops&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Vaughan</name></author><category term="upcoming" /><summary type="html">Collection of Future Posts</summary></entry><entry><title type="html">Cloud upskilling</title><link href="/tech/cloud/2021/04/24/cloudUpskilling.html" rel="alternate" type="text/html" title="Cloud upskilling" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/cloud/2021/04/24/cloudUpskilling</id><content type="html" xml:base="/tech/cloud/2021/04/24/cloudUpskilling.html">&lt;p&gt;One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training.&lt;/p&gt;
 
-&lt;p&gt;The Cloud Cast
-Another fantastic option. Aaron and Brian discuss the best of cloud computing from around the world. They cover a weekly update of cloud news of the week and then take you through specific topics with industry experts.&lt;/p&gt;
+&lt;p&gt;Here are just some of the resources that I use.&lt;/p&gt;
 
-&lt;p&gt;Websites
-[https://dzone.com/]
-[https://www.infoworld.com/category/cloud-computing/]
-[https://www.forbes.com/cloud/]
-[https://www.microsoft.com/en-us/learning/community-blog.aspx]&lt;/p&gt;</content><author><name>Vaughan</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><category term="test" /><summary type="html">One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training. I’m sharing a few below and will update, please share more with me on twitter @cloudvaughan</summary></entry><entry><title type="html">Training</title><link href="/tech/cloud/2021/04/24/Training.html" rel="alternate" type="text/html" title="Training" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/cloud/2021/04/24/Training</id><content type="html" xml:base="/tech/cloud/2021/04/24/Training.html">One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training. I'm sharing a few below and will update, please share more with me on &lt;a href=&quot;https://twitter.com/cloudVaughan&quot; target=&quot;_blank&quot;&gt;twitter @cloudvaughan&lt;/a&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;h3&gt;
-&lt;u&gt;Cloud Training&lt;/u&gt;&lt;/h3&gt;
-&lt;a href=&quot;https://acloud.guru/&quot; target=&quot;_blank&quot;&gt;A Cloud Guru&lt;/a&gt;&lt;br /&gt;
-Great platform, a lot of focus on AWS but the content for Microsoft and Google is growing. It using a subscription model but is very reasonable as you get access to a ton of content.&lt;br /&gt;
-&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/&quot; target=&quot;_blank&quot;&gt;Microsoft Learning Docs&lt;/a&gt;&lt;br /&gt;
-This a free platform offered by Microsoft, great as you can search for content based on roles. You earn badges and can track you status if you log in. Works great with the Azure Sandbox environment.&lt;br /&gt;
-&lt;a href=&quot;https://cloudsociety.microsoft.com/en&quot; target=&quot;_blank&quot;&gt;Microsoft Cloud Society&lt;/a&gt;&lt;br /&gt;
-Cloud Society. The one-stop learning platform that helps you boost your cloud skills with a range of free courses.&lt;br /&gt;
-&lt;a href=&quot;https://aws.amazon.com/training/&quot; target=&quot;_blank&quot;&gt;AWS Training&lt;/a&gt;&lt;br /&gt;
-Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.&lt;br /&gt;
-&lt;h3&gt;
-&lt;u&gt;Podcasts&lt;/u&gt;&lt;/h3&gt;
-&lt;div&gt;
-&lt;a href=&quot;https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/&quot; target=&quot;_blank&quot;&gt;Screaming in the Cloud&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;
-This podcast is amazing, Corey Quinn unpacks a range of topics in a take no prisoners manner. He cuts through the bull and no one is safe.&lt;/div&gt;
-&lt;div&gt;
-&lt;br /&gt;&lt;/div&gt;
-&lt;div&gt;
-&lt;a href=&quot;https://www.thecloudcast.net/&quot; target=&quot;_blank&quot;&gt;The Cloud Cast&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;
-Another fantastic option. Aaron and Brian discuss the best of cloud computing from around the world. They cover a weekly update of cloud news of the week and then take you through specific topics with industry experts.&lt;/div&gt;
-&lt;div&gt;
-&lt;br /&gt;&lt;/div&gt;
-&lt;h3&gt;
-&lt;u&gt;Websites&lt;/u&gt;&lt;/h3&gt;
-&lt;div&gt;
-&lt;a href=&quot;https://dzone.com/&quot;&gt;https://dzone.com/&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;
-&lt;a href=&quot;https://www.infoworld.com/category/cloud-computing/&quot;&gt;https://www.infoworld.com/category/cloud-computing/&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;
-&lt;a href=&quot;https://www.forbes.com/cloud/&quot;&gt;https://www.forbes.com/cloud/&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;
-&lt;a href=&quot;https://www.microsoft.com/en-us/learning/community-blog.aspx&quot;&gt;https://www.microsoft.com/en-us/learning/community-blog.aspx&lt;/a&gt;&lt;br /&gt;
-&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;
-&lt;a href=&quot;https://1.bp.blogspot.com/-CNtNz31kxSs/XkRDeJOoDPI/AAAAAAAAAAY/Q3rEuSKtzUI26MU6L9wNyiXU2OylYPQawCLcBGAsYHQ/s1600/cloudvaughan.jpg&quot; style=&quot;clear: left; float: left; margin-bottom: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; data-original-height=&quot;346&quot; data-original-width=&quot;465&quot; height=&quot;148&quot; src=&quot;https://1.bp.blogspot.com/-CNtNz31kxSs/XkRDeJOoDPI/AAAAAAAAAAY/Q3rEuSKtzUI26MU6L9wNyiXU2OylYPQawCLcBGAsYHQ/s200/cloudvaughan.jpg&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div&gt;
-&lt;br /&gt;&lt;/div&gt;
-&lt;br /&gt;</content><author><name>Vaughan</name></author><category term="tech" /><category term="cloud" /><summary type="html">One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training. I'm sharing a few below and will update, please share more with me on twitter @cloudvaughan Cloud Training A Cloud Guru Great platform, a lot of focus on AWS but the content for Microsoft and Google is growing. It using a subscription model but is very reasonable as you get access to a ton of content. Microsoft Learning Docs This a free platform offered by Microsoft, great as you can search for content based on roles. You earn badges and can track you status if you log in. Works great with the Azure Sandbox environment. Microsoft Cloud Society Cloud Society. The one-stop learning platform that helps you boost your cloud skills with a range of free courses. AWS Training Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud. Podcasts Screaming in the Cloud This podcast is amazing, Corey Quinn unpacks a range of topics in a take no prisoners manner. He cuts through the bull and no one is safe. The Cloud Cast Another fantastic option. Aaron and Brian discuss the best of cloud computing from around the world. They cover a weekly update of cloud news of the week and then take you through specific topics with industry experts. Websites https://dzone.com/ https://www.infoworld.com/category/cloud-computing/ https://www.forbes.com/cloud/ https://www.microsoft.com/en-us/learning/community-blog.aspx</summary></entry><entry><title type="html">Data test</title><link href="/tech/data/2021/04/24/Data-Test.html" rel="alternate" type="text/html" title="Data test" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/data/2021/04/24/Data%20Test</id><content type="html" xml:base="/tech/data/2021/04/24/Data-Test.html">&lt;p&gt;This is a blog post about data&lt;/p&gt;</content><author><name>Vaughan</name></author><category term="tech" /><category term="data" /><category term="data" /><category term="test" /><summary type="html">This is a blog post about data</summary></entry><entry><title type="html">Management test</title><link href="/tech/management/2021/04/24/management-test.html" rel="alternate" type="text/html" title="Management test" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/management/2021/04/24/management%20test</id><content type="html" xml:base="/tech/management/2021/04/24/management-test.html">&lt;p&gt;This is a blog post about management&lt;/p&gt;</content><author><name>Vaughan</name></author><category term="tech" /><category term="management" /><category term="management" /><category term="test" /><summary type="html">This is a blog post about management</summary></entry></feed>
+&lt;h2 id=&quot;cloud-training&quot;&gt;Cloud Training&lt;/h2&gt;
+&lt;h3 id=&quot;a-cloud-guru&quot;&gt;A Cloud Guru&lt;/h3&gt;
+&lt;p&gt;Great platform, a lot of focus on AWS but the content for Microsoft and Google is growing. It using a subscription model which is very reasonable as you get access to a ton of content.&lt;/p&gt;
+
+&lt;h3 id=&quot;microsoft-learning-docs&quot;&gt;Microsoft Learning Docs&lt;/h3&gt;
+
+&lt;p&gt;This a free platform offered by Microsoft, great as you can search for content based on roles. You earn badges and can track you status if you log in. Works great with the Azure Sandbox environment.&lt;/p&gt;
+
+&lt;h3 id=&quot;microsoft-cloud-society&quot;&gt;Microsoft Cloud Society&lt;/h3&gt;
+
+&lt;p&gt;Cloud Society. The one-stop learning platform that helps you boost your cloud skills with a range of free courses.&lt;/p&gt;
+
+&lt;h3 id=&quot;aws-training&quot;&gt;AWS Training&lt;/h3&gt;
+
+&lt;p&gt;Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.&lt;/p&gt;
+
+&lt;h2 id=&quot;podcasts&quot;&gt;Podcasts&lt;/h2&gt;
+
+&lt;h3 id=&quot;screaming-in-the-cloud&quot;&gt;Screaming in the Cloud&lt;/h3&gt;
+
+&lt;p&gt;This podcast is amazing, Corey Quinn unpacks a range of topics in a take no prisoners manner. He cuts through the bull and no one is safe.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-cloud-cast&quot;&gt;The Cloud Cast&lt;/h3&gt;
+
+&lt;p&gt;Another fantastic option. Aaron and Brian discuss the best of cloud computing from around the world. They cover a weekly update of cloud news of the week and then take you through specific topics with industry experts.&lt;/p&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://acloud.guru/&quot; target=&quot;_blank&quot;&gt;acloud.guru&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/&quot; target=&quot;_blank&quot;&gt;Microsoft Learning Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloudsociety.microsoft.com/en&quot; target=&quot;_blank&quot;&gt;Microsoft Cloud Society&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/training/&quot; target=&quot;_blank&quot;&gt;AWS Training&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/&quot; target=&quot;_blank&quot;&gt;Screaming in the cloud&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.thecloudcast.net/&quot; target=&quot;_blank&quot;&gt;The Cloud Cast&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dzone.com/&quot;&gt;https://dzone.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.infoworld.com/category/cloud-computing/&quot;&gt;https://www.infoworld.com/category/cloud-computing/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/cloud/&quot;&gt;https://www.forbes.com/cloud/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.microsoft.com/en-us/learning/community-blog.aspx&quot;&gt;https://www.microsoft.com/en-us/learning/community-blog.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><category term="training" /><summary type="html">One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training.</summary></entry></feed>
