@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-30T13:55:09+01:00</updated><id>/feed.xml</id><entry><title type="html">Upcoming Posts</title><link href="/2021/04/25/upcomingposts.html" rel="alternate" type="text/html" title="Upcoming Posts" /><published>2021-04-25T00:00:00+01:00</published><updated>2021-04-25T00:00:00+01:00</updated><id>/2021/04/25/upcomingposts</id><content type="html" xml:base="/2021/04/25/upcomingposts.html">&lt;h1 id=&quot;collection-of-future-posts&quot;&gt;Collection of Future Posts&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-30T14:35:53+01:00</updated><id>/feed.xml</id><entry><title type="html">Upcoming Posts</title><link href="/2021/04/25/upcomingposts.html" rel="alternate" type="text/html" title="Upcoming Posts" /><published>2021-04-25T00:00:00+01:00</published><updated>2021-04-25T00:00:00+01:00</updated><id>/2021/04/25/upcomingposts</id><content type="html" xml:base="/2021/04/25/upcomingposts.html">&lt;h1 id=&quot;collection-of-future-posts&quot;&gt;Collection of Future Posts&lt;/h1&gt;
 
 &lt;ul&gt;
   &lt;li&gt;How I built this website&lt;/li&gt;
@@ -8,6 +8,7 @@
   &lt;li&gt;DAMA&lt;/li&gt;
   &lt;li&gt;Devops&lt;/li&gt;
   &lt;li&gt;Sh files&lt;/li&gt;
+  &lt;li&gt;ruby&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Vaughan</name></author><category term="upcoming" /><summary type="html">Collection of Future Posts</summary></entry><entry><title type="html">Cloud upskilling</title><link href="/tech/cloud/2021/04/24/cloudUpskilling.html" rel="alternate" type="text/html" title="Cloud upskilling" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/cloud/2021/04/24/cloudUpskilling</id><content type="html" xml:base="/tech/cloud/2021/04/24/cloudUpskilling.html">&lt;p&gt;One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training.&lt;/p&gt;
 
 &lt;p&gt;Here are just some of the resources that I use.&lt;/p&gt;

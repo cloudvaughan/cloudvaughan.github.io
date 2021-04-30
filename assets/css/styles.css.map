@@ -3,7 +3,7 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"repo/techNosam/_sass/main.scss"
+		"../repo/techNosam/_sass/main.scss"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n\n",
