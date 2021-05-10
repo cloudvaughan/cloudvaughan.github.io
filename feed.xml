@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-10T22:06:04+01:00</updated><id>/feed.xml</id><entry><title type="html">Building NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+01:00</published><updated>2021-05-10T00:00:00+01:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-10T22:15:53+01:00</updated><id>/feed.xml</id><entry><title type="html">Building NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+01:00</published><updated>2021-05-10T00:00:00+01:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
@@ -57,14 +57,14 @@ Some of the functionality I will be using Markdown for:&lt;/p&gt;
 
 &lt;p&gt;So as per Jekyll’s &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;website&lt;/a&gt;, it is Simple, Static and Blog-aware and that ticked the boxes for me.&lt;/p&gt;
 
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
 2
 3
 4
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;bundler jekyll
-jekyll new my-awesome-site
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-awesome site
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bundler&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;awesome&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;awesome&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;The above code is all you need to get a website up and running.&lt;/p&gt;
 
