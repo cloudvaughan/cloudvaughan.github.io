@@ -4,21 +4,21 @@
     <meta charset="utf-8">
     <title>NoSaM - Building NoSaM to share skills - Part 1</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link type="application/atom+xml" rel="alternate" href="/feed.xml" />
+    <link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" />
     <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Building NoSaM to share skills - Part 1</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Building NoSaM to share skills - Part 1" />
 <meta name="author" content="Vaughan Mason" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Building tech.nosam.co.za - Part 1" />
-<meta property="og:description" content="Building tech.nosam.co.za - Part 1" />
+<link rel="canonical" href="http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1.html" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-05-10T00:00:00+01:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Building NoSaM to share skills - Part 1" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","datePublished":"2021-05-10T00:00:00+01:00","mainEntityOfPage":{"@type":"WebPage","@id":"/tech/2021/05/10/techNosamWebsiteP1.html"},"url":"/tech/2021/05/10/techNosamWebsiteP1.html","author":{"@type":"Person","name":"Vaughan Mason"},"description":"Building tech.nosam.co.za - Part 1","headline":"Building NoSaM to share skills - Part 1","dateModified":"2021-05-10T00:00:00+01:00","@context":"https://schema.org"}</script>
+{"dateModified":"2021-05-10T00:00:00+01:00","datePublished":"2021-05-10T00:00:00+01:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1.html"},"headline":"Building NoSaM to share skills - Part 1","url":"http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1.html","author":{"@type":"Person","name":"Vaughan Mason"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -36,92 +36,65 @@
   
 </nav>
 
-    <h1>BUILDING NOSAM TO SHARE SKILLS - PART 1</h1>
+    <h1>Building NoSaM to share skills - Part 1</h1>
 vaughan mason - 2021-05-10
-<h1 id="building-technosamcoza---part-1">Building tech.nosam.co.za - Part 1</h1>
-
 <p>These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.</p>
-
 <blockquote>
-  <p>This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
+<p>This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
 Think I may turn this into a star wars trilogy thing start in the middle go to the beginning and then jump to the end. Or <a href="https://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/">Machete</a> it up</p>
 </blockquote>
-
-<h2 id="what-i-wanted-to-achieve-in-building-the-website">What I wanted to achieve in building the website</h2>
-
+<h2>What I wanted to achieve in building the website</h2>
 <p>So going into building the website I had a few goals that I wanted to achieve:</p>
-
 <ul>
-  <li>Website need to use my custom domain, nosam.co.za</li>
-  <li>I wanted to use markdown to create the blog posts</li>
-  <li>Website needed to be as cost effective as possible (read free)</li>
-  <li>I wanted to have the ability to add new blog post from anywhere</li>
-  <li>I wanted to separate where the website and post are created and where the website is hosted.
-    <ul>
-      <li>This was mainly because the github pages repo is made public to host the website</li>
-    </ul>
-  </li>
-  <li>Website needed to be easier to update and deploy</li>
+<li>Website need to use my custom domain, nosam.co.za</li>
+<li>I wanted to use markdown to create the blog posts</li>
+<li>Website needed to be as cost effective as possible (read free)</li>
+<li>I wanted to have the ability to add new blog post from anywhere</li>
+<li>I wanted to separate where the website and post are created and where the website is hosted.
+<ul>
+<li>This was mainly because the github pages repo is made public to host the website</li>
 </ul>
-
+</li>
+<li>Website needed to be easier to update and deploy</li>
+</ul>
 <p>So with these requirements I need to make some technology choices.</p>
-
-<h2 id="choosing-the-tech">Choosing the tech</h2>
-
-<h3 id="custom-domain">Custom Domain</h3>
-
+<h2>Choosing the tech</h2>
+<h3>Custom Domain</h3>
 <p>So I have already domain but did not want to take over the whole domain, so that is where the subdomain comes in. The are basically extensions of your original site.
 Adding a subdomain will depend on your hosting provider but a couple things to remember you will need to update your DNS settings if you are redirecting the subdomain like I have done to GitHub pages. I had a few entries that were conflicting with the https settings, so had to correct that as well.
 <strong>And remember any changes to DNS might take a few hours to be completed, so make changes and then only do next steps after an hour or two</strong></p>
-
-<h3 id="markdown">Markdown</h3>
-
+<h3>Markdown</h3>
 <p>So every GitHub repo has a readme file that is written in Markdown. Markdown is created to be as readable as possible and is a text-to-HTML conversion tool, you can read more about it <a href="https://daringfireball.net/projects/markdown/">here</a>.
-I really enjoy the simplicity of writing in Markdown and the formatting of the document. All <a href="https://docs.microsoft.com/en-us/contribute/markdown-reference">Microsoft’s</a> documentation is or is getting converted to Markdown, this includes their learning and training sites.
+I really enjoy the simplicity of writing in Markdown and the formatting of the document. All <a href="https://docs.microsoft.com/en-us/contribute/markdown-reference">Microsoft's</a> documentation is or is getting converted to Markdown, this includes their learning and training sites.
 Some of the functionality I will be using Markdown for:</p>
 <ul>
-  <li>The creation of the blog post and the static pages</li>
-  <li>Using code snippets and other formatting options (like this list)</li>
-  <li>The conversion of Markdown into HTML Website</li>
+<li>The creation of the blog post and the static pages</li>
+<li>Using code snippets and other formatting options (like this list)</li>
+<li>The conversion of Markdown into HTML Website</li>
 </ul>
-
 <p>Useful references</p>
 <ul>
-  <li><a href="https://commonmark.org/">CommonMark</a></li>
-  <li><a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github">Writing on GitHub</a></li>
+<li><a href="https://commonmark.org/">CommonMark</a></li>
+<li><a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github">Writing on GitHub</a></li>
 </ul>
-
-<h3 id="text-to-html-converter">Text to HTML Converter</h3>
-
-<p>Now that I have the language I will be writing in, I need a tool or process to be able to convert the documents into HTML. I choice Jekyll, I played around with a few options but Jekyll won and I’ll go through why but not going to touch on the other tools and processes besides maybe sharing links.</p>
-
-<h4 id="jekyll">Jekyll</h4>
-
-<p>So as per Jekyll’s <a href="https://jekyllrb.com/">website</a>, it is Simple, Static and Blog-aware and that ticked the boxes for me.</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>bundler jekyll
+<h3>Text to HTML Converter</h3>
+<p>Now that I have the language I will be writing in, I need a tool or process to be able to convert the documents into HTML. I choice Jekyll, I played around with a few options but Jekyll won and I'll go through why but not going to touch on the other tools and processes besides maybe sharing links.</p>
+<h4>Jekyll</h4>
+<p>So as per Jekyll's <a href="https://jekyllrb.com/">website</a>, it is Simple, Static and Blog-aware and that ticked the boxes for me.</p>
+<pre><code class="language-bash">gem install bundler jekyll
 jekyll new my-awesome-site
-<span class="nb">cd </span>my-awesome site
-bundle <span class="nb">exec </span>jekyll serve
-</code></pre></div></div>
+cd my-awesome site
+bundle exec jekyll serve
+</code></pre>
 <p>The above code is all you need to get a website up and running.</p>
-
-<p>So I followed the step by step <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">tutorial</a> for getting the website up and running. I then went and tweaked a few things to my personal preference. There are tons of templates that can be used, I won’t be using them as I will be learning and evolving the site as I go.</p>
-
-<h3 id="hosting-and-code-repo">Hosting and Code Repo</h3>
-
-<p>This one is pretty simple as I actually started here and then research the other topics. You can host a website for free on GitHub with <a href="https://pages.github.com/">GitHub Pages</a>. I set this up with the custom domain and https. I also worked through building the website from a seperate repo, this way I can edit these documents and save other research before I publish the website. Check out GitHub Pages if you want to get a website up and running quickly and for free……</p>
-
-<h3 id="code-editor---magic-maker">Code Editor - Magic Maker</h3>
-
-<p>So to be able to create content anywhere I need an editing tool that can be used for updating the Jekyll files and for creating blog posts. Enter….</p>
-
-<h4 id="visual-studio-code">Visual Studio Code</h4>
-
+<p>So I followed the step by step <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">tutorial</a> for getting the website up and running. I then went and tweaked a few things to my personal preference. There are tons of templates that can be used, I won't be using them as I will be learning and evolving the site as I go.</p>
+<h3>Hosting and Code Repo</h3>
+<p>This one is pretty simple as I actually started here and then research the other topics. You can host a website for free on GitHub with <a href="https://pages.github.com/">GitHub Pages</a>. I set this up with the custom domain and https. I also worked through building the website from a seperate repo, this way I can edit these documents and save other research before I publish the website. Check out GitHub Pages if you want to get a website up and running quickly and for free......</p>
+<h3>Code Editor - Magic Maker</h3>
+<p>So to be able to create content anywhere I need an editing tool that can be used for updating the Jekyll files and for creating blog posts. Enter....</p>
+<h4>Visual Studio Code</h4>
 <p><a href="https://code.visualstudio.com/">Visual Code</a> has grown into a <a href="https://en.wikipedia.org/wiki/Integrated_development_environment">IDE</a> powerhouse. There are multiple extensions that can be installed to work with a variety of coding languages and which I will cover in a different post it runs on <a href="https://code.visualstudio.com/docs/setup/raspberry-pi">Raspberry Pi</a></p>
-
-<h2 id="we-are-done-choosing-the-tech-lets-build-a-website">We are done choosing the tech let’s build a website</h2>
-
+<h2>We are done choosing the tech let's build a website</h2>
 <p>In the next post I will speak about getting up and running with Jekyll (few challenges encountered), working with VS Code, securing the Raspberry PI and using it as a build server. That may be more than one post can handle.</p>
 
 <p>
