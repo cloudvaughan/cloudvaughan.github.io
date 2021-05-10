@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-05-10T20:48:08+01:00</updated><id>http://0.0.0.0:4000/feed.xml</id><entry><title type="html">Building NoSaM to share skills - Part 1</title><link href="http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+01:00</published><updated>2021-05-10T00:00:00+01:00</updated><id>http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="http://0.0.0.0:4000/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-10T20:53:43+01:00</updated><id>/feed.xml</id><entry><title type="html">Building NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+01:00</published><updated>2021-05-10T00:00:00+01:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
 Think I may turn this into a star wars trilogy thing start in the middle go to the beginning and then jump to the end. Or &lt;a href=&quot;https://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/&quot;&gt;Machete&lt;/a&gt; it up&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2&gt;What I wanted to achieve in building the website&lt;/h2&gt;
+&lt;h2 id=&quot;what-i-wanted-to-achieve-in-building-the-website&quot;&gt;What I wanted to achieve in building the website&lt;/h2&gt;
 &lt;p&gt;So going into building the website I had a few goals that I wanted to achieve:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Website need to use my custom domain, nosam.co.za&lt;/li&gt;
@@ -18,12 +18,12 @@ Think I may turn this into a star wars trilogy thing start in the middle go to t
 &lt;li&gt;Website needed to be easier to update and deploy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;So with these requirements I need to make some technology choices.&lt;/p&gt;
-&lt;h2&gt;Choosing the tech&lt;/h2&gt;
-&lt;h3&gt;Custom Domain&lt;/h3&gt;
+&lt;h2 id=&quot;choosing-the-tech&quot;&gt;Choosing the tech&lt;/h2&gt;
+&lt;h3 id=&quot;custom-domain&quot;&gt;Custom Domain&lt;/h3&gt;
 &lt;p&gt;So I have already domain but did not want to take over the whole domain, so that is where the subdomain comes in. The are basically extensions of your original site.
 Adding a subdomain will depend on your hosting provider but a couple things to remember you will need to update your DNS settings if you are redirecting the subdomain like I have done to GitHub pages. I had a few entries that were conflicting with the https settings, so had to correct that as well.
 &lt;strong&gt;And remember any changes to DNS might take a few hours to be completed, so make changes and then only do next steps after an hour or two&lt;/strong&gt;&lt;/p&gt;
-&lt;h3&gt;Markdown&lt;/h3&gt;
+&lt;h3 id=&quot;markdown&quot;&gt;Markdown&lt;/h3&gt;
 &lt;p&gt;So every GitHub repo has a readme file that is written in Markdown. Markdown is created to be as readable as possible and is a text-to-HTML conversion tool, you can read more about it &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;here&lt;/a&gt;.
 I really enjoy the simplicity of writing in Markdown and the formatting of the document. All &lt;a href=&quot;https://docs.microsoft.com/en-us/contribute/markdown-reference&quot;&gt;Microsoft's&lt;/a&gt; documentation is or is getting converted to Markdown, this includes their learning and training sites.
 Some of the functionality I will be using Markdown for:&lt;/p&gt;
@@ -37,25 +37,25 @@ Some of the functionality I will be using Markdown for:&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github&quot;&gt;Writing on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Text to HTML Converter&lt;/h3&gt;
+&lt;h3 id=&quot;text-to-html-converter&quot;&gt;Text to HTML Converter&lt;/h3&gt;
 &lt;p&gt;Now that I have the language I will be writing in, I need a tool or process to be able to convert the documents into HTML. I choice Jekyll, I played around with a few options but Jekyll won and I'll go through why but not going to touch on the other tools and processes besides maybe sharing links.&lt;/p&gt;
-&lt;h4&gt;Jekyll&lt;/h4&gt;
+&lt;h4 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h4&gt;
 &lt;p&gt;So as per Jekyll's &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;website&lt;/a&gt;, it is Simple, Static and Blog-aware and that ticked the boxes for me.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;gem install bundler jekyll
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;bundler jekyll
 jekyll new my-awesome-site
-cd my-awesome site
-bundle exec jekyll serve
-&lt;/code&gt;&lt;/pre&gt;
+&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-awesome site
+bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;The above code is all you need to get a website up and running.&lt;/p&gt;
 &lt;p&gt;So I followed the step by step &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/01-setup/&quot;&gt;tutorial&lt;/a&gt; for getting the website up and running. I then went and tweaked a few things to my personal preference. There are tons of templates that can be used, I won't be using them as I will be learning and evolving the site as I go.&lt;/p&gt;
-&lt;h3&gt;Hosting and Code Repo&lt;/h3&gt;
+&lt;h3 id=&quot;hosting-and-code-repo&quot;&gt;Hosting and Code Repo&lt;/h3&gt;
 &lt;p&gt;This one is pretty simple as I actually started here and then research the other topics. You can host a website for free on GitHub with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. I set this up with the custom domain and https. I also worked through building the website from a seperate repo, this way I can edit these documents and save other research before I publish the website. Check out GitHub Pages if you want to get a website up and running quickly and for free......&lt;/p&gt;
-&lt;h3&gt;Code Editor - Magic Maker&lt;/h3&gt;
+&lt;h3 id=&quot;code-editor---magic-maker&quot;&gt;Code Editor - Magic Maker&lt;/h3&gt;
 &lt;p&gt;So to be able to create content anywhere I need an editing tool that can be used for updating the Jekyll files and for creating blog posts. Enter....&lt;/p&gt;
-&lt;h4&gt;Visual Studio Code&lt;/h4&gt;
+&lt;h4 id=&quot;visual-studio-code&quot;&gt;Visual Studio Code&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Code&lt;/a&gt; has grown into a &lt;a href=&quot;https://en.wikipedia.org/wiki/Integrated_development_environment&quot;&gt;IDE&lt;/a&gt; powerhouse. There are multiple extensions that can be installed to work with a variety of coding languages and which I will cover in a different post it runs on &lt;a href=&quot;https://code.visualstudio.com/docs/setup/raspberry-pi&quot;&gt;Raspberry Pi&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;We are done choosing the tech let's build a website&lt;/h2&gt;
-&lt;p&gt;In the next post I will speak about getting up and running with Jekyll (few challenges encountered), working with VS Code, securing the Raspberry PI and using it as a build server. That may be more than one post can handle.&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="jekyll" /><category term="cloud" /><category term="github" /><summary type="html">These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.</summary></entry><entry><title type="html">Upcoming Posts</title><link href="http://0.0.0.0:4000/2021/04/25/upcomingposts.html" rel="alternate" type="text/html" title="Upcoming Posts" /><published>2021-04-25T00:00:00+01:00</published><updated>2021-04-25T00:00:00+01:00</updated><id>http://0.0.0.0:4000/2021/04/25/upcomingposts</id><content type="html" xml:base="http://0.0.0.0:4000/2021/04/25/upcomingposts.html">&lt;h1&gt;Collection of Future Posts&lt;/h1&gt;
+&lt;h2 id=&quot;we-are-done-choosing-the-tech-lets-build-a-website&quot;&gt;We are done choosing the tech let's build a website&lt;/h2&gt;
+&lt;p&gt;In the next post I will speak about getting up and running with Jekyll (few challenges encountered), working with VS Code, securing the Raspberry PI and using it as a build server. That may be more than one post can handle.&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="jekyll" /><category term="cloud" /><category term="github" /><summary type="html">These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.</summary></entry><entry><title type="html">Upcoming Posts</title><link href="/2021/04/25/upcomingposts.html" rel="alternate" type="text/html" title="Upcoming Posts" /><published>2021-04-25T00:00:00+01:00</published><updated>2021-04-25T00:00:00+01:00</updated><id>/2021/04/25/upcomingposts</id><content type="html" xml:base="/2021/04/25/upcomingposts.html">&lt;h1 id=&quot;collection-of-future-posts&quot;&gt;Collection of Future Posts&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;How I built this website - In Progress&lt;/li&gt;
 &lt;li&gt;How I made this website automated :)&lt;/li&gt;
@@ -63,30 +63,30 @@ bundle exec jekyll serve
 &lt;li&gt;Cloud Native&lt;/li&gt;
 &lt;li&gt;DAMA&lt;/li&gt;
 &lt;li&gt;Devops&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Vaughan</name></author><category term="upcoming" /><summary type="html">Collection of Future Posts</summary></entry><entry><title type="html">Cloud upskilling</title><link href="http://0.0.0.0:4000/tech/cloud/2021/04/24/cloudUpskilling.html" rel="alternate" type="text/html" title="Cloud upskilling" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>http://0.0.0.0:4000/tech/cloud/2021/04/24/cloudUpskilling</id><content type="html" xml:base="http://0.0.0.0:4000/tech/cloud/2021/04/24/cloudUpskilling.html">&lt;p&gt;One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Vaughan</name></author><category term="upcoming" /><summary type="html">Collection of Future Posts</summary></entry><entry><title type="html">Cloud upskilling</title><link href="/tech/cloud/2021/04/24/cloudUpskilling.html" rel="alternate" type="text/html" title="Cloud upskilling" /><published>2021-04-24T00:00:00+01:00</published><updated>2021-04-24T00:00:00+01:00</updated><id>/tech/cloud/2021/04/24/cloudUpskilling</id><content type="html" xml:base="/tech/cloud/2021/04/24/cloudUpskilling.html">&lt;p&gt;One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training.&lt;/p&gt;
 &lt;p&gt;Here are just some of the resources that I use.&lt;/p&gt;
-&lt;h2&gt;Cloud Training&lt;/h2&gt;
-&lt;h3&gt;A Cloud Guru&lt;/h3&gt;
+&lt;h2 id=&quot;cloud-training&quot;&gt;Cloud Training&lt;/h2&gt;
+&lt;h3 id=&quot;a-cloud-guru&quot;&gt;A Cloud Guru&lt;/h3&gt;
 &lt;p&gt;Great platform, a lot of focus on AWS but the content for Microsoft and Google is growing. It using a subscription model which is very reasonable as you get access to a ton of content.&lt;/p&gt;
-&lt;h3&gt;Microsoft Learning Docs&lt;/h3&gt;
+&lt;h3 id=&quot;microsoft-learning-docs&quot;&gt;Microsoft Learning Docs&lt;/h3&gt;
 &lt;p&gt;This a free platform offered by Microsoft, great as you can search for content based on roles. You earn badges and can track you status if you log in. Works great with the Azure Sandbox environment.&lt;/p&gt;
-&lt;h3&gt;Microsoft Cloud Society&lt;/h3&gt;
+&lt;h3 id=&quot;microsoft-cloud-society&quot;&gt;Microsoft Cloud Society&lt;/h3&gt;
 &lt;p&gt;Cloud Society. The one-stop learning platform that helps you boost your cloud skills with a range of free courses.&lt;/p&gt;
-&lt;h3&gt;AWS Training&lt;/h3&gt;
+&lt;h3 id=&quot;aws-training&quot;&gt;AWS Training&lt;/h3&gt;
 &lt;p&gt;Learn from AWS experts. Advance your skills and knowledge. Build your future in the AWS Cloud.&lt;/p&gt;
-&lt;h2&gt;Podcasts&lt;/h2&gt;
-&lt;h3&gt;Screaming in the Cloud&lt;/h3&gt;
+&lt;h2 id=&quot;podcasts&quot;&gt;Podcasts&lt;/h2&gt;
+&lt;h3 id=&quot;screaming-in-the-cloud&quot;&gt;Screaming in the Cloud&lt;/h3&gt;
 &lt;p&gt;This podcast is amazing, Corey Quinn unpacks a range of topics in a take no prisoners manner. He cuts through the bull and no one is safe.&lt;/p&gt;
-&lt;h3&gt;The Cloud Cast&lt;/h3&gt;
+&lt;h3 id=&quot;the-cloud-cast&quot;&gt;The Cloud Cast&lt;/h3&gt;
 &lt;p&gt;Another fantastic option. Aaron and Brian discuss the best of cloud computing from around the world. They cover a weekly update of cloud news of the week and then take you through specific topics with industry experts.&lt;/p&gt;
-&lt;h2&gt;Links&lt;/h2&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;acloud.guru&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Microsoft Learning Docs&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Microsoft Cloud Society&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;AWS Training&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;Screaming in the cloud&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;The Cloud Cast&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://acloud.guru/&quot; target=&quot;_blank&quot;&gt;acloud.guru&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/learn/&quot; target=&quot;_blank&quot;&gt;Microsoft Learning Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloudsociety.microsoft.com/en&quot; target=&quot;_blank&quot;&gt;Microsoft Cloud Society&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/training/&quot; target=&quot;_blank&quot;&gt;AWS Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/&quot; target=&quot;_blank&quot;&gt;Screaming in the cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.thecloudcast.net/&quot; target=&quot;_blank&quot;&gt;The Cloud Cast&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dzone.com/&quot;&gt;https://dzone.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.infoworld.com/category/cloud-computing/&quot;&gt;https://www.infoworld.com/category/cloud-computing/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.forbes.com/cloud/&quot;&gt;https://www.forbes.com/cloud/&lt;/a&gt;&lt;/li&gt;
