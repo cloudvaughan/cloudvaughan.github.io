@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-13T23:30:10+02:00</updated><id>/feed.xml</id><entry><title type="html">Building tech NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building tech NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+02:00</published><updated>2021-05-10T00:00:00+02:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-14T23:30:10+02:00</updated><id>/feed.xml</id><entry><title type="html">Building tech NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building tech NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+02:00</published><updated>2021-05-10T00:00:00+02:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
@@ -28,9 +28,11 @@ Think I may turn this into a star wars trilogy thing start in the middle go to t
 
 &lt;h3 id=&quot;custom-domain&quot;&gt;Custom Domain&lt;/h3&gt;
 
-&lt;p&gt;So I have already domain but did not want to take over the whole domain, so that is where the subdomain comes in. The are basically extensions of your original site.
-Adding a subdomain will depend on your hosting provider but a couple things to remember you will need to update your DNS settings if you are redirecting the subdomain like I have done to GitHub pages. I had a few entries that were conflicting with the https settings, so had to correct that as well.
+&lt;p&gt;So I have already domain but did not want to take over the whole domain, so that is where the subdomain comes in. Subdomains create a child domain of the parent domain and are consider a seperate site, essentially a partition of the main domain.
+Adding a subdomain will depend on your hosting provider but a couple things to remember you will need to update your DNS settings if you are redirecting to the subdomain like I have done to GitHub pages. You will also need to understand the difference between a subdomain and a subdirectory, check out below. I had a few DNS entries that were conflicting with the https settings, so had to correct that as well.
 &lt;strong&gt;And remember any changes to DNS might take a few hours to be completed, so make changes and then only do next steps after an hour or two&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is a great article on the difference between a subdomain and a subdirectory, &lt;a href=&quot;https://www.semrush.com/blog/subdomain-vs-subdirectory/&quot;&gt;sub - domain vs directory&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;markdown&quot;&gt;Markdown&lt;/h3&gt;
 
