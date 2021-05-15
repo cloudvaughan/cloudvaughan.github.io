@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-14T23:30:10+02:00</updated><id>/feed.xml</id><entry><title type="html">Building tech NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building tech NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+02:00</published><updated>2021-05-10T00:00:00+02:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-15T16:36:57+02:00</updated><id>/feed.xml</id><entry><title type="html">Raspberry PI - building a build server for tech NoSaM - Part 0</title><link href="/tech/2021/05/15/techNosamRPI.html" rel="alternate" type="text/html" title="Raspberry PI - building a build server for tech NoSaM - Part 0" /><published>2021-05-15T00:00:00+02:00</published><updated>2021-05-15T00:00:00+02:00</updated><id>/tech/2021/05/15/techNosamRPI</id><content type="html" xml:base="/tech/2021/05/15/techNosamRPI.html">&lt;p&gt;So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.&lt;/p&gt;
+
+&lt;h2 id=&quot;raspberry-pi---setting-it-up&quot;&gt;Raspberry Pi - Setting it up&lt;/h2&gt;
+
+&lt;p&gt;So you need a Raspberry  PI, I’m running a Raspberry Pi 3 Model B Rev 1.2 &lt;img src=&quot;https://www.raspberrypi.org/homepage-9df4b/static/f2e9242911c5d63868b22a8f5d3da8a6/ae23f/bef8cda3-64ea-4098-bf18-8e731a6e9a0d_3b%252B%2BAngle%2B2.jpg&quot; alt=&quot;rasppi3&quot; /&gt; &lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/&quot;&gt;Get one&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the following script to get hardware information on your Pi, getting ahead of myself.&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt; &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /proc/cpuinfo
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So you need an imager to load the Operating System(OS) onto the SD card that is used by the Pi, I use the &lt;a href=&quot;https://www.raspberrypi.org/software/&quot;&gt;Raspberry Pi Imager&lt;/a&gt;. Be sure to get the latest verison as it comes with some great features and saves a lot of set up time. As you can see &lt;a href=&quot;https://www.raspberrypi.org/blog/raspberry-pi-imager-update-to-v1-6/&quot;&gt;here&lt;/a&gt; you can now set up the hostname, ssh, change the default password, configure wifi. All of this saves you a ton of set up time later on (To be honest, I used an old version of the imager and then was kicking myself after reading all this information).&lt;/p&gt;
+
+&lt;p&gt;Once you have done this you should be able to plug in you SD card into the Pi, give it some power and you are ready to go connected to your network.&lt;/p&gt;
+
+&lt;h2 id=&quot;raspberry-pi---lets-secure-it&quot;&gt;Raspberry Pi - Let’s Secure it&lt;/h2&gt;
+
+&lt;p&gt;As you will have a device that may or may not be communicating outside your network, depending on your usage. You need to secure it. That’s where NetworkChuck comes in and this great YouTube video on &lt;a href=&quot;https://www.youtube.com/watch?v=ZhMw53Ud2tY&quot;&gt;5 Steps to Secure Linux&lt;/a&gt;, as I mentioned earlier your Raspberry Pi runs Linux you can follow all of these steps.
+The 3 steps that I enabled are&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Limited User Access&lt;/li&gt;
+  &lt;li&gt;Passwords are for suckers&lt;/li&gt;
+  &lt;li&gt;Lockdown Logins (harden SSH)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;NetworkChuck has a lot of great videos and is a must if you want to learn a little bit more about security and networking.&lt;/p&gt;
+
+&lt;h2 id=&quot;raspberry-pi---start-working-on-the-pi&quot;&gt;Raspberry Pi - Start working on the Pi&lt;/h2&gt;
+
+&lt;p&gt;So as I mentioned in a future past post I will be using &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code IDE&lt;/a&gt; to write the blog post and to interact with the raspberry pi.
+One of the reason was because of the support of remote development on the raspberry pi, you are able to edit files directly (like I’m doing for this file), you can access the terminal to run commands and a bonus you can you can use SSH key-based authenications. Here is an article about remote development with a raspberry pi and vs code, &lt;a href=&quot;https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/&quot;&gt;Coding on Raspberry Pi remotely with Visual Studio Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to run VS Code on the raspberry pi, you can do that as well: &lt;a href=&quot;https://www.raspberrypi.org/blog/visual-studio-code-comes-to-raspberry-pi/&quot;&gt;Visual Studio Code comes to Raspberry Pi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Just to be clear I’m fully aware of all the noise associated with VS Code and Raspberry Pi, I just don’t care as I am happy to use the IDE.&lt;/p&gt;
+
+&lt;p&gt;More information on &lt;a href=&quot;https://code.visualstudio.com/docs/remote/remote-overview&quot;&gt;VS Code Remote Development&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;and-we-are-ready-to-write-some-blog-posts-and-edit-some-code&quot;&gt;And we are ready to write some blog posts and edit some code.&lt;/h2&gt;
+
+&lt;p&gt;One thing I am going to do in a few months, is that I’m going to get myself one of these &lt;a href=&quot;https://www.pishop.co.za/store/raspberry-pi-boards/raspberry-pi-4-model-b-8gb&quot;&gt;Raspberry Pi 4 Model B 8GB&lt;/a&gt; and then use it as a development machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png&quot; alt=&quot;raspberrypi&quot; /&gt;&lt;/p&gt;</content><author><name>Vaughan</name></author><category term="tech" /><category term="raspberrypi" /><category term="website" /><category term="security" /><summary type="html">So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.</summary></entry><entry><title type="html">Building tech NoSaM to share skills - Part 1</title><link href="/tech/2021/05/10/techNosamWebsiteP1.html" rel="alternate" type="text/html" title="Building tech NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+02:00</published><updated>2021-05-10T00:00:00+02:00</updated><id>/tech/2021/05/10/techNosamWebsiteP1</id><content type="html" xml:base="/tech/2021/05/10/techNosamWebsiteP1.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
@@ -126,6 +168,10 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
 &lt;h3 id=&quot;the-cloud-cast&quot;&gt;The Cloud Cast&lt;/h3&gt;
 
 &lt;p&gt;Another fantastic option. Aaron and Brian discuss the best of cloud computing from around the world. They cover a weekly update of cloud news of the week and then take you through specific topics with industry experts.&lt;/p&gt;
+
+&lt;h2 id=&quot;youtube-channels-to-follow&quot;&gt;Youtube channels to follow&lt;/h2&gt;
+
+&lt;p&gt;NetworkChuck shares a lot of information about linux, security and networking, &lt;a href=&quot;https://www.youtube.com/channel/UC9x0AN7BWHpCDHSm9NiJFJQ&quot;&gt;YouTube Channel&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;

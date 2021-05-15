@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NoSaM - Raspberry PI - building a build server for tech NoSaM - Part 0</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link type="application/atom+xml" rel="alternate" href="/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Raspberry PI - building a build server for tech NoSaM - Part 0</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Raspberry PI - building a build server for tech NoSaM - Part 0" />
+<meta name="author" content="Vaughan" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM." />
+<meta property="og:description" content="So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM." />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-15T00:00:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Raspberry PI - building a build server for tech NoSaM - Part 0" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","datePublished":"2021-05-15T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"/tech/2021/05/15/techNosamRPI.html"},"url":"/tech/2021/05/15/techNosamRPI.html","author":{"@type":"Person","name":"Vaughan"},"description":"So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.","headline":"Raspberry PI - building a build server for tech NoSaM - Part 0","dateModified":"2021-05-15T00:00:00+02:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <div class="logo">
+    <img src="/assets/images/logo.png">
+  </div>
+  <body>
+    <nav>
+  
+    <a href="/" >Home</a>
+  
+    <a href="/about.html" >About</a>
+  
+    <a href="/blog.html" >Blog</a>
+  
+</nav>
+
+    <h1>Raspberry PI - building a build server for tech NoSaM - Part 0</h1>
+vaughan - 2021-05-15
+<p>So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.</p>
+
+<h2 id="raspberry-pi---setting-it-up">Raspberry Pi - Setting it up</h2>
+
+<p>So you need a Raspberry  PI, I’m running a Raspberry Pi 3 Model B Rev 1.2 <img src="https://www.raspberrypi.org/homepage-9df4b/static/f2e9242911c5d63868b22a8f5d3da8a6/ae23f/bef8cda3-64ea-4098-bf18-8e731a6e9a0d_3b%252B%2BAngle%2B2.jpg" alt="rasppi3" /> <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/">Get one</a></p>
+
+<p>Use the following script to get hardware information on your Pi, getting ahead of myself.</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre> <span class="nb">cat</span> /proc/cpuinfo
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>So you need an imager to load the Operating System(OS) onto the SD card that is used by the Pi, I use the <a href="https://www.raspberrypi.org/software/">Raspberry Pi Imager</a>. Be sure to get the latest verison as it comes with some great features and saves a lot of set up time. As you can see <a href="https://www.raspberrypi.org/blog/raspberry-pi-imager-update-to-v1-6/">here</a> you can now set up the hostname, ssh, change the default password, configure wifi. All of this saves you a ton of set up time later on (To be honest, I used an old version of the imager and then was kicking myself after reading all this information).</p>
+
+<p>Once you have done this you should be able to plug in you SD card into the Pi, give it some power and you are ready to go connected to your network.</p>
+
+<h2 id="raspberry-pi---lets-secure-it">Raspberry Pi - Let’s Secure it</h2>
+
+<p>As you will have a device that may or may not be communicating outside your network, depending on your usage. You need to secure it. That’s where NetworkChuck comes in and this great YouTube video on <a href="https://www.youtube.com/watch?v=ZhMw53Ud2tY">5 Steps to Secure Linux</a>, as I mentioned earlier your Raspberry Pi runs Linux you can follow all of these steps.
+The 3 steps that I enabled are</p>
+<ol>
+  <li>Limited User Access</li>
+  <li>Passwords are for suckers</li>
+  <li>Lockdown Logins (harden SSH)</li>
+</ol>
+
+<p>NetworkChuck has a lot of great videos and is a must if you want to learn a little bit more about security and networking.</p>
+
+<h2 id="raspberry-pi---start-working-on-the-pi">Raspberry Pi - Start working on the Pi</h2>
+
+<p>So as I mentioned in a future past post I will be using <a href="https://code.visualstudio.com/">Visual Studio Code IDE</a> to write the blog post and to interact with the raspberry pi.
+One of the reason was because of the support of remote development on the raspberry pi, you are able to edit files directly (like I’m doing for this file), you can access the terminal to run commands and a bonus you can you can use SSH key-based authenications. Here is an article about remote development with a raspberry pi and vs code, <a href="https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/">Coding on Raspberry Pi remotely with Visual Studio Code</a></p>
+
+<p>If you want to run VS Code on the raspberry pi, you can do that as well: <a href="https://www.raspberrypi.org/blog/visual-studio-code-comes-to-raspberry-pi/">Visual Studio Code comes to Raspberry Pi</a></p>
+
+<p>Just to be clear I’m fully aware of all the noise associated with VS Code and Raspberry Pi, I just don’t care as I am happy to use the IDE.</p>
+
+<p>More information on <a href="https://code.visualstudio.com/docs/remote/remote-overview">VS Code Remote Development</a></p>
+
+<h2 id="and-we-are-ready-to-write-some-blog-posts-and-edit-some-code">And we are ready to write some blog posts and edit some code.</h2>
+
+<p>One thing I am going to do in a few months, is that I’m going to get myself one of these <a href="https://www.pishop.co.za/store/raspberry-pi-boards/raspberry-pi-4-model-b-8gb">Raspberry Pi 4 Model B 8GB</a> and then use it as a development machine.</p>
+
+<p><img src="https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png" alt="raspberrypi" /></p>
+
+
+<p>
+  This page was last updated at 2021-05-15
+ </p>
+ <p>If you don't agree with the content on this page, please click <a href="https://github.com/cloudvaughan/cloudvaughan.github.io/issues/new?title=Raspberry PI - building a build server for tech NoSaM - Part 0%202021-05-15">here</a></p>
+
+
+
+  </body>
+
+  <footer>
+    <div class=footer>Vaughan Mason 
+        </div><div class=footer>
+    <a href="mailto:cloudvaughan@gmail.com">Mail Me</a>
+
+      </div>
+      <div class="footer"><a href="https://twitter.com/cloudVaughan" target="_blank">@cloudvaughan</a></div>
+      
+
+  </footer>
+</html>
