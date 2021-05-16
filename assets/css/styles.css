@@ -20,7 +20,7 @@
 
 .bcont div { width: 80%; margin-left: 10%; margin-right: 10%; }
 
-.content { display: flex; justify-content: center; }
+.content { justify-content: center; }
 
 .highlight table td { padding: 5px; }
 
