@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-16T21:19:04+02:00</updated><id>/feed.xml</id><entry><title type="html">Automation tales in CI/CD - Part 3</title><link href="/tech/2021/05/15/techNosamAuto.html" rel="alternate" type="text/html" title="Automation tales in CI/CD - Part 3" /><published>2021-05-15T00:00:00+02:00</published><updated>2021-05-15T00:00:00+02:00</updated><id>/tech/2021/05/15/techNosamAuto</id><content type="html" xml:base="/tech/2021/05/15/techNosamAuto.html">&lt;p&gt;So we need to merge changes made in a private repo so that the GitHub pages are updated automatically which is a public repo. Let’s unpack what this is, evaluating the options and then deciding on the final solution.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-05-16T23:30:10+02:00</updated><id>/feed.xml</id><entry><title type="html">Networking - Moving away from WiFi</title><link href="/tech/2021/05/16/networking.html" rel="alternate" type="text/html" title="Networking - Moving away from WiFi" /><published>2021-05-16T00:00:00+02:00</published><updated>2021-05-16T00:00:00+02:00</updated><id>/tech/2021/05/16/networking</id><content type="html" xml:base="/tech/2021/05/16/networking.html">&lt;p&gt;As soon as the threat of lockdown began appearing last year, I knew that working from home and the wifi network was not going to work. Don’t get me wrong, I have a mesh wifi installation that works for the majority of use cases but I also have a fast line that I want to use fully for work. In order to get the full benefit, I learnt a few networking fundamentals that I would like to discuss. Added complex because I live in South Africa with load shedding, the network needs to be up as much as possible.&lt;/p&gt;
+
+&lt;h2 id=&quot;simplistic-home-network-design&quot;&gt;Simplistic home network design&lt;/h2&gt;
+
+&lt;p&gt;This is a simplistic design of what might be in your home.
+&lt;img src=&quot;/assets/images/posts/network.png&quot; alt=&quot;homeNetwork&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You get your internet connection from you Internet Service Provider&lt;/li&gt;
+  &lt;li&gt;The signal is received by your home router&lt;/li&gt;
+  &lt;li&gt;You may have a separate wifi router&lt;/li&gt;
+  &lt;li&gt;Switch is used to break the signal into multiple parts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;network-cable&quot;&gt;Network Cable&lt;/h2&gt;
+
+&lt;p&gt;If you did not have any wifi and you only had router, you would need to connect a cable from the router to your machine. This cable is called an Ethernet Cable. You can by these cable ready made or you can make them yourself.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-make-a-network-cable&quot;&gt;How to make a network cable&lt;/h3&gt;
+
+&lt;p&gt;You can follow the instruction here on how to make an &lt;a href=&quot;https://www.groundcontrol.com/galileo/ch5-ethernet.html&quot;&gt;ethernet cable&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A straight through cable is constructed like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.groundcontrol.com/galileo/images/Standard_Ethernet_Cable_RJ45.gif&quot; alt=&quot;rj45&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically you are ensuring that the wires are in the correct order on both sides.&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="networking" /><summary type="html">As soon as the threat of lockdown began appearing last year, I knew that working from home and the wifi network was not going to work. Don’t get me wrong, I have a mesh wifi installation that works for the majority of use cases but I also have a fast line that I want to use fully for work. In order to get the full benefit, I learnt a few networking fundamentals that I would like to discuss. Added complex because I live in South Africa with load shedding, the network needs to be up as much as possible.</summary></entry><entry><title type="html">Automation tales in CI/CD - Part 3</title><link href="/tech/2021/05/15/techNosamAuto.html" rel="alternate" type="text/html" title="Automation tales in CI/CD - Part 3" /><published>2021-05-15T00:00:00+02:00</published><updated>2021-05-15T00:00:00+02:00</updated><id>/tech/2021/05/15/techNosamAuto</id><content type="html" xml:base="/tech/2021/05/15/techNosamAuto.html">&lt;p&gt;So we need to merge changes made in a private repo so that the GitHub pages are updated automatically which is a public repo. Let’s unpack what this is, evaluating the options and then deciding on the final solution.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-cicd&quot;&gt;What is CI/CD?&lt;/h2&gt;
 
