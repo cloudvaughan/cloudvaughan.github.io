@@ -18,7 +18,7 @@
 
 .bcont { display: block; }
 
-.bcont div { width: 50%; margin-left: 25%; margin-right: 25%; }
+.bcont div { width: 80%; margin-left: 10%; margin-right: 10%; }
 
 .content { display: flex; justify-content: center; }
 
