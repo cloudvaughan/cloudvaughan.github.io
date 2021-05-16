@@ -24,6 +24,8 @@
 
 .bposts { display: flex; justify-content: center; }
 
+.index { display: flex; justify-content: center; }
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
