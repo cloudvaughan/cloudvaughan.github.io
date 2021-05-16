@@ -16,7 +16,9 @@
 
 .about li { list-style: none; }
 
-.bcont div { width: 90%; margin-left: 5%; margin-right: 5%; }
+.bcont { display: block; }
+
+.bcont div { width: 50%; margin-left: 25%; margin-right: 25%; }
 
 .highlight table td { padding: 5px; }
 
