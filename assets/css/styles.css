@@ -22,6 +22,8 @@
 
 .blogs { display: flex; justify-content: center; }
 
+.bposts { display: flex; justify-content: center; }
+
 .highlight table td { padding: 5px; }
 
 .highlight table pre { margin: 0; }
