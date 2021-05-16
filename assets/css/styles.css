@@ -16,13 +16,11 @@
 
 .about li { list-style: none; }
 
-.bcont { display: block; }
+.bcont { display: inline; }
 
 .bcont div { width: 80%; margin-left: 10%; margin-right: 10%; }
 
-.content { display: flex; justify-content: center; border: black; border-width: 1px; }
-
-.content div { width: 80%; margin-left: 10%; margin-right: 10%; }
+.content { display: flex; justify-content: center; }
 
 .highlight table td { padding: 5px; }
 
