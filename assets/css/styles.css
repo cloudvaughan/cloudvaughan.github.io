@@ -20,11 +20,7 @@
 
 .bcont div { width: 50%; margin-left: 25%; margin-right: 25%; }
 
-.blogs { display: flex; justify-content: center; }
-
-.bposts { display: flex; justify-content: center; }
-
-.index { display: flex; justify-content: center; }
+.content { display: flex; justify-content: center; }
 
 .highlight table td { padding: 5px; }
 
