@@ -3,8 +3,8 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"repo/techNosam/_sass/main.scss",
-		"repo/techNosam/_sass/syntax.scss"
+		"../repo/techNosam/_sass/main.scss",
+		"../repo/techNosam/_sass/syntax.scss"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n@import \"syntax\";\n\n",
