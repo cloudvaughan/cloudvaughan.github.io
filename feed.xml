@@ -1,4 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-05-28T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">We need to give AWS Amplify a fighting chance</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html" rel="alternate" type="text/html" title="We need to give AWS Amplify a fighting chance" /><published>2021-05-18T00:00:00+02:00</published><updated>2021-05-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html">&lt;p&gt;So going through the process of creating a static website on AWS&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-05-29T21:21:44+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">I have a need for internet speed…..</title><link href="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html" rel="alternate" type="text/html" title="I have a need for internet speed….." /><published>2021-05-29T00:00:00+02:00</published><updated>2021-05-29T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/29/checkISP</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html">&lt;p&gt;Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.&lt;/p&gt;
+
+&lt;h2 id=&quot;speedtest&quot;&gt;Speedtest&lt;/h2&gt;
+
+&lt;p&gt;So I’m not going to going to try of rebuilding something that is readily available. &lt;a href=&quot;https://www.speedtest.net/&quot;&gt;speedtest.net&lt;/a&gt;, has a great website for you to track you upload and download speeds. Depending on your ISP, they will usually accept these results with the slight exception that you have to remove all devices off the network (You can refer to my other post on networking, I would provide a link but have not gotten that fully working yet). Great thing about Speedtest, is that they now offer a CLI (Command Line Interface).&lt;/p&gt;
+
+&lt;p&gt;Time to install:&lt;/p&gt;
+
+&lt;h3 id=&quot;installing-cli&quot;&gt;Installing CLI&lt;/h3&gt;
+
+&lt;p&gt;Depending on your OS, you can follow the information &lt;a href=&quot;https://www.speedtest.net/apps/cli&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I did the following:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;curl &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; https://install.speedtest.net/app/cli/install.deb.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;speedtest
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then to check your speed your just type&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;speedtest
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Results&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   Speedtest by Ookla
+
+     Server: xxxxxxxx
+        ISP: xxxxxxxx
+    Latency:     1.40 ms   (0.07 ms jitter)
+   Download:   252.52 Mbps (data used: 123.3 MB)
+     Upload:    88.74 Mbps (data used: 44.6 MB)
+Packet Loss:     0.0%
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;But now we need to automate this process….&lt;/p&gt;
+
+&lt;h3 id=&quot;automation-is-king&quot;&gt;Automation is king&lt;/h3&gt;
+
+&lt;p&gt;So as I am using a RaspberryPi (read Linux), I will be using a shell file and crontab to automate this process.&lt;/p&gt;
+
+&lt;p&gt;Few things that I learned:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Speedtest does not want you to automate
+    &lt;ul&gt;
+      &lt;li&gt;Bit of a half truth, as they just need you to confirm that you are using this for personal use. Which I am.&lt;/li&gt;
+      &lt;li&gt;If you add the following argument, –accept-license, it works.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;As I am still learning Linux, the folder structures, file locations and privileges took me a few minutes (read hour) to master.
+    &lt;ul&gt;
+      &lt;li&gt;Most of the time this goes to the root of the user that you logged in as.&lt;/li&gt;
+      &lt;li&gt;I went with the approach of a file per day, so make sure you append instead of over writting if you want to follow this approach (» over &amp;gt;).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I created a sh file, scheduled it with crontab and we are away.&lt;/p&gt;
+
+&lt;p&gt;Here is the basic script for the sh file update the user details&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;pushDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; +&lt;span class=&quot;s1&quot;&gt;'%Y%m%d'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;FILE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/&amp;lt;user&amp;gt;/speedtest/logs/&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pushDate&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;.log
+&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;
+
+speedtest &lt;span class=&quot;nt&quot;&gt;--accept-license&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;why-is-this-important&quot;&gt;Why is this important&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When developing apps in the cloud, you need to understand latency and network speed. If you go for a cheaper region, you need to be sure you meeting the technical specifications of your applications (think timeouts).&lt;/li&gt;
+  &lt;li&gt;Being cloud native means understanding what that cloud is built on. So that is why I am experimenting and continuing to learn in this environment.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="raspberrypi" /><summary type="html">Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.</summary></entry><entry><title type="html">We need to give AWS Amplify a fighting chance</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html" rel="alternate" type="text/html" title="We need to give AWS Amplify a fighting chance" /><published>2021-05-18T00:00:00+02:00</published><updated>2021-05-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html">&lt;p&gt;So going through the process of creating a static website on AWS&lt;/p&gt;
 
 &lt;p&gt;We are sitting in a bit of a waiting game with the SSL and the domain verification, it was a lot simpler on Azure for a third-party website verifications.
 &lt;img src=&quot;/assets/images/posts/awsWaiting.png&quot; alt=&quot;awsWaiting&quot; /&gt; So I may have done this wrong, it was a little confusing as AWS determines ownership first before it does DNS activation. Actually having to read the documentation to get this one right. The thing is when I did this step on Azure, it was simple and straight forward. If this does not work I am giving up
