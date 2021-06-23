@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-06-22T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Think Again - Adam Grant</title><link href="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html" rel="alternate" type="text/html" title="Think Again - Adam Grant" /><published>2021-06-13T00:00:00+02:00</published><updated>2021-06-13T00:00:00+02:00</updated><id>https://tech.nosam.co.za//books/2021/06/13/thinkAgain</id><content type="html" xml:base="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html">&lt;p&gt;Book Review of Adam Grant’s Think Again.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-06-23T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Think Again - Adam Grant</title><link href="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html" rel="alternate" type="text/html" title="Think Again - Adam Grant" /><published>2021-06-13T00:00:00+02:00</published><updated>2021-06-13T00:00:00+02:00</updated><id>https://tech.nosam.co.za//books/2021/06/13/thinkAgain</id><content type="html" xml:base="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html">&lt;p&gt;Book Review of Adam Grant’s Think Again.&lt;/p&gt;
 
 &lt;h2 id=&quot;key-takeaways&quot;&gt;Key takeaways&lt;/h2&gt;
 
@@ -416,6 +416,11 @@ bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
   &lt;li&gt;Leadership
     &lt;ul&gt;
       &lt;li&gt;Skill vs Luck&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Studying
+    &lt;ul&gt;
+      &lt;li&gt;AWS - I have been putting this off for to long&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Vaughan</name></author><category term="upcoming" /><summary type="html">Collection of Future Posts</summary></entry><entry><title type="html">Cloud upskilling</title><link href="https://tech.nosam.co.za//tech/cloud/2021/04/24/cloudUpskilling.html" rel="alternate" type="text/html" title="Cloud upskilling" /><published>2021-04-24T00:00:00+02:00</published><updated>2021-04-24T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/04/24/cloudUpskilling</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/04/24/cloudUpskilling.html">&lt;p&gt;One of the most challenging things about working with cloud technologies is that you have to keep up to date on what is going on. For me this is a daily task, that involves browsing a collections of blogs/websites, listen to a collection of podcasts and then doing technical training.&lt;/p&gt;
