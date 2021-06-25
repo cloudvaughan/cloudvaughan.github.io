@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Building tech NoSaM to share skills - Part 1" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite.html","headline":"Building tech NoSaM to share skills - Part 1","dateModified":"2021-05-10T00:00:00+02:00","datePublished":"2021-05-10T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite.html"},"author":{"@type":"Person","name":"Vaughan Mason"},"description":"These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","datePublished":"2021-05-10T00:00:00+02:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite.html"},"url":"https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite.html","author":{"@type":"Person","name":"Vaughan Mason"},"description":"These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.","headline":"Building tech NoSaM to share skills - Part 1","dateModified":"2021-05-10T00:00:00+02:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -78,6 +78,11 @@ Think I may turn this into a star wars trilogy thing start in the middle go to t
 <p>So I have already domain but did not want to take over the whole domain, so that is where the subdomain comes in. Subdomains create a child domain of the parent domain and are consider a seperate site, essentially a partition of the main domain.
 Adding a subdomain will depend on your hosting provider but a couple things to remember you will need to update your DNS settings if you are redirecting to the subdomain like I have done to GitHub pages. You will also need to understand the difference between a subdomain and a subdirectory, check out below. I had a few DNS entries that were conflicting with the https settings, so had to correct that as well.
 <strong>And remember any changes to DNS might take a few hours to be completed, so make changes and then only do next steps after an hour or two</strong></p>
+
+<h4 id="cloud-flare---updated-june-2021">Cloud Flare - Updated June 2021</h4>
+
+<p>So discovered that CloudFlare has a free options and it takes the management of the dns records to another level. It makes it so much more simpler and they guide you through the process of replaces a few options. It will even import the dns records in for you and then you can add the rest of the records as required.
+<a href="https://www.cloudflare.com/plans/">CloudFlare - Plans</a></p>
 
 <p>Here is a great article on the difference between a subdomain and a subdirectory, <a href="https://www.semrush.com/blog/subdomain-vs-subdirectory/">sub - domain vs directory</a></p>
 
@@ -136,9 +141,9 @@ bundle <span class="nb">exec </span>jekyll serve
 <p>In the next post I will speak about getting up and running with Jekyll (few challenges encountered), working with VS Code, securing the Raspberry PI and using it as a build server. That may be more than one post can handle.</p>
 
 <p>
-  This page was last updated at 2021-05-10
+  This page was last updated at 2021-06-25
  </p>
- <p>If you don't agree with the content on this page, please click <a href="https://github.com/cloudvaughan/cloudvaughan.github.io/issues/new?title=Building tech NoSaM to share skills - Part 1%202021-05-10">here</a></p>
+ <p>If you don't agree with the content on this page, please click <a href="https://github.com/cloudvaughan/cloudvaughan.github.io/issues/new?title=Building tech NoSaM to share skills - Part 1%202021-06-25">here</a></p>
 </div>
 
 
