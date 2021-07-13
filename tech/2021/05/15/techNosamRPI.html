@@ -74,6 +74,39 @@ The 3 steps that I enabled are</p>
   <li>Lockdown Logins (harden SSH)</li>
 </ol>
 
+<h3 id="password-are-for-suckers">Password are for suckers</h3>
+
+<p>Create a authentication key pair. Some additional information can be found <a href="https://www.ssh.com/academy/ssh/copy-id">here</a></p>
+
+<ul>
+  <li>Step 1 - Directory to store key pairs</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">mkdir</span> ~/.ssh
+<span class="nb">chmod </span>700 ~/.ssh
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>Step 2 - Create the key
+This is done on the machine that you  will be using to remote into the server.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>ssh-keygen <span class="nt">-b</span> 2048
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>Step 3 - Copy the key to the server</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh-copy-id <span class="nt">-i</span> &lt;key&gt; &lt;user&gt;@&lt;server&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
 <p>NetworkChuck has a lot of great videos and is a must if you want to learn a little bit more about security and networking.</p>
 
 <h2 id="raspberry-pi---start-working-on-the-pi">Raspberry Pi - Start working on the Pi</h2>
@@ -93,11 +126,10 @@ One of the reason was because of the support of remote development on the raspbe
 
 <p><img src="https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png" alt="raspberrypi" /></p>
 
-
 <p>
-  This page was last updated at 2021-05-15
+  This page was last updated at 2021-07-13
  </p>
- <p>If you don't agree with the content on this page, please click <a href="https://github.com/cloudvaughan/cloudvaughan.github.io/issues/new?title=Raspberry PI - building a build server for tech NoSaM - Part 0%202021-05-15">here</a></p>
+ <p>If you don't agree with the content on this page, please click <a href="https://github.com/cloudvaughan/cloudvaughan.github.io/issues/new?title=Raspberry PI - building a build server for tech NoSaM - Part 0%202021-07-13">here</a></p>
 </div>
 
 
