@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-08-17T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">It’s Over 13000</title><link href="https://tech.nosam.co.za//2021/07/12/Over13000.html" rel="alternate" type="text/html" title="It’s Over 13000" /><published>2021-07-12T00:00:00+02:00</published><updated>2021-07-12T00:00:00+02:00</updated><id>https://tech.nosam.co.za//2021/07/12/Over13000</id><content type="html" xml:base="https://tech.nosam.co.za//2021/07/12/Over13000.html">&lt;p&gt;So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-08-18T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Lots of reading</title><link href="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html" rel="alternate" type="text/html" title="Lots of reading" /><published>2021-08-18T00:00:00+02:00</published><updated>2021-08-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/08/18/LinksToRead</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/javascript-scene/software-roles-and-titles-e3f0b69c410c#:~:text=Software%20Development%20Roles%201%20Engineering%20Fellow%202%20CEO,Lead%2010%20Principal%20Software%20Engineer%20More%20items...%20&quot;&gt;Software Roles and Titles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devops.com/seven-reasons-you-shouldnt-hire-a-devops-engineer/&quot;&gt;Seven Reasons You Shouldn’t Hire a DevOps Engineer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/&quot;&gt;Microservices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/resources/videos/agile-at-microsoft/&quot;&gt;Agile at Microsoft&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/what-is-the-twelve-factor-app-methodology?aid=5082902844932096&amp;amp;utm_source=google&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=edpresso-dynamic&amp;amp;gclid=CjwKCAiAouD_BRBIEiwALhJH6ADgx7XF0A5jsbRblZIzhmFQRpaG6jy6cVjBv9IzI5eQ3-8UFxkh4hoC35UQAvD_BwE&quot;&gt;Twelve Factor App&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jeffgothelf.com/blog/safe-is-not-agile/&quot;&gt;Safe is not Agile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cutter.com/article/t-shaped-new-breed-it-professional-492976&quot;&gt;T-Shaped: New breed IT Professional&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reuters.com/article/uk-airshow-boeing-787-idUKL1558861220080715&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-developer-community-blog/introducing-developer-velocity-lab-a-research-initiative-to/ba-p/2333140&quot;&gt;Azure Developer Community Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/blog/migrating-to-ubuntu-lts-six-facts-for-centos-users&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://snyk.io/blog/10-docker-image-security-best-practices/&quot;&gt;Docker Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/blog/canonical-publishes-lts-docker-image-portfolio-on-docker-hub&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://cleancoder.com/products&quot;&gt;Clean Coder&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/enterprise-strategy/bar-raising-as-a-principle/&quot;&gt;AWS Blog: Bar Raising as a principle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/enterprise-strategy/&quot;&gt;AWS: Enterprise Strategy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dev.to/flippedcoding/difference-between-development-stage-and-production-d0p&quot;&gt;Difference between development, stage and production&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://review.firstround.com/how-instagram-co-founder-mike-krieger-took-its-engineering-org-from-0-to-300-people&quot;&gt;How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/ibm-garage/when-tdd-gets-hard-fc14136c3f44&quot;&gt;When TDD gets hard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="articles" /><summary type="html">Software Roles and Titles Seven Reasons You Shouldn’t Hire a DevOps Engineer Microservices Agile at Microsoft Twelve Factor App Safe is not Agile T-Shaped: New breed IT Professional Azure Developer Community Blog Docker Security Clean Coder AWS Blog: Bar Raising as a principle AWS: Enterprise Strategy Difference between development, stage and production How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People When TDD gets hard</summary></entry><entry><title type="html">It’s Over 13000</title><link href="https://tech.nosam.co.za//2021/07/12/Over13000.html" rel="alternate" type="text/html" title="It’s Over 13000" /><published>2021-07-12T00:00:00+02:00</published><updated>2021-07-12T00:00:00+02:00</updated><id>https://tech.nosam.co.za//2021/07/12/Over13000</id><content type="html" xml:base="https://tech.nosam.co.za//2021/07/12/Over13000.html">&lt;p&gt;So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.&lt;/p&gt;
 
 &lt;h1 id=&quot;random-facts-associated-with-this&quot;&gt;Random Facts associated with this&lt;/h1&gt;
 
@@ -497,97 +516,4 @@ One of the reason was because of the support of remote development on the raspbe
 
 &lt;p&gt;One thing I am going to do in a few months, is that I’m going to get myself one of these &lt;a href=&quot;https://www.pishop.co.za/store/raspberry-pi-boards/raspberry-pi-4-model-b-8gb&quot;&gt;Raspberry Pi 4 Model B 8GB&lt;/a&gt; and then use it as a development machine.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png&quot; alt=&quot;raspberrypi&quot; /&gt;&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="raspberrypi" /><category term="website" /><category term="security" /><summary type="html">So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.</summary></entry><entry><title type="html">Building tech NoSaM to share skills - Part 1</title><link href="https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite.html" rel="alternate" type="text/html" title="Building tech NoSaM to share skills - Part 1" /><published>2021-05-10T00:00:00+02:00</published><updated>2021-05-10T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/10/techNosamWebsite.html">&lt;p&gt;These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This was originally going to be 1 post but I have gotten a bit carried away so we will be having some more fun with more posts.
-Think I may turn this into a star wars trilogy thing start in the middle go to the beginning and then jump to the end. Or &lt;a href=&quot;https://www.nomachetejuggling.com/2011/11/11/the-star-wars-saga-suggested-viewing-order/&quot;&gt;Machete&lt;/a&gt; it up&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;what-i-wanted-to-achieve-in-building-the-website&quot;&gt;What I wanted to achieve in building the website&lt;/h2&gt;
-
-&lt;p&gt;So going into building the website I had a few goals that I wanted to achieve:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Website need to use my custom domain, nosam.co.za&lt;/li&gt;
-  &lt;li&gt;I wanted to use markdown to create the blog posts&lt;/li&gt;
-  &lt;li&gt;Website needed to be as cost effective as possible (read free)&lt;/li&gt;
-  &lt;li&gt;I wanted to have the ability to add new blog post from anywhere&lt;/li&gt;
-  &lt;li&gt;I wanted to separate where the website and post are created and where the website is hosted.
-    &lt;ul&gt;
-      &lt;li&gt;This was mainly because the github pages repo is made public to host the website&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Website needed to be easier to update and deploy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So with these requirements I need to make some technology choices.&lt;/p&gt;
-
-&lt;h2 id=&quot;choosing-the-tech&quot;&gt;Choosing the tech&lt;/h2&gt;
-
-&lt;h3 id=&quot;custom-domain&quot;&gt;Custom Domain&lt;/h3&gt;
-
-&lt;p&gt;So I have already domain but did not want to take over the whole domain, so that is where the subdomain comes in. Subdomains create a child domain of the parent domain and are consider a seperate site, essentially a partition of the main domain.
-Adding a subdomain will depend on your hosting provider but a couple things to remember you will need to update your DNS settings if you are redirecting to the subdomain like I have done to GitHub pages. You will also need to understand the difference between a subdomain and a subdirectory, check out below. I had a few DNS entries that were conflicting with the https settings, so had to correct that as well.
-&lt;strong&gt;And remember any changes to DNS might take a few hours to be completed, so make changes and then only do next steps after an hour or two&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;cloud-flare---updated-june-2021&quot;&gt;Cloud Flare - Updated June 2021&lt;/h4&gt;
-
-&lt;p&gt;So discovered that CloudFlare has a free options and it takes the management of the dns records to another level. It makes it so much more simpler and they guide you through the process of replaces a few options. It will even import the dns records in for you and then you can add the rest of the records as required.
-&lt;a href=&quot;https://www.cloudflare.com/plans/&quot;&gt;CloudFlare - Plans&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Here is a great article on the difference between a subdomain and a subdirectory, &lt;a href=&quot;https://www.semrush.com/blog/subdomain-vs-subdirectory/&quot;&gt;sub - domain vs directory&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;markdown&quot;&gt;Markdown&lt;/h3&gt;
-
-&lt;p&gt;So every GitHub repo has a readme file that is written in Markdown. Markdown is created to be as readable as possible and is a text-to-HTML conversion tool, you can read more about it &lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;here&lt;/a&gt;.
-I really enjoy the simplicity of writing in Markdown and the formatting of the document. All &lt;a href=&quot;https://docs.microsoft.com/en-us/contribute/markdown-reference&quot;&gt;Microsoft’s&lt;/a&gt; documentation is or is getting converted to Markdown, this includes their learning and training sites.
-Some of the functionality I will be using Markdown for:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The creation of the blog post and the static pages&lt;/li&gt;
-  &lt;li&gt;Using code snippets and other formatting options (like this list)&lt;/li&gt;
-  &lt;li&gt;The conversion of Markdown into HTML Website&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Useful references&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://commonmark.org/&quot;&gt;CommonMark&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github&quot;&gt;Writing on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;text-to-html-converter&quot;&gt;Text to HTML Converter&lt;/h3&gt;
-
-&lt;p&gt;Now that I have the language I will be writing in, I need a tool or process to be able to convert the documents into HTML. I choice Jekyll, I played around with a few options but Jekyll won and I’ll go through why but not going to touch on the other tools and processes besides maybe sharing links.&lt;/p&gt;
-
-&lt;h4 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h4&gt;
-
-&lt;p&gt;So as per Jekyll’s &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;website&lt;/a&gt;, it is Simple, Static and Blog-aware and that ticked the boxes for me.&lt;/p&gt;
-
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;gem &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;bundler jekyll
-jekyll new myawesomesite
-&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;myawesomesite
-bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The above code is all you need to get a website up and running.&lt;/p&gt;
-
-&lt;p&gt;So I followed the step by step &lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/01-setup/&quot;&gt;tutorial&lt;/a&gt; for getting the website up and running. I then went and tweaked a few things to my personal preference. There are tons of templates that can be used, I won’t be using them as I will be learning and evolving the site as I go.&lt;/p&gt;
-
-&lt;h3 id=&quot;hosting-and-code-repo&quot;&gt;Hosting and Code Repo&lt;/h3&gt;
-
-&lt;p&gt;This one is pretty simple as I actually started here and then research the other topics. You can host a website for free on GitHub with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;. I set this up with the custom domain and https. I also worked through building the website from a seperate repo, this way I can edit these documents and save other research before I publish the website. Check out GitHub Pages if you want to get a website up and running quickly and for free……&lt;/p&gt;
-
-&lt;h3 id=&quot;code-editor---magic-maker&quot;&gt;Code Editor - Magic Maker&lt;/h3&gt;
-
-&lt;p&gt;So to be able to create content anywhere I need an editing tool that can be used for updating the Jekyll files and for creating blog posts. Enter….&lt;/p&gt;
-
-&lt;h4 id=&quot;visual-studio-code&quot;&gt;Visual Studio Code&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Code&lt;/a&gt; has grown into a &lt;a href=&quot;https://en.wikipedia.org/wiki/Integrated_development_environment&quot;&gt;IDE&lt;/a&gt; powerhouse. There are multiple extensions that can be installed to work with a variety of coding languages and which I will cover in a different post it runs on &lt;a href=&quot;https://code.visualstudio.com/docs/setup/raspberry-pi&quot;&gt;Raspberry Pi&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;we-are-done-choosing-the-tech-lets-build-a-website&quot;&gt;We are done choosing the tech let’s build a website&lt;/h2&gt;
-
-&lt;p&gt;In the next post I will speak about getting up and running with Jekyll (few challenges encountered), working with VS Code, securing the Raspberry PI and using it as a build server. That may be more than one post can handle.&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="jekyll" /><category term="cloud" /><category term="github" /><summary type="html">These post/s will focus on how I got the website up and running using Jekyll and GitHub pages. In the next post I will speak about the challenges of implementing an automated deployment process.</summary></entry></feed>
+&lt;p&gt;&lt;img src=&quot;https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png&quot; alt=&quot;raspberrypi&quot; /&gt;&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="raspberrypi" /><category term="website" /><category term="security" /><summary type="html">So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.</summary></entry></feed>
