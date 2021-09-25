@@ -1,4 +1,258 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-09-24T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Lots of reading</title><link href="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html" rel="alternate" type="text/html" title="Lots of reading" /><published>2021-08-18T00:00:00+02:00</published><updated>2021-08-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/08/18/LinksToRead</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-09-25T13:26:58+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Cloudnativepresentation</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html" rel="alternate" type="text/html" title="Cloudnativepresentation" /><published>2021-09-25T00:00:00+02:00</published><updated>2021-09-25T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html">&lt;h2 id=&quot;challenges-of-being-cloud-native&quot;&gt;Challenges of being Cloud Native&lt;/h2&gt;
+
+&lt;h3 id=&quot;why-being-cloud-native-is-more-than-just-working-in-the-cloud&quot;&gt;why being cloud native is more than just working in the cloud&lt;/h3&gt;
+
+&lt;h3 id=&quot;vaughan-mason&quot;&gt;Vaughan Mason&lt;/h3&gt;
+&lt;p&gt;Transfer Agency Head of Engineering at FNZ South Africa&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vmason.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://itrevolution.com/wp-content/uploads/2017/09/Accelerate_3D_Shingo-e1567716184319-489x700.jpg&quot; alt=&quot;Accelerate&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/accelerate.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What is Cloud Native
+    &lt;ol&gt;
+      &lt;li&gt;Why companies are choosing cloud native&lt;/li&gt;
+      &lt;li&gt;Cloud Native Landscape&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why Developers are Key
+    &lt;ol&gt;
+      &lt;li&gt;Cloud Skill Shortage&lt;/li&gt;
+      &lt;li&gt;Certifications&lt;/li&gt;
+      &lt;li&gt;Developer Experience&lt;/li&gt;
+      &lt;li&gt;Are your teams designed for success.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-cloud-native&quot;&gt;What is Cloud Native&lt;/h3&gt;
+
+&lt;p&gt;https://github.com/cncf/toc/blob/main/DEFINITION.md&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;So to be cloud native you environment need to be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Loosely coupled&lt;/li&gt;
+  &lt;li&gt;Scalable&lt;/li&gt;
+  &lt;li&gt;Resilient&lt;/li&gt;
+  &lt;li&gt;Manageable and Observable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;why-are-organizations-adopting-cloud-native&quot;&gt;Why are organizations adopting cloud native&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1UGewu4MMYZobunfKr5sOGXsspcLOH_5XeCLyOHKh9LU/edit#slide=id.gc98d72cd14_1_1621&quot;&gt;Why Cloud Native according to the CNCF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the benefits that catches my eye is:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;cloud-native-landscape&quot;&gt;Cloud Native Landscape&lt;/h4&gt;
+
+&lt;p&gt;Let’s have a look at the cloud native landscape&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://landscape.cncf.io/&quot;&gt;Cloud Native Landscape&lt;/a&gt;
+&lt;img src=&quot;/assets/images/posts/landscape.png&quot; alt=&quot;Picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The New Kingmakers
+&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/41GfZETc7hL._SX342_SY445_QL70_FMwebp_.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;why-developers-are-key&quot;&gt;Why developers are key&lt;/h3&gt;
+
+&lt;h4 id=&quot;cloud-skill-gap&quot;&gt;Cloud Skill Gap&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.hashicorp.com/state-of-the-cloud&quot;&gt;Hashicorp State of Cloud Strategy&lt;/a&gt;
+&lt;img src=&quot;/assets/images/posts/skillsShortage.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;certifications&quot;&gt;Certifications&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/jobeffectiveness.drawio.png&quot; alt=&quot;picture&quot; /&gt;
+&lt;img src=&quot;/assets/images/posts/certificationValue.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/accelerate.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;are-your-teams-designed-for-success&quot;&gt;Are your teams designed for success&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.prismic.io/sketchplanations/6fb270e5-9fc4-4506-b78f-8e4db9aec175_175174474143.jpg?auto=format&amp;amp;ixlib=react-9.0.3&amp;amp;h=1887.557603686636&amp;amp;w=1600&amp;amp;q=75&amp;amp;dpr=1&quot; alt=&quot;Conway's Law&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.squarespace-cdn.com/content/v1/5b3296b78ab7229ecafcf4ed/1566982599895-T0K28HX7RF7YJ2GE1D4K/TeamTop_cover_RGB_flat_stroke.jpg?format=500w&quot; alt=&quot;TeamTopologies&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="tech" /><category term="cloud" /><summary type="html">Challenges of being Cloud Native why being cloud native is more than just working in the cloud Vaughan Mason Transfer Agency Head of Engineering at FNZ South Africa Agenda What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Certifications Developer Experience Are your teams designed for success. What is Cloud Native https://github.com/cncf/toc/blob/main/DEFINITION.md Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. So to be cloud native you environment need to be: Loosely coupled Scalable Resilient Manageable and Observable Why are organizations adopting cloud native Why Cloud Native according to the CNCF One of the benefits that catches my eye is: Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk Cloud Native Landscape Let’s have a look at the cloud native landscape Cloud Native Landscape The New Kingmakers Why developers are key Cloud Skill Gap Hashicorp State of Cloud Strategy Certifications Are your teams designed for success</summary></entry><entry><title type="html">Lots of reading</title><link href="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html" rel="alternate" type="text/html" title="Lots of reading" /><published>2021-08-18T00:00:00+02:00</published><updated>2021-08-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/08/18/LinksToRead</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/javascript-scene/software-roles-and-titles-e3f0b69c410c#:~:text=Software%20Development%20Roles%201%20Engineering%20Fellow%202%20CEO,Lead%2010%20Principal%20Software%20Engineer%20More%20items...%20&quot;&gt;Software Roles and Titles&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://devops.com/seven-reasons-you-shouldnt-hire-a-devops-engineer/&quot;&gt;Seven Reasons You Shouldn’t Hire a DevOps Engineer&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/&quot;&gt;Microservices&lt;/a&gt;&lt;/li&gt;
@@ -437,83 +691,4 @@ Azure Static Apps went GA
 
 &lt;p&gt;I went with the scheduled approach as there were a lot more questions associated with approach 1 (how to capture the url on start up and update the GitHub webhook). The thing to remember is that this is a private website and if I was doing this within an organisation I would make a whole lot of other decisions which would lead to different outcomes.&lt;/p&gt;
 
-&lt;p&gt;There is a lot of code, hacks or tweaks, whatever you want to call it, that need to be expanded on. But majority of the fixes and solutions were found on the websites that I have already listed and the approach will depend on the technology choices that you have made.&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="automation" /><category term="deployment" /><category term="raspberrypi" /><summary type="html">So we need to merge changes made in a private repo so that the GitHub pages are updated automatically which is a public repo. Let’s unpack what this is, evaluating the options and then deciding on the final solution.</summary></entry><entry><title type="html">Raspberry PI - building a build server for tech NoSaM - Part 0</title><link href="https://tech.nosam.co.za//tech/2021/05/15/techNosamRPI.html" rel="alternate" type="text/html" title="Raspberry PI - building a build server for tech NoSaM - Part 0" /><published>2021-05-15T00:00:00+02:00</published><updated>2021-05-15T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/15/techNosamRPI</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/15/techNosamRPI.html">&lt;p&gt;So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.&lt;/p&gt;
-
-&lt;h2 id=&quot;raspberry-pi---setting-it-up&quot;&gt;Raspberry Pi - Setting it up&lt;/h2&gt;
-
-&lt;p&gt;So you need a Raspberry  PI, I’m running a Raspberry Pi 3 Model B Rev 1.2&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.raspberrypi.org/homepage-9df4b/static/f2e9242911c5d63868b22a8f5d3da8a6/ae23f/bef8cda3-64ea-4098-bf18-8e731a6e9a0d_3b%252B%2BAngle%2B2.jpg&quot; alt=&quot;rasppi3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/&quot;&gt;Get one&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Use the following script to get hardware information on your Pi, getting ahead of myself.&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt; &lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; /proc/cpuinfo
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;So you need an imager to load the Operating System(OS) onto the SD card that is used by the Pi, I used the &lt;a href=&quot;https://www.raspberrypi.org/software/&quot;&gt;Raspberry Pi Imager&lt;/a&gt;. Be sure to get the latest version as it comes with some great features and saves a lot of set up time. As you can see &lt;a href=&quot;https://www.raspberrypi.org/blog/raspberry-pi-imager-update-to-v1-6/&quot;&gt;here&lt;/a&gt; you can now set up the hostname, ssh, change the default password, configure wifi. All of this saves you a ton of set up time later on (To be honest, I used an old version of the imager and then was kicking myself after reading all this information).&lt;/p&gt;
-
-&lt;p&gt;Once you have done this you should be able to plug in you SD card into the Pi, give it some power and you are ready to go connected to your network.&lt;/p&gt;
-
-&lt;h2 id=&quot;raspberry-pi---lets-secure-it&quot;&gt;Raspberry Pi - Let’s Secure it&lt;/h2&gt;
-
-&lt;p&gt;As you will have a device that may or may not be communicating outside your network, depending on your usage. You need to secure it. That’s where NetworkChuck comes in and this great YouTube video on &lt;a href=&quot;https://www.youtube.com/watch?v=ZhMw53Ud2tY&quot;&gt;5 Steps to Secure Linux&lt;/a&gt;, as I mentioned earlier your Raspberry Pi runs Linux you can follow all of these steps.
-The 3 steps that I enabled are&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Limited User Access&lt;/li&gt;
-  &lt;li&gt;Passwords are for suckers&lt;/li&gt;
-  &lt;li&gt;Lockdown Logins (harden SSH)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;password-are-for-suckers&quot;&gt;Password are for suckers&lt;/h3&gt;
-
-&lt;p&gt;Create a authentication key pair. Some additional information can be found &lt;a href=&quot;https://www.ssh.com/academy/ssh/copy-id&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 1 - Directory to store key pairs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; ~/.ssh
-&lt;span class=&quot;nb&quot;&gt;chmod &lt;/span&gt;700 ~/.ssh
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 2 - Create the key
-This is done on the machine that you  will be using to remote into the server.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;ssh-keygen &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; 2048
-
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Step 3 - Copy the key to the server&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;ssh-copy-id &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; &amp;lt;key&amp;gt; &amp;lt;user&amp;gt;@&amp;lt;server&amp;gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;NetworkChuck has a lot of great videos and is a must if you want to learn a little bit more about security and networking.&lt;/p&gt;
-
-&lt;h2 id=&quot;raspberry-pi---start-working-on-the-pi&quot;&gt;Raspberry Pi - Start working on the Pi&lt;/h2&gt;
-
-&lt;p&gt;So as I mentioned in a future past post I will be using &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code IDE&lt;/a&gt; to write the blog post and to interact with the raspberry pi.
-One of the reason was because of the support of remote development on the raspberry pi, you are able to edit files directly (like I’m doing for this file), you can access the terminal to run commands and a bonus you can you can use SSH key-based authenication. Here is an article about remote development with a raspberry pi and vs code, &lt;a href=&quot;https://www.raspberrypi.org/blog/coding-on-raspberry-pi-remotely-with-visual-studio-code/&quot;&gt;Coding on Raspberry Pi remotely with Visual Studio Code&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to run VS Code on the raspberry pi, you can do that as well: &lt;a href=&quot;https://www.raspberrypi.org/blog/visual-studio-code-comes-to-raspberry-pi/&quot;&gt;Visual Studio Code comes to Raspberry Pi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Just to be clear I’m fully aware of all the noise associated with VS Code and Raspberry Pi, I just don’t care as I am happy to use the IDE.&lt;/p&gt;
-
-&lt;p&gt;More information on &lt;a href=&quot;https://code.visualstudio.com/docs/remote/remote-overview&quot;&gt;VS Code Remote Development&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;and-we-are-ready-to-write-some-blog-posts-and-edit-some-code&quot;&gt;And we are ready to write some blog posts and edit some code&lt;/h2&gt;
-
-&lt;p&gt;One thing I am going to do in a few months, is that I’m going to get myself one of these &lt;a href=&quot;https://www.pishop.co.za/store/raspberry-pi-boards/raspberry-pi-4-model-b-8gb&quot;&gt;Raspberry Pi 4 Model B 8GB&lt;/a&gt; and then use it as a development machine.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.raspberrypi.org/homepage-9df4b/static/raspberry-pi-4-labelled-2857741801afdf1cabeaa58325e07b58.png&quot; alt=&quot;raspberrypi&quot; /&gt;&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="raspberrypi" /><category term="website" /><category term="security" /><summary type="html">So now that we have choosen the tech we need to speak about setting it up. So I will be using a Raspberry PI to host Jekyll and will be utilising it like a build server, you can think of the Raspberry PI as Virtual Machine running Linux in a cloud provider. So theoritically anything I do in the Raspberry Pi I can do on a VM.</summary></entry></feed>
+&lt;p&gt;There is a lot of code, hacks or tweaks, whatever you want to call it, that need to be expanded on. But majority of the fixes and solutions were found on the websites that I have already listed and the approach will depend on the technology choices that you have made.&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="automation" /><category term="deployment" /><category term="raspberrypi" /><summary type="html">So we need to merge changes made in a private repo so that the GitHub pages are updated automatically which is a public repo. Let’s unpack what this is, evaluating the options and then deciding on the final solution.</summary></entry></feed>
