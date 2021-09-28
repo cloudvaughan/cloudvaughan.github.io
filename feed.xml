@@ -1,4 +1,221 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-09-27T23:30:08+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-25T00:00:00+02:00</published><updated>2021-09-25T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html">&lt;h4 id=&quot;seeing-if-i-could-use-markdown-to-run-a-presentation&quot;&gt;Seeing if i could use Markdown to run a presentation&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-09-28T23:30:08+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-28T00:00:00+02:00</published><updated>2021-09-28T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative.html">&lt;h1 id=&quot;cloud-native-computing&quot;&gt;Cloud Native Computing&lt;/h1&gt;
+
+&lt;h2 id=&quot;challenges-of-being-cloud-native---why-being-cloud-native-is-more-than-just-working-in-the-cloud&quot;&gt;Challenges of being Cloud Native - why being Cloud Native is more than just working in the cloud&lt;/h2&gt;
+
+&lt;p&gt;Agenda&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Introduction&lt;/li&gt;
+  &lt;li&gt;What is Cloud Native
+    &lt;ol&gt;
+      &lt;li&gt;Why companies are choosing cloud native&lt;/li&gt;
+      &lt;li&gt;Cloud Native Landscape&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why Developers are Key
+    &lt;ol&gt;
+      &lt;li&gt;Cloud Skill Shortage&lt;/li&gt;
+      &lt;li&gt;Developer Experience&lt;/li&gt;
+      &lt;li&gt;Certifications&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Are your teams designed for success.
+    &lt;ol&gt;
+      &lt;li&gt;Architecture - Conway’s Law&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;h2 id=&quot;vaughan-mason---transfer-agency-head-of-engineering-at-fnz-south-africa&quot;&gt;Vaughan Mason - Transfer Agency Head of Engineering at FNZ South Africa&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vmason.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Good morning, my name is Vaughan Mason and I’ll be speaking about the challenges of being cloud native&lt;/li&gt;
+  &lt;li&gt;Let me tell you a little bit about myself.
+    &lt;ul&gt;
+      &lt;li&gt;I have been working as part of technology deliver teams for a number of years.&lt;/li&gt;
+      &lt;li&gt;I have multiple certification in Cloud and Data Management and I have passion for understanding the fundamentals and growing my capability from there.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;I work for a company called FNZ and our purpose is Helping people achieve their financial goals.
+    &lt;ul&gt;
+      &lt;li&gt;We do this by transforming the way financial companies serve their wealth management clients by providing digital personalised, high-quality and low-cost solutions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Providing high-quality solutions is where my role at FNZ is so exciting.
+    &lt;ul&gt;
+      &lt;li&gt;I’m the Head of Engineering for the Transfer Agency Business in South Africa.&lt;/li&gt;
+      &lt;li&gt;As the Head of Engineering I’m responsible for building a world class software engineering capability within FNZ.&lt;/li&gt;
+      &lt;li&gt;We are focused on continuously improving the way that developers work and providing a supportive environment that is focused on continuous improvement.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why is this important.
+    &lt;ul&gt;
+      &lt;li&gt;If we look at the research that highlighted in the book&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://itrevolution.com/book/accelerate/&quot;&gt;Accelerate&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Building and Scaling High Performing Technology organisations.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://itrevolution.com/ACC-transformation-practices&quot;&gt;Research&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;We need to start with Transformational Leadership if we are going to make improvements to Software Engineering performance.&lt;/li&gt;
+      &lt;li&gt;As with most teams in your organisations success does not just happen, it is driven by teams and individuals and you have to design your organisation for success.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Here is what we are going to discuss today.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What is Cloud Native
+    &lt;ol&gt;
+      &lt;li&gt;Why companies are choosing cloud native&lt;/li&gt;
+      &lt;li&gt;Cloud Native Landscape&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Why Developers are Key
+    &lt;ol&gt;
+      &lt;li&gt;Cloud Skill Shortage&lt;/li&gt;
+      &lt;li&gt;Developer Experience&lt;/li&gt;
+      &lt;li&gt;Certifications&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Are your teams designed for success.
+    &lt;ol&gt;
+      &lt;li&gt;Architecture - Conway’s Law&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;what-is-cloud-native&quot;&gt;What is Cloud Native&lt;/h3&gt;
+
+&lt;p&gt;So to describe what cloud native is I’m going to use the definition from the Cloud Native Computing Foundation which falls under the umbrella of the Linux foundation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/cncf/toc/blob/main/DEFINITION.md&quot;&gt;CNCF Cloud Native Definition&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So to be cloud native you environment need to be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Loosely coupled&lt;/li&gt;
+  &lt;li&gt;Scalable&lt;/li&gt;
+  &lt;li&gt;Resilient&lt;/li&gt;
+  &lt;li&gt;Manageable and Observable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;why-are-organizations-adopting-cloud-native&quot;&gt;Why are organizations adopting cloud native&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1UGewu4MMYZobunfKr5sOGXsspcLOH_5XeCLyOHKh9LU/edit#slide=id.gc98d72cd14_1_1621&quot;&gt;Why Cloud Native according to the CNCF&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the benefits that catches my eye is:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Any organization that develops software, which is most companies, will be attracted to this benefit.
+BUT when you look at the cloud native landscape you begin to understand that it is easier said then done.&lt;/p&gt;
+
+&lt;h4 id=&quot;cloud-native-landscape&quot;&gt;Cloud Native Landscape&lt;/h4&gt;
+
+&lt;p&gt;Let’s have a look at the cloud native landscape&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://landscape.cncf.io/&quot;&gt;Cloud Native Landscape&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As we can see we are spoilt for choice with cloud native technologies and the question is how do you control this in your environments.&lt;/p&gt;
+
+&lt;p&gt;Can you quantify developers impact on your business? By the technology choices that they make.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-developers-are-key&quot;&gt;Why developers are key&lt;/h3&gt;
+
+&lt;p&gt;As most companies are becoming software companies. They count on the people developing software to make the right technologies chooses. Developer have been coined as the new kingmakers.
+You need to rely on the people using the technology, once coined the new &lt;a href=&quot;https://www.amazon.com/New-Kingmakers-Developers-Conquered-World-ebook/dp/B0097E4MEU&quot;&gt;king makers&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cloud skill shortage
+    &lt;ul&gt;
+      &lt;li&gt;There have been a number of articles and posts over the year about cloud skills shortage.&lt;/li&gt;
+      &lt;li&gt;A recent survey by HashiCorp, State of Cloud Strategy, has highlighted that 57% of their respondents say skills shortage is a top cloud challenge.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.hashicorp.com/state-of-the-cloud&quot;&gt;Hashicorp state of Cloud&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;For me, I believe certifications are a great way to address this.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://go.acloudguru.com/rs/194-UHP-609/images/ebook_value_of_certs.pdf&quot;&gt;ebookValueCerts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;ACloudGuru a leading cloud training platform has cited that certification help get everyone onto the same page. By ensuring that all employees are working off the same base knowledge.&lt;/li&gt;
+      &lt;li&gt;A Global Knowledge 2019 IT Skills and Salary report says that IT professionals, overwhelmingly report better job effectiveness after achieving a new certificaitons.&lt;/li&gt;
+      &lt;li&gt;Here are a few of the numbers they reported from job effectivenes.&lt;/li&gt;
+      &lt;li&gt;In the same report it was highlighted that certified employees add value to an organisation.&lt;/li&gt;
+      &lt;li&gt;Personally I have completed a number of certifications and have found them extremely valuable. On any particular topic they expose you to information that is invaluable to the success of working with technology.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If we look back at the Accelerate research and focus on the activities that contribute to job satisfaction which in turn contributes to organisational performance.
+    &lt;ul&gt;
+      &lt;li&gt;These are all things that also contribute to the success of working in the Cloud.&lt;/li&gt;
+      &lt;li&gt;Deployment pain of software is negatively correlated with job satisfaction, the harder it is to deploy a piece of software the lower the developer morale.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;are-your-teams-designed-for-success&quot;&gt;Are your teams designed for success&lt;/h4&gt;
+
+&lt;p&gt;According to Conway’s Law&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Here is a graphical representation of that.&lt;/li&gt;
+  &lt;li&gt;So if an organisation is looking to produce a microservices styled application then it needs to ensure that the teams are structured in a way that supports this.&lt;/li&gt;
+  &lt;li&gt;A great book that unpacks the concept of team structures is Team Topologies.&lt;/li&gt;
+  &lt;li&gt;Again the concept here is that you need to design for success and not hope that it happens.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;research&quot;&gt;Research&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cio.com/article/3619800/got-a-cloud-skills-gap-three-ways-to-fill-the-void.html&quot;&gt;CloudSkills Gap&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;old&quot;&gt;Old&lt;/h4&gt;
+
+&lt;h3 id=&quot;developers-role---6mins&quot;&gt;Developers Role - 6mins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Architecture and System Design&lt;/li&gt;
+  &lt;li&gt;Conway’s Law&lt;/li&gt;
+  &lt;li&gt;Developers approach
+    &lt;ul&gt;
+      &lt;li&gt;Test Driven Development&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;security-is-everyones-responsibility---6mins&quot;&gt;Security is everyone’s responsibility - 6mins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cloud Native Security Failures
+    &lt;ul&gt;
+      &lt;li&gt;S3&lt;/li&gt;
+      &lt;li&gt;CosmosDB&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cloud Native Security Best Practices&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-are-the-take-aways-as-it-is-time-for-lunch---5mins&quot;&gt;What are the take-aways (As it is time for lunch) - 5mins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cloud Native&lt;/li&gt;
+  &lt;li&gt;Organization Structure dictates design&lt;/li&gt;
+  &lt;li&gt;Developers are key
+    &lt;ul&gt;
+      &lt;li&gt;Security&lt;/li&gt;
+      &lt;li&gt;Training&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><summary type="html">Cloud Native Computing Challenges of being Cloud Native - why being Cloud Native is more than just working in the cloud Agenda Introduction What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Developer Experience Certifications Are your teams designed for success. Architecture - Conway’s Law Introduction Vaughan Mason - Transfer Agency Head of Engineering at FNZ South Africa Good morning, my name is Vaughan Mason and I’ll be speaking about the challenges of being cloud native Let me tell you a little bit about myself. I have been working as part of technology deliver teams for a number of years. I have multiple certification in Cloud and Data Management and I have passion for understanding the fundamentals and growing my capability from there. I work for a company called FNZ and our purpose is Helping people achieve their financial goals. We do this by transforming the way financial companies serve their wealth management clients by providing digital personalised, high-quality and low-cost solutions. Providing high-quality solutions is where my role at FNZ is so exciting. I’m the Head of Engineering for the Transfer Agency Business in South Africa. As the Head of Engineering I’m responsible for building a world class software engineering capability within FNZ. We are focused on continuously improving the way that developers work and providing a supportive environment that is focused on continuous improvement. Why is this important. If we look at the research that highlighted in the book Accelerate Building and Scaling High Performing Technology organisations. Research We need to start with Transformational Leadership if we are going to make improvements to Software Engineering performance. As with most teams in your organisations success does not just happen, it is driven by teams and individuals and you have to design your organisation for success. Here is what we are going to discuss today. What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Developer Experience Certifications Are your teams designed for success. Architecture - Conway’s Law What is Cloud Native So to describe what cloud native is I’m going to use the definition from the Cloud Native Computing Foundation which falls under the umbrella of the Linux foundation. CNCF Cloud Native Definition Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. So to be cloud native you environment need to be: Loosely coupled Scalable Resilient Manageable and Observable Why are organizations adopting cloud native Why Cloud Native according to the CNCF One of the benefits that catches my eye is: Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk Any organization that develops software, which is most companies, will be attracted to this benefit. BUT when you look at the cloud native landscape you begin to understand that it is easier said then done. Cloud Native Landscape Let’s have a look at the cloud native landscape Cloud Native Landscape As we can see we are spoilt for choice with cloud native technologies and the question is how do you control this in your environments. Can you quantify developers impact on your business? By the technology choices that they make. Why developers are key As most companies are becoming software companies. They count on the people developing software to make the right technologies chooses. Developer have been coined as the new kingmakers. You need to rely on the people using the technology, once coined the new king makers Cloud skill shortage There have been a number of articles and posts over the year about cloud skills shortage. A recent survey by HashiCorp, State of Cloud Strategy, has highlighted that 57% of their respondents say skills shortage is a top cloud challenge. Hashicorp state of Cloud For me, I believe certifications are a great way to address this. ebookValueCerts ACloudGuru a leading cloud training platform has cited that certification help get everyone onto the same page. By ensuring that all employees are working off the same base knowledge. A Global Knowledge 2019 IT Skills and Salary report says that IT professionals, overwhelmingly report better job effectiveness after achieving a new certificaitons. Here are a few of the numbers they reported from job effectivenes. In the same report it was highlighted that certified employees add value to an organisation. Personally I have completed a number of certifications and have found them extremely valuable. On any particular topic they expose you to information that is invaluable to the success of working with technology. If we look back at the Accelerate research and focus on the activities that contribute to job satisfaction which in turn contributes to organisational performance. These are all things that also contribute to the success of working in the Cloud. Deployment pain of software is negatively correlated with job satisfaction, the harder it is to deploy a piece of software the lower the developer morale. Are your teams designed for success According to Conway’s Law Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure. Here is a graphical representation of that. So if an organisation is looking to produce a microservices styled application then it needs to ensure that the teams are structured in a way that supports this. A great book that unpacks the concept of team structures is Team Topologies. Again the concept here is that you need to design for success and not hope that it happens. Research CloudSkills Gap Old Developers Role - 6mins Architecture and System Design Conway’s Law Developers approach Test Driven Development Security is everyone’s responsibility - 6mins Cloud Native Security Failures S3 CosmosDB Cloud Native Security Best Practices What are the take-aways (As it is time for lunch) - 5mins Cloud Native Organization Structure dictates design Developers are key Security Training</summary></entry><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-25T00:00:00+02:00</published><updated>2021-09-25T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html">&lt;h4 id=&quot;seeing-if-i-could-use-markdown-to-run-a-presentation&quot;&gt;Seeing if i could use Markdown to run a presentation&lt;/h4&gt;
 &lt;h3 id=&quot;vaughan-mason&quot;&gt;Vaughan Mason&lt;/h3&gt;
 &lt;p&gt;Transfer Agency Head of Engineering at FNZ South Africa&lt;/p&gt;
 
@@ -595,97 +812,4 @@ Azure Static Apps went GA
 
 &lt;p&gt;&lt;img src=&quot;https://www.groundcontrol.com/galileo/images/Standard_Ethernet_Cable_RJ45.gif&quot; alt=&quot;rj45&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Basically you are ensuring that the wires are in the correct order on both sides.&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="networking" /><summary type="html">As soon as the threat of lockdown began appearing last year, I knew that working from home and the wifi network was not going to work. Don’t get me wrong, I have a mesh wifi installation that works for the majority of use cases but I also have a fast line that I want to use fully for work. In order to get the full benefit, I learnt a few networking fundamentals that I would like to discuss. Added complex because I live in South Africa with load shedding, the network needs to be up as much as possible.</summary></entry><entry><title type="html">Automation tales in CI/CD - Part 3</title><link href="https://tech.nosam.co.za//tech/2021/05/15/techNosamAuto.html" rel="alternate" type="text/html" title="Automation tales in CI/CD - Part 3" /><published>2021-05-15T00:00:00+02:00</published><updated>2021-05-15T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/15/techNosamAuto</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/15/techNosamAuto.html">&lt;p&gt;So we need to merge changes made in a private repo so that the GitHub pages are updated automatically which is a public repo. Let’s unpack what this is, evaluating the options and then deciding on the final solution.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-cicd&quot;&gt;What is CI/CD?&lt;/h2&gt;
-
-&lt;p&gt;So we are going to use the definitions found &lt;a href=&quot;https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment&quot;&gt;here&lt;/a&gt;. We are going to unpack the following terms:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Continuous Integration
-    &lt;ul&gt;
-      &lt;li&gt;This refers to merging changes into the main branch as often as possible.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Continuous Delivery/Deployment
-    &lt;ul&gt;
-      &lt;li&gt;Continuous delivery is the process of delivering changes in the code that have been merged into the main branch to your testing and/or production environments.&lt;/li&gt;
-      &lt;li&gt;Continuous Deployment takes this a stage further by pushing changes that have passed all the necessary tests into customer facing products.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Taking into account the above definitions above, we need to understand the differences between the repos that I will be employing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Private Repo - Contains the source code for the Jekyll website and the blog posts in the native Markdown language. This will contain all the files needed to successfully compile the website using Jekyll.&lt;/li&gt;
-  &lt;li&gt;Public Repo - Contains the website files that have been created by the Jekyll build (code compiling process). These will be deployed to GitHub pages, which we need to understand has it’s own CI/CD process (we will discuss this another day)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;so-what-will-i-be-doing&quot;&gt;So what will I be doing&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CI - For me, continuous integration is all I will be doing as I’m the only developer and blogger. So any changes that I make will be deployed to the main branch of the private repo. This is an important distinction as mentioned above. We can make this as being achieved.&lt;/li&gt;
-  &lt;li&gt;CD - Going to just focus on Continuous Deployment. This is the trick really, how do I go about getting my code built and deployed from one repo to another (private to public). We will need to execute a series of commands to pull code from one repo (private) to local server, execute the build process and then push the changes to the other repo (public). And to execute this little bit of magic we will be using the Raspberry Pi, which was setup previously.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We going to discuss 2 options that I investigated and one that I finally implemented.&lt;/p&gt;
-
-&lt;h3 id=&quot;explaining-my-continuous-deployment-options&quot;&gt;Explaining my Continuous Deployment options&lt;/h3&gt;
-
-&lt;p&gt;It basically boils down to 2 options plus 1, automated (triggered) or scheduled because in the world of computing with the addition of manual those are the only ways you can interact with code (and everything is code). So now that I know that I have 2 options we are going to explore both because seriously the third option is out because it does not meet one of my requirements.&lt;/p&gt;
-
-&lt;h2 id=&quot;explaining-the-cd-approaches&quot;&gt;Explaining the CD approaches&lt;/h2&gt;
-
-&lt;p&gt;So let’s begin by unpacking the 2 approaches and what is required to achieve them, making sure we are aligned to the requirements that were previously decided upon (be it by myself).&lt;/p&gt;
-
-&lt;p&gt;No matter the approach the final event is the same. I’ll be explaining it first as it is not affected by each approach.&lt;/p&gt;
-
-&lt;h3 id=&quot;final-event&quot;&gt;Final Event&lt;/h3&gt;
-
-&lt;p&gt;I bundled the final event into a shell script that executed the following. This was a little challenging as the location of the sh file and executing the code was not based on a user profile so multiple variables needed to be configured. It worked out in the end.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Pull request from private repo&lt;/li&gt;
-  &lt;li&gt;Copy or build code to the local location of the public repo
-    &lt;ul&gt;
-      &lt;li&gt;I did not need to copy the files as I made changes to the configuration file of Jekyll to build the output solution to a different location, ie the local directory of the public repo.&lt;/li&gt;
-      &lt;li&gt;There were a few tweaks that needed to be made to make this work and I’ll unpack them in another post.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Commit and push the code to the public repo, automatically&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;approach-1---automated-cd&quot;&gt;Approach 1 - Automated CD&lt;/h3&gt;
-
-&lt;p&gt;So here are the basics required to achieve an automated CD:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An initial event triggers the process, this event is the completion of the CI process discussed above. So when code is committed to the main branch it triggers a GitHub event (&lt;a href=&quot;https://docs.github.com/en/developers/webhooks-and-events/webhook-events-and-payloads#push&quot;&gt;push event&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;Webhook notifies an external service that an event has been triggered. A post request will be sent to a provided URL.
-    &lt;ul&gt;
-      &lt;li&gt;Because I’m using the Raspberry Pi as my external service, I need a way to interact with it and I used &lt;a href=&quot;https://ngrok.com/&quot;&gt;ngrok&lt;/a&gt;. Which was great as it had a free offering, the only issue with the free offering is that it randomly assigns a URL when it is started on the localhost. So the URL will change when the localhost needs to restart the service for what ever reason. And as the webhook needs a URL and we have no idea what the URL will be before ngrok is started, this is only really good for testing purposes.&lt;/li&gt;
-      &lt;li&gt;I’ll explain ngrok in another post in the future.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;External services needs to be listening for the post request. And then trigger a final event where ever the external service is hosted (Hello Raspberry Pi)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;approach-2---scheduled-cd&quot;&gt;Approach 2 - Scheduled CD&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The event is now based on a timer set for a specific time of day and day of week or month.
-    &lt;ul&gt;
-      &lt;li&gt;This timer is setup on the Raspberry Pi using crontab.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The final event is triggered.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;How to Schedule Cron jobs&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;what-did-i-choice&quot;&gt;What did I choice?&lt;/h2&gt;
-
-&lt;p&gt;I went with the scheduled approach as there were a lot more questions associated with approach 1 (how to capture the url on start up and update the GitHub webhook). The thing to remember is that this is a private website and if I was doing this within an organisation I would make a whole lot of other decisions which would lead to different outcomes.&lt;/p&gt;
-
-&lt;p&gt;There is a lot of code, hacks or tweaks, whatever you want to call it, that need to be expanded on. But majority of the fixes and solutions were found on the websites that I have already listed and the approach will depend on the technology choices that you have made.&lt;/p&gt;</content><author><name>Vaughan Mason</name></author><category term="tech" /><category term="automation" /><category term="deployment" /><category term="raspberrypi" /><summary type="html">So we need to merge changes made in a private repo so that the GitHub pages are updated automatically which is a public repo. Let’s unpack what this is, evaluating the options and then deciding on the final solution.</summary></entry></feed>
+&lt;p&gt;Basically you are ensuring that the wires are in the correct order on both sides.&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="networking" /><summary type="html">As soon as the threat of lockdown began appearing last year, I knew that working from home and the wifi network was not going to work. Don’t get me wrong, I have a mesh wifi installation that works for the majority of use cases but I also have a fast line that I want to use fully for work. In order to get the full benefit, I learnt a few networking fundamentals that I would like to discuss. Added complex because I live in South Africa with load shedding, the network needs to be up as much as possible.</summary></entry></feed>
