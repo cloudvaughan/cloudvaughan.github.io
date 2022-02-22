@@ -1,503 +1,546 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2021-12-03T23:30:09+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-28T00:00:00+02:00</published><updated>2021-09-28T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative.html">&lt;h1 id=&quot;cloud-native-computing&quot;&gt;Cloud Native Computing&lt;/h1&gt;
-
-&lt;h2 id=&quot;challenges-of-being-cloud-native---why-being-cloud-native-is-more-than-just-working-in-the-cloud&quot;&gt;Challenges of being Cloud Native - why being Cloud Native is more than just working in the cloud&lt;/h2&gt;
-
-&lt;p&gt;Agenda&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Introduction&lt;/li&gt;
-  &lt;li&gt;What is Cloud Native
-    &lt;ol&gt;
-      &lt;li&gt;Why companies are choosing cloud native&lt;/li&gt;
-      &lt;li&gt;Cloud Native Landscape&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why Developers are Key
-    &lt;ol&gt;
-      &lt;li&gt;Cloud Skill Shortage&lt;/li&gt;
-      &lt;li&gt;Developer Experience&lt;/li&gt;
-      &lt;li&gt;Certifications&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Are your teams designed for success.
-    &lt;ol&gt;
-      &lt;li&gt;Architecture - Conway’s Law&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-
-&lt;h2 id=&quot;vaughan-mason---transfer-agency-head-of-engineering-at-fnz-south-africa&quot;&gt;Vaughan Mason - Transfer Agency Head of Engineering at FNZ South Africa&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vmason.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Good morning, my name is Vaughan Mason and I’ll be speaking about the challenges of being cloud native&lt;/li&gt;
-  &lt;li&gt;Let me tell you a little bit about myself.
-    &lt;ul&gt;
-      &lt;li&gt;I have been working as part of technology deliver teams for a number of years.&lt;/li&gt;
-      &lt;li&gt;I have multiple certification in Cloud and Data Management and I have passion for understanding the fundamentals and growing my capability from there.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;I work for a company called FNZ and our purpose is Helping people achieve their financial goals.
-    &lt;ul&gt;
-      &lt;li&gt;We do this by transforming the way financial companies serve their wealth management clients by providing digital personalised, high-quality and low-cost solutions.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Providing high-quality solutions is where my role at FNZ is so exciting.
-    &lt;ul&gt;
-      &lt;li&gt;I’m the Head of Engineering for the Transfer Agency Business in South Africa.&lt;/li&gt;
-      &lt;li&gt;As the Head of Engineering I’m responsible for building a world class software engineering capability within FNZ.&lt;/li&gt;
-      &lt;li&gt;We are focused on continuously improving the way that developers work and providing a supportive environment that is focused on continuous improvement.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why is this important.
-    &lt;ul&gt;
-      &lt;li&gt;If we look at the research that highlighted in the book&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://itrevolution.com/book/accelerate/&quot;&gt;Accelerate&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Building and Scaling High Performing Technology organisations.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://itrevolution.com/ACC-transformation-practices&quot;&gt;Research&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;We need to start with Transformational Leadership if we are going to make improvements to Software Engineering performance.&lt;/li&gt;
-      &lt;li&gt;As with most teams in your organisations success does not just happen, it is driven by teams and individuals and you have to design your organisation for success.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Here is what we are going to discuss today.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What is Cloud Native
-    &lt;ol&gt;
-      &lt;li&gt;Why companies are choosing cloud native&lt;/li&gt;
-      &lt;li&gt;Cloud Native Landscape&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why Developers are Key
-    &lt;ol&gt;
-      &lt;li&gt;Cloud Skill Shortage&lt;/li&gt;
-      &lt;li&gt;Developer Experience&lt;/li&gt;
-      &lt;li&gt;Certifications&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Are your teams designed for success.
-    &lt;ol&gt;
-      &lt;li&gt;Architecture - Conway’s Law&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;what-is-cloud-native&quot;&gt;What is Cloud Native&lt;/h3&gt;
-
-&lt;p&gt;So to describe what cloud native is I’m going to use the definition from the Cloud Native Computing Foundation which falls under the umbrella of the Linux foundation.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/cncf/toc/blob/main/DEFINITION.md&quot;&gt;CNCF Cloud Native Definition&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;So to be cloud native you environment need to be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Loosely coupled&lt;/li&gt;
-  &lt;li&gt;Scalable&lt;/li&gt;
-  &lt;li&gt;Resilient&lt;/li&gt;
-  &lt;li&gt;Manageable and Observable&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;why-are-organizations-adopting-cloud-native&quot;&gt;Why are organizations adopting cloud native&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1UGewu4MMYZobunfKr5sOGXsspcLOH_5XeCLyOHKh9LU/edit#slide=id.gc98d72cd14_1_1621&quot;&gt;Why Cloud Native according to the CNCF&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the benefits that catches my eye is:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Any organization that develops software, which is most companies, will be attracted to this benefit.
-BUT when you look at the cloud native landscape you begin to understand that it is easier said then done.&lt;/p&gt;
-
-&lt;h4 id=&quot;cloud-native-landscape&quot;&gt;Cloud Native Landscape&lt;/h4&gt;
-
-&lt;p&gt;Let’s have a look at the cloud native landscape&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://landscape.cncf.io/&quot;&gt;Cloud Native Landscape&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;As we can see we are spoilt for choice with cloud native technologies and the question is how do you control this in your environments.&lt;/p&gt;
-
-&lt;p&gt;Can you quantify developers impact on your business? By the technology choices that they make.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-developers-are-key&quot;&gt;Why developers are key&lt;/h3&gt;
-
-&lt;p&gt;As most companies are becoming software companies. They count on the people developing software to make the right technologies chooses. Developer have been coined as the new kingmakers.
-You need to rely on the people using the technology, once coined the new &lt;a href=&quot;https://www.amazon.com/New-Kingmakers-Developers-Conquered-World-ebook/dp/B0097E4MEU&quot;&gt;king makers&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cloud skill shortage
-    &lt;ul&gt;
-      &lt;li&gt;There have been a number of articles and posts over the year about cloud skills shortage.&lt;/li&gt;
-      &lt;li&gt;A recent survey by HashiCorp, State of Cloud Strategy, has highlighted that 57% of their respondents say skills shortage is a top cloud challenge.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.hashicorp.com/state-of-the-cloud&quot;&gt;Hashicorp state of Cloud&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;For me, I believe certifications are a great way to address this.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://go.acloudguru.com/rs/194-UHP-609/images/ebook_value_of_certs.pdf&quot;&gt;ebookValueCerts&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;ACloudGuru a leading cloud training platform has cited that certification help get everyone onto the same page. By ensuring that all employees are working off the same base knowledge.&lt;/li&gt;
-      &lt;li&gt;A Global Knowledge 2019 IT Skills and Salary report says that IT professionals, overwhelmingly report better job effectiveness after achieving a new certificaitons.&lt;/li&gt;
-      &lt;li&gt;Here are a few of the numbers they reported from job effectivenes.&lt;/li&gt;
-      &lt;li&gt;In the same report it was highlighted that certified employees add value to an organisation.&lt;/li&gt;
-      &lt;li&gt;Personally I have completed a number of certifications and have found them extremely valuable. On any particular topic they expose you to information that is invaluable to the success of working with technology.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;If we look back at the Accelerate research and focus on the activities that contribute to job satisfaction which in turn contributes to organisational performance.
-    &lt;ul&gt;
-      &lt;li&gt;These are all things that also contribute to the success of working in the Cloud.&lt;/li&gt;
-      &lt;li&gt;Deployment pain of software is negatively correlated with job satisfaction, the harder it is to deploy a piece of software the lower the developer morale.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;are-your-teams-designed-for-success&quot;&gt;Are your teams designed for success&lt;/h4&gt;
-
-&lt;p&gt;According to Conway’s Law&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Here is a graphical representation of that.&lt;/li&gt;
-  &lt;li&gt;So if an organisation is looking to produce a microservices styled application then it needs to ensure that the teams are structured in a way that supports this.&lt;/li&gt;
-  &lt;li&gt;A great book that unpacks the concept of team structures is Team Topologies.&lt;/li&gt;
-  &lt;li&gt;Again the concept here is that you need to design for success and not hope that it happens.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;research&quot;&gt;Research&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.cio.com/article/3619800/got-a-cloud-skills-gap-three-ways-to-fill-the-void.html&quot;&gt;CloudSkills Gap&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;old&quot;&gt;Old&lt;/h4&gt;
-
-&lt;h3 id=&quot;developers-role---6mins&quot;&gt;Developers Role - 6mins&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Architecture and System Design&lt;/li&gt;
-  &lt;li&gt;Conway’s Law&lt;/li&gt;
-  &lt;li&gt;Developers approach
-    &lt;ul&gt;
-      &lt;li&gt;Test Driven Development&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;security-is-everyones-responsibility---6mins&quot;&gt;Security is everyone’s responsibility - 6mins&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cloud Native Security Failures
-    &lt;ul&gt;
-      &lt;li&gt;S3&lt;/li&gt;
-      &lt;li&gt;CosmosDB&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cloud Native Security Best Practices&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;what-are-the-take-aways-as-it-is-time-for-lunch---5mins&quot;&gt;What are the take-aways (As it is time for lunch) - 5mins&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cloud Native&lt;/li&gt;
-  &lt;li&gt;Organization Structure dictates design&lt;/li&gt;
-  &lt;li&gt;Developers are key
-    &lt;ul&gt;
-      &lt;li&gt;Security&lt;/li&gt;
-      &lt;li&gt;Training&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><summary type="html">Cloud Native Computing Challenges of being Cloud Native - why being Cloud Native is more than just working in the cloud Agenda Introduction What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Developer Experience Certifications Are your teams designed for success. Architecture - Conway’s Law Introduction Vaughan Mason - Transfer Agency Head of Engineering at FNZ South Africa Good morning, my name is Vaughan Mason and I’ll be speaking about the challenges of being cloud native Let me tell you a little bit about myself. I have been working as part of technology deliver teams for a number of years. I have multiple certification in Cloud and Data Management and I have passion for understanding the fundamentals and growing my capability from there. I work for a company called FNZ and our purpose is Helping people achieve their financial goals. We do this by transforming the way financial companies serve their wealth management clients by providing digital personalised, high-quality and low-cost solutions. Providing high-quality solutions is where my role at FNZ is so exciting. I’m the Head of Engineering for the Transfer Agency Business in South Africa. As the Head of Engineering I’m responsible for building a world class software engineering capability within FNZ. We are focused on continuously improving the way that developers work and providing a supportive environment that is focused on continuous improvement. Why is this important. If we look at the research that highlighted in the book Accelerate Building and Scaling High Performing Technology organisations. Research We need to start with Transformational Leadership if we are going to make improvements to Software Engineering performance. As with most teams in your organisations success does not just happen, it is driven by teams and individuals and you have to design your organisation for success. Here is what we are going to discuss today. What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Developer Experience Certifications Are your teams designed for success. Architecture - Conway’s Law What is Cloud Native So to describe what cloud native is I’m going to use the definition from the Cloud Native Computing Foundation which falls under the umbrella of the Linux foundation. CNCF Cloud Native Definition Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. So to be cloud native you environment need to be: Loosely coupled Scalable Resilient Manageable and Observable Why are organizations adopting cloud native Why Cloud Native according to the CNCF One of the benefits that catches my eye is: Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk Any organization that develops software, which is most companies, will be attracted to this benefit. BUT when you look at the cloud native landscape you begin to understand that it is easier said then done. Cloud Native Landscape Let’s have a look at the cloud native landscape Cloud Native Landscape As we can see we are spoilt for choice with cloud native technologies and the question is how do you control this in your environments. Can you quantify developers impact on your business? By the technology choices that they make. Why developers are key As most companies are becoming software companies. They count on the people developing software to make the right technologies chooses. Developer have been coined as the new kingmakers. You need to rely on the people using the technology, once coined the new king makers Cloud skill shortage There have been a number of articles and posts over the year about cloud skills shortage. A recent survey by HashiCorp, State of Cloud Strategy, has highlighted that 57% of their respondents say skills shortage is a top cloud challenge. Hashicorp state of Cloud For me, I believe certifications are a great way to address this. ebookValueCerts ACloudGuru a leading cloud training platform has cited that certification help get everyone onto the same page. By ensuring that all employees are working off the same base knowledge. A Global Knowledge 2019 IT Skills and Salary report says that IT professionals, overwhelmingly report better job effectiveness after achieving a new certificaitons. Here are a few of the numbers they reported from job effectivenes. In the same report it was highlighted that certified employees add value to an organisation. Personally I have completed a number of certifications and have found them extremely valuable. On any particular topic they expose you to information that is invaluable to the success of working with technology. If we look back at the Accelerate research and focus on the activities that contribute to job satisfaction which in turn contributes to organisational performance. These are all things that also contribute to the success of working in the Cloud. Deployment pain of software is negatively correlated with job satisfaction, the harder it is to deploy a piece of software the lower the developer morale. Are your teams designed for success According to Conway’s Law Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure. Here is a graphical representation of that. So if an organisation is looking to produce a microservices styled application then it needs to ensure that the teams are structured in a way that supports this. A great book that unpacks the concept of team structures is Team Topologies. Again the concept here is that you need to design for success and not hope that it happens. Research CloudSkills Gap Old Developers Role - 6mins Architecture and System Design Conway’s Law Developers approach Test Driven Development Security is everyone’s responsibility - 6mins Cloud Native Security Failures S3 CosmosDB Cloud Native Security Best Practices What are the take-aways (As it is time for lunch) - 5mins Cloud Native Organization Structure dictates design Developers are key Security Training</summary></entry><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-25T00:00:00+02:00</published><updated>2021-09-25T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html">&lt;h4 id=&quot;seeing-if-i-could-use-markdown-to-run-a-presentation&quot;&gt;Seeing if i could use Markdown to run a presentation&lt;/h4&gt;
-&lt;h3 id=&quot;vaughan-mason&quot;&gt;Vaughan Mason&lt;/h3&gt;
-&lt;p&gt;Transfer Agency Head of Engineering at FNZ South Africa&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vmason.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://itrevolution.com/wp-content/uploads/2017/09/Accelerate_3D_Shingo-e1567716184319-489x700.jpg&quot; alt=&quot;Accelerate&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/accelerate.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;agenda&quot;&gt;Agenda&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;What is Cloud Native
-    &lt;ol&gt;
-      &lt;li&gt;Why companies are choosing cloud native&lt;/li&gt;
-      &lt;li&gt;Cloud Native Landscape&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Why Developers are Key
-    &lt;ol&gt;
-      &lt;li&gt;Cloud Skill Shortage&lt;/li&gt;
-      &lt;li&gt;Certifications&lt;/li&gt;
-      &lt;li&gt;Developer Experience&lt;/li&gt;
-      &lt;li&gt;Are your teams designed for success.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-cloud-native&quot;&gt;What is Cloud Native&lt;/h3&gt;
-
-&lt;p&gt;https://github.com/cncf/toc/blob/main/DEFINITION.md&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;So to be cloud native you environment need to be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Loosely coupled&lt;/li&gt;
-  &lt;li&gt;Scalable&lt;/li&gt;
-  &lt;li&gt;Resilient&lt;/li&gt;
-  &lt;li&gt;Manageable and Observable&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;why-are-organizations-adopting-cloud-native&quot;&gt;Why are organizations adopting cloud native&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1UGewu4MMYZobunfKr5sOGXsspcLOH_5XeCLyOHKh9LU/edit#slide=id.gc98d72cd14_1_1621&quot;&gt;Why Cloud Native according to the CNCF&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the benefits that catches my eye is:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;cloud-native-landscape&quot;&gt;Cloud Native Landscape&lt;/h4&gt;
-
-&lt;p&gt;Let’s have a look at the cloud native landscape&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://landscape.cncf.io/&quot;&gt;Cloud Native Landscape&lt;/a&gt;
-&lt;img src=&quot;/assets/images/posts/landscape.png&quot; alt=&quot;Picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;The New Kingmakers
-&lt;img src=&quot;https://images-na.ssl-images-amazon.com/images/I/41GfZETc7hL._SX342_SY445_QL70_FMwebp_.jpg&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;why-developers-are-key&quot;&gt;Why developers are key&lt;/h3&gt;
-
-&lt;h4 id=&quot;cloud-skill-gap&quot;&gt;Cloud Skill Gap&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.hashicorp.com/state-of-the-cloud&quot;&gt;Hashicorp State of Cloud Strategy&lt;/a&gt;
-&lt;img src=&quot;/assets/images/posts/skillsShortage.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;certifications&quot;&gt;Certifications&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/jobeffectiveness.drawio.png&quot; alt=&quot;picture&quot; /&gt;
-&lt;img src=&quot;/assets/images/posts/certificationValue.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/accelerate.drawio.png&quot; alt=&quot;picture&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;are-your-teams-designed-for-success&quot;&gt;Are your teams designed for success&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://images.prismic.io/sketchplanations/6fb270e5-9fc4-4506-b78f-8e4db9aec175_175174474143.jpg?auto=format&amp;amp;ixlib=react-9.0.3&amp;amp;h=1887.557603686636&amp;amp;w=1600&amp;amp;q=75&amp;amp;dpr=1&quot; alt=&quot;Conway's Law&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://images.squarespace-cdn.com/content/v1/5b3296b78ab7229ecafcf4ed/1566982599895-T0K28HX7RF7YJ2GE1D4K/TeamTop_cover_RGB_flat_stroke.jpg?format=500w&quot; alt=&quot;TeamTopologies&quot; /&gt;&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><summary type="html">Seeing if i could use Markdown to run a presentation Vaughan Mason Transfer Agency Head of Engineering at FNZ South Africa Agenda What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Certifications Developer Experience Are your teams designed for success. What is Cloud Native https://github.com/cncf/toc/blob/main/DEFINITION.md Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. So to be cloud native you environment need to be: Loosely coupled Scalable Resilient Manageable and Observable Why are organizations adopting cloud native Why Cloud Native according to the CNCF One of the benefits that catches my eye is: Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk Cloud Native Landscape Let’s have a look at the cloud native landscape Cloud Native Landscape The New Kingmakers Why developers are key Cloud Skill Gap Hashicorp State of Cloud Strategy Certifications Are your teams designed for success</summary></entry><entry><title type="html">Lots of reading</title><link href="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html" rel="alternate" type="text/html" title="Lots of reading" /><published>2021-08-18T00:00:00+02:00</published><updated>2021-08-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/08/18/LinksToRead</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/javascript-scene/software-roles-and-titles-e3f0b69c410c#:~:text=Software%20Development%20Roles%201%20Engineering%20Fellow%202%20CEO,Lead%2010%20Principal%20Software%20Engineer%20More%20items...%20&quot;&gt;Software Roles and Titles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devops.com/seven-reasons-you-shouldnt-hire-a-devops-engineer/&quot;&gt;Seven Reasons You Shouldn’t Hire a DevOps Engineer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/architecture/microservices/&quot;&gt;Microservices&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/resources/videos/agile-at-microsoft/&quot;&gt;Agile at Microsoft&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/what-is-the-twelve-factor-app-methodology?aid=5082902844932096&amp;amp;utm_source=google&amp;amp;utm_medium=cpc&amp;amp;utm_campaign=edpresso-dynamic&amp;amp;gclid=CjwKCAiAouD_BRBIEiwALhJH6ADgx7XF0A5jsbRblZIzhmFQRpaG6jy6cVjBv9IzI5eQ3-8UFxkh4hoC35UQAvD_BwE&quot;&gt;Twelve Factor App&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jeffgothelf.com/blog/safe-is-not-agile/&quot;&gt;Safe is not Agile&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cutter.com/article/t-shaped-new-breed-it-professional-492976&quot;&gt;T-Shaped: New breed IT Professional&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.reuters.com/article/uk-airshow-boeing-787-idUKL1558861220080715&quot;&gt;Boeing 787&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/azure-developer-community-blog/introducing-developer-velocity-lab-a-research-initiative-to/ba-p/2333140&quot;&gt;Azure Developer Community Blog&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/blog/migrating-to-ubuntu-lts-six-facts-for-centos-users&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://snyk.io/blog/10-docker-image-security-best-practices/&quot;&gt;Docker Security&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ubuntu.com/blog/canonical-publishes-lts-docker-image-portfolio-on-docker-hub&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://cleancoder.com/products&quot;&gt;Clean Coder&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/enterprise-strategy/bar-raising-as-a-principle/&quot;&gt;AWS Blog: Bar Raising as a principle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/enterprise-strategy/&quot;&gt;AWS: Enterprise Strategy&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dev.to/flippedcoding/difference-between-development-stage-and-production-d0p&quot;&gt;Difference between development, stage and production&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://review.firstround.com/how-instagram-co-founder-mike-krieger-took-its-engineering-org-from-0-to-300-people&quot;&gt;How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/ibm-garage/when-tdd-gets-hard-fc14136c3f44&quot;&gt;When TDD gets hard&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brainhub.eu/library/test-driven-development-tdd/&quot;&gt;Test Driven Development - TDD&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="articles" /><summary type="html">Software Roles and Titles Seven Reasons You Shouldn’t Hire a DevOps Engineer Microservices Agile at Microsoft Twelve Factor App Safe is not Agile T-Shaped: New breed IT Professional Boeing 787 Azure Developer Community Blog Docker Security Clean Coder AWS Blog: Bar Raising as a principle AWS: Enterprise Strategy Difference between development, stage and production How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People When TDD gets hard Test Driven Development - TDD</summary></entry><entry><title type="html">It’s Over 13000</title><link href="https://tech.nosam.co.za//2021/07/12/Over13000.html" rel="alternate" type="text/html" title="It’s Over 13000" /><published>2021-07-12T00:00:00+02:00</published><updated>2021-07-12T00:00:00+02:00</updated><id>https://tech.nosam.co.za//2021/07/12/Over13000</id><content type="html" xml:base="https://tech.nosam.co.za//2021/07/12/Over13000.html">&lt;p&gt;So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.&lt;/p&gt;
-
-&lt;h1 id=&quot;random-facts-associated-with-this&quot;&gt;Random Facts associated with this&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;I was born on a Monday and 13000 day was a Monday&lt;/li&gt;
-  &lt;li&gt;Seems like Monday has to be ahead, 1858 Mondays and only 1857 rest of the days. (Makes sense based on above)&lt;/li&gt;
-  &lt;li&gt;I’ll be turning 14000 on my wedding anniversary in 2024&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Used the following code to calculate the achievement&lt;/p&gt;
-&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2022-02-22T11:04:04+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Push Pull Legs</title><link href="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html" rel="alternate" type="text/html" title="Push Pull Legs" /><published>2022-02-20T00:00:00+02:00</published><updated>2022-02-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//fitness/2022/02/20/PPL</id><content type="html" xml:base="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html"><![CDATA[<h2 id="push">Push</h2>
+<blockquote>
+  <p>Chest Shoulders Triceps</p>
+</blockquote>
+
+<ul>
+  <li>Push Ups</li>
+  <li>Bench Press</li>
+  <li>Overhead Press</li>
+  <li>Military Press</li>
+  <li>Lateral Raises</li>
+  <li>Tricep Extensions</li>
+</ul>
+
+<h2 id="pull">Pull</h2>
+<blockquote>
+  <p>Back Traps Biceps</p>
+</blockquote>
+
+<ul>
+  <li>Deadlift</li>
+  <li>DB Rows</li>
+  <li>Sandbag Rows</li>
+  <li>Shrugs</li>
+  <li>Good Morning</li>
+  <li>Lateral Pull</li>
+  <li>Dumbbell Curls</li>
+  <li>Hammer Curls</li>
+</ul>
+
+<h2 id="legs">Legs</h2>
+<blockquote>
+  <p>Legs Glutes Abs</p>
+</blockquote>
+
+<ul>
+  <li>Back Squat</li>
+  <li>Reverse Lunge</li>
+  <li>Hip Thrust</li>
+  <li>Romanian Deadlift</li>
+  <li>Kettlebell Swings</li>
+</ul>
+
+<h2 id="research">Research</h2>]]></content><author><name>vaughan mason</name></author><category term="fitness" /><category term="fitness" /><summary type="html"><![CDATA[Push Chest Shoulders Triceps]]></summary></entry><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-28T00:00:00+02:00</published><updated>2021-09-28T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/28/cloudNative.html"><![CDATA[<h1 id="cloud-native-computing">Cloud Native Computing</h1>
+
+<h2 id="challenges-of-being-cloud-native---why-being-cloud-native-is-more-than-just-working-in-the-cloud">Challenges of being Cloud Native - why being Cloud Native is more than just working in the cloud</h2>
+
+<p>Agenda</p>
+
+<ol>
+  <li>Introduction</li>
+  <li>What is Cloud Native
+    <ol>
+      <li>Why companies are choosing cloud native</li>
+      <li>Cloud Native Landscape</li>
+    </ol>
+  </li>
+  <li>Why Developers are Key
+    <ol>
+      <li>Cloud Skill Shortage</li>
+      <li>Developer Experience</li>
+      <li>Certifications</li>
+    </ol>
+  </li>
+  <li>Are your teams designed for success.
+    <ol>
+      <li>Architecture - Conway’s Law</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="introduction">Introduction</h3>
+
+<h2 id="vaughan-mason---transfer-agency-head-of-engineering-at-fnz-south-africa">Vaughan Mason - Transfer Agency Head of Engineering at FNZ South Africa</h2>
+
+<p><img src="/assets/images/vmason.jpg" alt="picture" /></p>
+
+<ul>
+  <li>Good morning, my name is Vaughan Mason and I’ll be speaking about the challenges of being cloud native</li>
+  <li>Let me tell you a little bit about myself.
+    <ul>
+      <li>I have been working as part of technology deliver teams for a number of years.</li>
+      <li>I have multiple certification in Cloud and Data Management and I have passion for understanding the fundamentals and growing my capability from there.</li>
+    </ul>
+  </li>
+  <li>I work for a company called FNZ and our purpose is Helping people achieve their financial goals.
+    <ul>
+      <li>We do this by transforming the way financial companies serve their wealth management clients by providing digital personalised, high-quality and low-cost solutions.</li>
+    </ul>
+  </li>
+  <li>Providing high-quality solutions is where my role at FNZ is so exciting.
+    <ul>
+      <li>I’m the Head of Engineering for the Transfer Agency Business in South Africa.</li>
+      <li>As the Head of Engineering I’m responsible for building a world class software engineering capability within FNZ.</li>
+      <li>We are focused on continuously improving the way that developers work and providing a supportive environment that is focused on continuous improvement.</li>
+    </ul>
+  </li>
+  <li>Why is this important.
+    <ul>
+      <li>If we look at the research that highlighted in the book</li>
+      <li><a href="https://itrevolution.com/book/accelerate/">Accelerate</a></li>
+      <li>Building and Scaling High Performing Technology organisations.</li>
+      <li><a href="https://itrevolution.com/ACC-transformation-practices">Research</a></li>
+      <li>We need to start with Transformational Leadership if we are going to make improvements to Software Engineering performance.</li>
+      <li>As with most teams in your organisations success does not just happen, it is driven by teams and individuals and you have to design your organisation for success.</li>
+    </ul>
+  </li>
+  <li>Here is what we are going to discuss today.</li>
+</ul>
+
+<ol>
+  <li>What is Cloud Native
+    <ol>
+      <li>Why companies are choosing cloud native</li>
+      <li>Cloud Native Landscape</li>
+    </ol>
+  </li>
+  <li>Why Developers are Key
+    <ol>
+      <li>Cloud Skill Shortage</li>
+      <li>Developer Experience</li>
+      <li>Certifications</li>
+    </ol>
+  </li>
+  <li>Are your teams designed for success.
+    <ol>
+      <li>Architecture - Conway’s Law</li>
+    </ol>
+  </li>
+</ol>
+
+<h3 id="what-is-cloud-native">What is Cloud Native</h3>
+
+<p>So to describe what cloud native is I’m going to use the definition from the Cloud Native Computing Foundation which falls under the umbrella of the Linux foundation.</p>
+
+<p><a href="https://github.com/cncf/toc/blob/main/DEFINITION.md">CNCF Cloud Native Definition</a></p>
+<blockquote>
+  <p>Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.</p>
+</blockquote>
+
+<blockquote>
+  <p>These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.</p>
+</blockquote>
+
+<p>So to be cloud native you environment need to be:</p>
+
+<ul>
+  <li>Loosely coupled</li>
+  <li>Scalable</li>
+  <li>Resilient</li>
+  <li>Manageable and Observable</li>
+</ul>
+
+<h4 id="why-are-organizations-adopting-cloud-native">Why are organizations adopting cloud native</h4>
+
+<p><a href="https://docs.google.com/presentation/d/1UGewu4MMYZobunfKr5sOGXsspcLOH_5XeCLyOHKh9LU/edit#slide=id.gc98d72cd14_1_1621">Why Cloud Native according to the CNCF</a></p>
+
+<p>One of the benefits that catches my eye is:</p>
+<blockquote>
+  <p>Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk</p>
+</blockquote>
+
+<p>Any organization that develops software, which is most companies, will be attracted to this benefit.
+BUT when you look at the cloud native landscape you begin to understand that it is easier said then done.</p>
+
+<h4 id="cloud-native-landscape">Cloud Native Landscape</h4>
+
+<p>Let’s have a look at the cloud native landscape</p>
+
+<p><a href="https://landscape.cncf.io/">Cloud Native Landscape</a></p>
+
+<p>As we can see we are spoilt for choice with cloud native technologies and the question is how do you control this in your environments.</p>
+
+<p>Can you quantify developers impact on your business? By the technology choices that they make.</p>
+
+<h3 id="why-developers-are-key">Why developers are key</h3>
+
+<p>As most companies are becoming software companies. They count on the people developing software to make the right technologies chooses. Developer have been coined as the new kingmakers.
+You need to rely on the people using the technology, once coined the new <a href="https://www.amazon.com/New-Kingmakers-Developers-Conquered-World-ebook/dp/B0097E4MEU">king makers</a></p>
+
+<ul>
+  <li>Cloud skill shortage
+    <ul>
+      <li>There have been a number of articles and posts over the year about cloud skills shortage.</li>
+      <li>A recent survey by HashiCorp, State of Cloud Strategy, has highlighted that 57% of their respondents say skills shortage is a top cloud challenge.</li>
+      <li><a href="https://www.hashicorp.com/state-of-the-cloud">Hashicorp state of Cloud</a></li>
+    </ul>
+  </li>
+  <li>For me, I believe certifications are a great way to address this.
+    <ul>
+      <li><a href="https://go.acloudguru.com/rs/194-UHP-609/images/ebook_value_of_certs.pdf">ebookValueCerts</a></li>
+      <li>ACloudGuru a leading cloud training platform has cited that certification help get everyone onto the same page. By ensuring that all employees are working off the same base knowledge.</li>
+      <li>A Global Knowledge 2019 IT Skills and Salary report says that IT professionals, overwhelmingly report better job effectiveness after achieving a new certificaitons.</li>
+      <li>Here are a few of the numbers they reported from job effectivenes.</li>
+      <li>In the same report it was highlighted that certified employees add value to an organisation.</li>
+      <li>Personally I have completed a number of certifications and have found them extremely valuable. On any particular topic they expose you to information that is invaluable to the success of working with technology.</li>
+    </ul>
+  </li>
+  <li>If we look back at the Accelerate research and focus on the activities that contribute to job satisfaction which in turn contributes to organisational performance.
+    <ul>
+      <li>These are all things that also contribute to the success of working in the Cloud.</li>
+      <li>Deployment pain of software is negatively correlated with job satisfaction, the harder it is to deploy a piece of software the lower the developer morale.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="are-your-teams-designed-for-success">Are your teams designed for success</h4>
+
+<p>According to Conway’s Law</p>
+<blockquote>
+  <p>Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure.</p>
+</blockquote>
+
+<ul>
+  <li>Here is a graphical representation of that.</li>
+  <li>So if an organisation is looking to produce a microservices styled application then it needs to ensure that the teams are structured in a way that supports this.</li>
+  <li>A great book that unpacks the concept of team structures is Team Topologies.</li>
+  <li>Again the concept here is that you need to design for success and not hope that it happens.</li>
+</ul>
+
+<h4 id="research">Research</h4>
+<p><a href="https://www.cio.com/article/3619800/got-a-cloud-skills-gap-three-ways-to-fill-the-void.html">CloudSkills Gap</a></p>
+
+<h4 id="old">Old</h4>
+
+<h3 id="developers-role---6mins">Developers Role - 6mins</h3>
+
+<ul>
+  <li>Architecture and System Design</li>
+  <li>Conway’s Law</li>
+  <li>Developers approach
+    <ul>
+      <li>Test Driven Development</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="security-is-everyones-responsibility---6mins">Security is everyone’s responsibility - 6mins</h3>
+
+<ul>
+  <li>Cloud Native Security Failures
+    <ul>
+      <li>S3</li>
+      <li>CosmosDB</li>
+    </ul>
+  </li>
+  <li>Cloud Native Security Best Practices</li>
+</ul>
+
+<h3 id="what-are-the-take-aways-as-it-is-time-for-lunch---5mins">What are the take-aways (As it is time for lunch) - 5mins</h3>
+
+<ul>
+  <li>Cloud Native</li>
+  <li>Organization Structure dictates design</li>
+  <li>Developers are key
+    <ul>
+      <li>Security</li>
+      <li>Training</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><summary type="html"><![CDATA[Cloud Native Computing Challenges of being Cloud Native - why being Cloud Native is more than just working in the cloud Agenda Introduction What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Developer Experience Certifications Are your teams designed for success. Architecture - Conway’s Law Introduction Vaughan Mason - Transfer Agency Head of Engineering at FNZ South Africa Good morning, my name is Vaughan Mason and I’ll be speaking about the challenges of being cloud native Let me tell you a little bit about myself. I have been working as part of technology deliver teams for a number of years. I have multiple certification in Cloud and Data Management and I have passion for understanding the fundamentals and growing my capability from there. I work for a company called FNZ and our purpose is Helping people achieve their financial goals. We do this by transforming the way financial companies serve their wealth management clients by providing digital personalised, high-quality and low-cost solutions. Providing high-quality solutions is where my role at FNZ is so exciting. I’m the Head of Engineering for the Transfer Agency Business in South Africa. As the Head of Engineering I’m responsible for building a world class software engineering capability within FNZ. We are focused on continuously improving the way that developers work and providing a supportive environment that is focused on continuous improvement. Why is this important. If we look at the research that highlighted in the book Accelerate Building and Scaling High Performing Technology organisations. Research We need to start with Transformational Leadership if we are going to make improvements to Software Engineering performance. As with most teams in your organisations success does not just happen, it is driven by teams and individuals and you have to design your organisation for success. Here is what we are going to discuss today. What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Developer Experience Certifications Are your teams designed for success. Architecture - Conway’s Law What is Cloud Native So to describe what cloud native is I’m going to use the definition from the Cloud Native Computing Foundation which falls under the umbrella of the Linux foundation. CNCF Cloud Native Definition Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. So to be cloud native you environment need to be: Loosely coupled Scalable Resilient Manageable and Observable Why are organizations adopting cloud native Why Cloud Native according to the CNCF One of the benefits that catches my eye is: Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk Any organization that develops software, which is most companies, will be attracted to this benefit. BUT when you look at the cloud native landscape you begin to understand that it is easier said then done. Cloud Native Landscape Let’s have a look at the cloud native landscape Cloud Native Landscape As we can see we are spoilt for choice with cloud native technologies and the question is how do you control this in your environments. Can you quantify developers impact on your business? By the technology choices that they make. Why developers are key As most companies are becoming software companies. They count on the people developing software to make the right technologies chooses. Developer have been coined as the new kingmakers. You need to rely on the people using the technology, once coined the new king makers Cloud skill shortage There have been a number of articles and posts over the year about cloud skills shortage. A recent survey by HashiCorp, State of Cloud Strategy, has highlighted that 57% of their respondents say skills shortage is a top cloud challenge. Hashicorp state of Cloud For me, I believe certifications are a great way to address this. ebookValueCerts ACloudGuru a leading cloud training platform has cited that certification help get everyone onto the same page. By ensuring that all employees are working off the same base knowledge. A Global Knowledge 2019 IT Skills and Salary report says that IT professionals, overwhelmingly report better job effectiveness after achieving a new certificaitons. Here are a few of the numbers they reported from job effectivenes. In the same report it was highlighted that certified employees add value to an organisation. Personally I have completed a number of certifications and have found them extremely valuable. On any particular topic they expose you to information that is invaluable to the success of working with technology. If we look back at the Accelerate research and focus on the activities that contribute to job satisfaction which in turn contributes to organisational performance. These are all things that also contribute to the success of working in the Cloud. Deployment pain of software is negatively correlated with job satisfaction, the harder it is to deploy a piece of software the lower the developer morale. Are your teams designed for success According to Conway’s Law Any organisation that designs a system will produce a design whose structure is a copy of the organisation’s communication structure. Here is a graphical representation of that. So if an organisation is looking to produce a microservices styled application then it needs to ensure that the teams are structured in a way that supports this. A great book that unpacks the concept of team structures is Team Topologies. Again the concept here is that you need to design for success and not hope that it happens. Research CloudSkills Gap Old Developers Role - 6mins Architecture and System Design Conway’s Law Developers approach Test Driven Development Security is everyone’s responsibility - 6mins Cloud Native Security Failures S3 CosmosDB Cloud Native Security Best Practices What are the take-aways (As it is time for lunch) - 5mins Cloud Native Organization Structure dictates design Developers are key Security Training]]></summary></entry><entry><title type="html">Challenges of being Cloud Native</title><link href="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html" rel="alternate" type="text/html" title="Challenges of being Cloud Native" /><published>2021-09-25T00:00:00+02:00</published><updated>2021-09-25T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/09/25/cloudNativePresentation.html"><![CDATA[<h4 id="seeing-if-i-could-use-markdown-to-run-a-presentation">Seeing if i could use Markdown to run a presentation</h4>
+<h3 id="vaughan-mason">Vaughan Mason</h3>
+<p>Transfer Agency Head of Engineering at FNZ South Africa</p>
+
+<p><img src="/assets/images/vmason.jpg" alt="picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p><img src="https://itrevolution.com/wp-content/uploads/2017/09/Accelerate_3D_Shingo-e1567716184319-489x700.jpg" alt="Accelerate" /></p>
+
+<p><img src="/assets/images/posts/accelerate.drawio.png" alt="picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h3 id="agenda">Agenda</h3>
+
+<ol>
+  <li>What is Cloud Native
+    <ol>
+      <li>Why companies are choosing cloud native</li>
+      <li>Cloud Native Landscape</li>
+    </ol>
+  </li>
+  <li>Why Developers are Key
+    <ol>
+      <li>Cloud Skill Shortage</li>
+      <li>Certifications</li>
+      <li>Developer Experience</li>
+      <li>Are your teams designed for success.</li>
+    </ol>
+  </li>
+</ol>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h3 id="what-is-cloud-native">What is Cloud Native</h3>
+
+<p>https://github.com/cncf/toc/blob/main/DEFINITION.md</p>
+
+<blockquote>
+  <p>Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.</p>
+</blockquote>
+
+<blockquote>
+  <p>These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.</p>
+</blockquote>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p>So to be cloud native you environment need to be:</p>
+
+<ul>
+  <li>Loosely coupled</li>
+  <li>Scalable</li>
+  <li>Resilient</li>
+  <li>Manageable and Observable</li>
+</ul>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h4 id="why-are-organizations-adopting-cloud-native">Why are organizations adopting cloud native</h4>
+
+<p><a href="https://docs.google.com/presentation/d/1UGewu4MMYZobunfKr5sOGXsspcLOH_5XeCLyOHKh9LU/edit#slide=id.gc98d72cd14_1_1621">Why Cloud Native according to the CNCF</a></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p>One of the benefits that catches my eye is:</p>
+<blockquote>
+  <p>Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk</p>
+</blockquote>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h4 id="cloud-native-landscape">Cloud Native Landscape</h4>
+
+<p>Let’s have a look at the cloud native landscape</p>
+
+<p><a href="https://landscape.cncf.io/">Cloud Native Landscape</a>
+<img src="/assets/images/posts/landscape.png" alt="Picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p>The New Kingmakers
+<img src="https://images-na.ssl-images-amazon.com/images/I/41GfZETc7hL._SX342_SY445_QL70_FMwebp_.jpg" alt="picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h3 id="why-developers-are-key">Why developers are key</h3>
+
+<h4 id="cloud-skill-gap">Cloud Skill Gap</h4>
+
+<p><a href="https://www.hashicorp.com/state-of-the-cloud">Hashicorp State of Cloud Strategy</a>
+<img src="/assets/images/posts/skillsShortage.drawio.png" alt="picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h4 id="certifications">Certifications</h4>
+
+<p><img src="/assets/images/posts/jobeffectiveness.drawio.png" alt="picture" />
+<img src="/assets/images/posts/certificationValue.drawio.png" alt="picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p><img src="/assets/images/posts/accelerate.drawio.png" alt="picture" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<h3 id="are-your-teams-designed-for-success">Are your teams designed for success</h3>
+
+<p><img src="https://images.prismic.io/sketchplanations/6fb270e5-9fc4-4506-b78f-8e4db9aec175_175174474143.jpg?auto=format&amp;ixlib=react-9.0.3&amp;h=1887.557603686636&amp;w=1600&amp;q=75&amp;dpr=1" alt="Conway's Law" /></p>
+
+<p><br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br /></p>
+
+<p><img src="https://images.squarespace-cdn.com/content/v1/5b3296b78ab7229ecafcf4ed/1566982599895-T0K28HX7RF7YJ2GE1D4K/TeamTop_cover_RGB_flat_stroke.jpg?format=500w" alt="TeamTopologies" /></p>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="cloud" /><summary type="html"><![CDATA[Seeing if i could use Markdown to run a presentation Vaughan Mason Transfer Agency Head of Engineering at FNZ South Africa Agenda What is Cloud Native Why companies are choosing cloud native Cloud Native Landscape Why Developers are Key Cloud Skill Shortage Certifications Developer Experience Are your teams designed for success. What is Cloud Native https://github.com/cncf/toc/blob/main/DEFINITION.md Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach. These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. So to be cloud native you environment need to be: Loosely coupled Scalable Resilient Manageable and Observable Why are organizations adopting cloud native Why Cloud Native according to the CNCF One of the benefits that catches my eye is: Cloud native infrastructure enables higher development velocity – improving your services faster – with lower risk Cloud Native Landscape Let’s have a look at the cloud native landscape Cloud Native Landscape The New Kingmakers Why developers are key Cloud Skill Gap Hashicorp State of Cloud Strategy Certifications Are your teams designed for success]]></summary></entry><entry><title type="html">Lots of reading</title><link href="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html" rel="alternate" type="text/html" title="Lots of reading" /><published>2021-08-18T00:00:00+02:00</published><updated>2021-08-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/08/18/LinksToRead</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/08/18/LinksToRead.html"><![CDATA[<ul>
+  <li><a href="https://medium.com/javascript-scene/software-roles-and-titles-e3f0b69c410c#:~:text=Software%20Development%20Roles%201%20Engineering%20Fellow%202%20CEO,Lead%2010%20Principal%20Software%20Engineer%20More%20items...%20">Software Roles and Titles</a></li>
+  <li><a href="https://devops.com/seven-reasons-you-shouldnt-hire-a-devops-engineer/">Seven Reasons You Shouldn’t Hire a DevOps Engineer</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/dotnet/architecture/microservices/">Microservices</a></li>
+  <li><a href="https://azure.microsoft.com/en-us/resources/videos/agile-at-microsoft/">Agile at Microsoft</a></li>
+  <li><a href="https://www.educative.io/edpresso/what-is-the-twelve-factor-app-methodology?aid=5082902844932096&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=edpresso-dynamic&amp;gclid=CjwKCAiAouD_BRBIEiwALhJH6ADgx7XF0A5jsbRblZIzhmFQRpaG6jy6cVjBv9IzI5eQ3-8UFxkh4hoC35UQAvD_BwE">Twelve Factor App</a></li>
+  <li><a href="https://jeffgothelf.com/blog/safe-is-not-agile/">Safe is not Agile</a></li>
+  <li><a href="https://www.cutter.com/article/t-shaped-new-breed-it-professional-492976">T-Shaped: New breed IT Professional</a></li>
+  <li><a href="https://www.reuters.com/article/uk-airshow-boeing-787-idUKL1558861220080715">Boeing 787</a></li>
+  <li><a href="https://techcommunity.microsoft.com/t5/azure-developer-community-blog/introducing-developer-velocity-lab-a-research-initiative-to/ba-p/2333140">Azure Developer Community Blog</a></li>
+  <li><a href="https://ubuntu.com/blog/migrating-to-ubuntu-lts-six-facts-for-centos-users"></a></li>
+  <li><a href="https://snyk.io/blog/10-docker-image-security-best-practices/">Docker Security</a></li>
+  <li><a href="https://ubuntu.com/blog/canonical-publishes-lts-docker-image-portfolio-on-docker-hub"></a></li>
+  <li><a href="http://cleancoder.com/products">Clean Coder</a></li>
+  <li><a href="https://aws.amazon.com/blogs/enterprise-strategy/bar-raising-as-a-principle/">AWS Blog: Bar Raising as a principle</a></li>
+  <li><a href="https://aws.amazon.com/blogs/enterprise-strategy/">AWS: Enterprise Strategy</a></li>
+  <li><a href="https://dev.to/flippedcoding/difference-between-development-stage-and-production-d0p">Difference between development, stage and production</a></li>
+  <li><a href="https://review.firstround.com/how-instagram-co-founder-mike-krieger-took-its-engineering-org-from-0-to-300-people">How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People</a></li>
+  <li><a href="https://medium.com/ibm-garage/when-tdd-gets-hard-fc14136c3f44">When TDD gets hard</a></li>
+  <li><a href="https://brainhub.eu/library/test-driven-development-tdd/">Test Driven Development - TDD</a></li>
+</ul>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="articles" /><summary type="html"><![CDATA[Software Roles and Titles Seven Reasons You Shouldn’t Hire a DevOps Engineer Microservices Agile at Microsoft Twelve Factor App Safe is not Agile T-Shaped: New breed IT Professional Boeing 787 Azure Developer Community Blog Docker Security Clean Coder AWS Blog: Bar Raising as a principle AWS: Enterprise Strategy Difference between development, stage and production How Instagram Co-founder Mike Krieger Took Its Engineering Org from 0 to 300 People When TDD gets hard Test Driven Development - TDD]]></summary></entry><entry><title type="html">It’s Over 13000</title><link href="https://tech.nosam.co.za//2021/07/12/Over13000.html" rel="alternate" type="text/html" title="It’s Over 13000" /><published>2021-07-12T00:00:00+02:00</published><updated>2021-07-12T00:00:00+02:00</updated><id>https://tech.nosam.co.za//2021/07/12/Over13000</id><content type="html" xml:base="https://tech.nosam.co.za//2021/07/12/Over13000.html"><![CDATA[<p>So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.</p>
+
+<h1 id="random-facts-associated-with-this">Random Facts associated with this</h1>
+
+<ul>
+  <li>I was born on a Monday and 13000 day was a Monday</li>
+  <li>Seems like Monday has to be ahead, 1858 Mondays and only 1857 rest of the days. (Makes sense based on above)</li>
+  <li>I’ll be turning 14000 on my wedding anniversary in 2024</li>
+</ul>
+
+<p>Used the following code to calculate the achievement</p>
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -533,159 +576,159 @@ You need to rely on the people using the technology, once coined the new &lt;a h
 34
 35
 36
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;--Declare Varibles&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;DECLARE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;START&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;DECLARE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;END&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;DECLARE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;-- Date in format: yyyy-mm-dd&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;SET&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;START&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'1985-12-09'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;-- Date in format: yyyy-mm-dd&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;SET&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;END&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'2021-07-12'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--Delete Temp Table if Exists&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;IF&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OBJECT_ID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tempdb..#days'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;BEGIN&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;drop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;END&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--Create Temp Table&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dayOfWeek&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dw&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DAY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;MONTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;monthName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; 
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;YEAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;quarter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;qq&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;weeknum&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wk&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dayOfYear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dateString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CONVERT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;nvarchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),[&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;103&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--SET Start Date equal to Data&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;SET&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;START&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--Create Dates&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;=@&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;END&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;BEGIN&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;insert&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;into&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CONVERT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DATEADD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;END&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--SELECT Dates&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;COUNT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DaysOnPlanet&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--Always good to clean up&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;drop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>vaughan mason</name></author><category term="life" /><summary type="html">So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.</summary></entry><entry><title type="html">Studying towards becoming an AWS developer</title><link href="https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01.html" rel="alternate" type="text/html" title="Studying towards becoming an AWS developer" /><published>2021-06-23T00:00:00+02:00</published><updated>2021-06-23T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01</id><content type="html" xml:base="https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01.html">&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+</pre></td><td class="rouge-code"><pre><span class="c1">--Declare Varibles</span>
+<span class="k">DECLARE</span> <span class="o">@</span><span class="k">START</span> <span class="nb">date</span><span class="p">;</span>
+<span class="k">DECLARE</span> <span class="o">@</span><span class="k">END</span> <span class="nb">date</span><span class="p">;</span>
+<span class="k">DECLARE</span> <span class="o">@</span><span class="nb">DATE</span> <span class="nb">date</span><span class="p">;</span>
+<span class="c1">-- Date in format: yyyy-mm-dd</span>
+<span class="k">SET</span> <span class="o">@</span><span class="k">START</span> <span class="o">=</span> <span class="s1">'1985-12-09'</span><span class="p">;</span>
+<span class="c1">-- Date in format: yyyy-mm-dd</span>
+<span class="k">SET</span> <span class="o">@</span><span class="k">END</span> <span class="o">=</span> <span class="s1">'2021-07-12'</span><span class="p">;</span>
+<span class="c1">--Delete Temp Table if Exists</span>
+<span class="n">IF</span> <span class="n">OBJECT_ID</span><span class="p">(</span><span class="s1">'tempdb..#days'</span><span class="p">)</span> <span class="k">IS</span> <span class="k">NOT</span> <span class="k">NULL</span>
+<span class="k">BEGIN</span>
+<span class="k">drop</span> <span class="k">table</span> <span class="o">#</span><span class="n">days</span><span class="p">;</span>
+<span class="k">END</span><span class="p">;</span>
+<span class="c1">--Create Temp Table</span>
+<span class="k">create</span> <span class="k">table</span> <span class="o">#</span><span class="n">days</span> <span class="p">([</span><span class="nb">date</span><span class="p">]</span> <span class="nb">datetime</span><span class="p">,</span> 
+<span class="p">[</span><span class="n">dayOfWeek</span><span class="p">]</span> <span class="k">as</span> <span class="n">datename</span><span class="p">(</span><span class="n">dw</span><span class="p">,[</span><span class="nb">date</span><span class="p">]),</span> 
+<span class="p">[</span><span class="k">day</span><span class="p">]</span> <span class="k">AS</span> <span class="k">DAY</span><span class="p">([</span><span class="nb">date</span><span class="p">]),</span> 
+<span class="p">[</span><span class="k">month</span><span class="p">]</span> <span class="k">AS</span> <span class="k">MONTH</span><span class="p">([</span><span class="nb">date</span><span class="p">]),</span>
+<span class="p">[</span><span class="n">monthName</span><span class="p">]</span> <span class="k">as</span> <span class="n">datename</span><span class="p">(</span><span class="n">mm</span><span class="p">,[</span><span class="nb">date</span><span class="p">]),</span> 
+<span class="p">[</span><span class="nb">year</span><span class="p">]</span> <span class="k">AS</span> <span class="nb">YEAR</span><span class="p">([</span><span class="nb">date</span><span class="p">]),</span>
+<span class="p">[</span><span class="n">quarter</span><span class="p">]</span> <span class="k">as</span> <span class="n">datename</span><span class="p">(</span><span class="n">qq</span><span class="p">,[</span><span class="nb">date</span><span class="p">]),</span>
+<span class="p">[</span><span class="n">weeknum</span><span class="p">]</span> <span class="k">as</span> <span class="n">datename</span><span class="p">(</span><span class="n">wk</span><span class="p">,[</span><span class="nb">date</span><span class="p">]),</span>
+<span class="p">[</span><span class="n">dayOfYear</span><span class="p">]</span> <span class="k">as</span> <span class="n">datename</span><span class="p">(</span><span class="n">dy</span><span class="p">,[</span><span class="nb">date</span><span class="p">]),</span>
+<span class="p">[</span><span class="n">dateString</span><span class="p">]</span> <span class="k">AS</span> <span class="k">CONVERT</span><span class="p">(</span><span class="n">nvarchar</span><span class="p">(</span><span class="mi">20</span><span class="p">),[</span><span class="nb">date</span><span class="p">],</span><span class="mi">103</span><span class="p">)</span> <span class="p">);</span>
+<span class="c1">--SET Start Date equal to Data</span>
+<span class="k">SET</span> <span class="o">@</span><span class="nb">DATE</span> <span class="o">=</span> <span class="o">@</span><span class="k">START</span><span class="p">;</span>
+<span class="c1">--Create Dates</span>
+<span class="n">while</span> <span class="o">@</span><span class="nb">DATE</span><span class="o">&lt;=@</span><span class="k">END</span>
+<span class="k">BEGIN</span>
+<span class="k">insert</span> <span class="k">into</span> <span class="o">#</span><span class="n">days</span><span class="p">([</span><span class="nb">date</span><span class="p">])</span> <span class="k">SELECT</span> <span class="k">CONVERT</span><span class="p">(</span><span class="nb">date</span><span class="p">,</span><span class="o">@</span><span class="nb">DATE</span><span class="p">);</span>
+<span class="k">SELECT</span> <span class="o">@</span><span class="nb">DATE</span><span class="o">=</span><span class="n">DATEADD</span><span class="p">(</span><span class="n">dd</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="o">@</span><span class="nb">DATE</span><span class="p">);</span>
+<span class="k">END</span>
+<span class="c1">--SELECT Dates</span>
+<span class="k">SELECT</span> <span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="n">DaysOnPlanet</span> <span class="k">FROM</span> <span class="o">#</span><span class="n">days</span><span class="p">;</span>
+<span class="c1">--Always good to clean up</span>
+<span class="k">drop</span> <span class="k">table</span> <span class="o">#</span><span class="n">days</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>vaughan mason</name></author><category term="life" /><summary type="html"><![CDATA[So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.]]></summary></entry><entry><title type="html">Studying towards becoming an AWS developer</title><link href="https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01.html" rel="alternate" type="text/html" title="Studying towards becoming an AWS developer" /><published>2021-06-23T00:00:00+02:00</published><updated>2021-06-23T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01</id><content type="html" xml:base="https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01.html"><![CDATA[<h2 id="motivation">Motivation</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Can you get a certification without paying for anything?&lt;/li&gt;
-  &lt;li&gt;Developer certificaiton will help validate skills in leading an Engineering team.&lt;/li&gt;
-  &lt;li&gt;The reason I’m choosing to start in AWS is that I have been putting it off for a long time.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Can you get a certification without paying for anything?</li>
+  <li>Developer certificaiton will help validate skills in leading an Engineering team.</li>
+  <li>The reason I’m choosing to start in AWS is that I have been putting it off for a long time.</li>
+</ul>
 
-&lt;h2 id=&quot;study-plan&quot;&gt;Study plan&lt;/h2&gt;
+<h2 id="study-plan">Study plan</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Going to spend an hour each day researching the topic. Finding additional material and creating a blog post for each one.&lt;/li&gt;
-  &lt;li&gt;Then will dive deeper into each section refining the blog posts.&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Going to spend an hour each day researching the topic. Finding additional material and creating a blog post for each one.</li>
+  <li>Then will dive deeper into each section refining the blog posts.</li>
+</ul>
 
-&lt;h2 id=&quot;exam-date&quot;&gt;Exam Date&lt;/h2&gt;
+<h2 id="exam-date">Exam Date</h2>
 
-&lt;p&gt;Need to commit to a date - 31 September 2021 (12 weeks)&lt;/p&gt;
+<p>Need to commit to a date - 31 September 2021 (12 weeks)</p>
 
-&lt;h3 id=&quot;free-training-exam&quot;&gt;Free training exam&lt;/h3&gt;
+<h3 id="free-training-exam">Free training exam</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://pages.awscloud.com/Globa_traincert_Get_AWS_Certified_Developer_Associate.html&quot;&gt;Link to Free Training exam&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://pages.awscloud.com/Globa_traincert_Get_AWS_Certified_Developer_Associate.html">Link to Free Training exam</a></p>
 
-&lt;h2 id=&quot;exam-guide&quot;&gt;Exam Guide&lt;/h2&gt;
+<h2 id="exam-guide">Exam Guide</h2>
 
-&lt;p&gt;&lt;a href=&quot;//d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf&quot; target=&quot;_blank&quot;&gt;Download the exam guide&lt;/a&gt;&lt;/p&gt;
+<p><a href="//d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf" target="_blank">Download the exam guide</a></p>
 
-&lt;h3 id=&quot;domain-1-deployment&quot;&gt;Domain 1: Deployment&lt;/h3&gt;
+<h3 id="domain-1-deployment">Domain 1: Deployment</h3>
 
-&lt;p&gt;1.1 Deploy written code in AWS using existing CI/CD pipelines, processes, and patterns&lt;/p&gt;
+<p>1.1 Deploy written code in AWS using existing CI/CD pipelines, processes, and patterns</p>
 
-&lt;p&gt;1.2 Deploy applications using Elastic Beanstalk&lt;/p&gt;
+<p>1.2 Deploy applications using Elastic Beanstalk</p>
 
-&lt;p&gt;1.3 Prepare the application deployment package to be deployed to AWS&lt;/p&gt;
+<p>1.3 Prepare the application deployment package to be deployed to AWS</p>
 
-&lt;p&gt;1.4 Deploy serverless applications&lt;/p&gt;
+<p>1.4 Deploy serverless applications</p>
 
-&lt;h4 id=&quot;domain-2-security&quot;&gt;Domain 2: Security&lt;/h4&gt;
+<h4 id="domain-2-security">Domain 2: Security</h4>
 
-&lt;p&gt;2.1 Make authenticated calls to AWS services&lt;/p&gt;
+<p>2.1 Make authenticated calls to AWS services</p>
 
-&lt;p&gt;2.2 Implement encryption using AWS services&lt;/p&gt;
+<p>2.2 Implement encryption using AWS services</p>
 
-&lt;p&gt;2.3 Implement application authentication, and authorization&lt;/p&gt;
+<p>2.3 Implement application authentication, and authorization</p>
 
-&lt;h4 id=&quot;domain-3-development-with-aws-services&quot;&gt;Domain 3: Development with AWS Services&lt;/h4&gt;
+<h4 id="domain-3-development-with-aws-services">Domain 3: Development with AWS Services</h4>
 
-&lt;p&gt;3.1 Write code for serverless applications&lt;/p&gt;
+<p>3.1 Write code for serverless applications</p>
 
-&lt;p&gt;3.2 Translate functional requirements into application design&lt;/p&gt;
+<p>3.2 Translate functional requirements into application design</p>
 
-&lt;p&gt;3.3 Implement application design into application code&lt;/p&gt;
+<p>3.3 Implement application design into application code</p>
 
-&lt;p&gt;3.4 Write code that interacts with AWS services by using APIs, SDKs, and AWS CLI&lt;/p&gt;
+<p>3.4 Write code that interacts with AWS services by using APIs, SDKs, and AWS CLI</p>
 
-&lt;h4 id=&quot;domain-4-refactoring&quot;&gt;Domain 4: Refactoring&lt;/h4&gt;
+<h4 id="domain-4-refactoring">Domain 4: Refactoring</h4>
 
-&lt;p&gt;4.1 Optimize application to best use AWS services and features&lt;/p&gt;
+<p>4.1 Optimize application to best use AWS services and features</p>
 
-&lt;p&gt;4.2 Migrate existing application code to run on AWS&lt;/p&gt;
+<p>4.2 Migrate existing application code to run on AWS</p>
 
-&lt;h4 id=&quot;domain-5-monitoring-and-troubleshooting&quot;&gt;Domain 5: Monitoring and Troubleshooting&lt;/h4&gt;
+<h4 id="domain-5-monitoring-and-troubleshooting">Domain 5: Monitoring and Troubleshooting</h4>
 
-&lt;p&gt;5.1 Write code that can be monitored&lt;/p&gt;
+<p>5.1 Write code that can be monitored</p>
 
-&lt;p&gt;5.2 Perform root cause analysis on faults found in testing or production&lt;/p&gt;
+<p>5.2 Perform root cause analysis on faults found in testing or production</p>
 
-&lt;h2 id=&quot;aws-exam-prep&quot;&gt;AWS Exam Prep&lt;/h2&gt;
+<h2 id="aws-exam-prep">AWS Exam Prep</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/certification/certification-prep/?cta=dev_examprep&quot;&gt;Exam Prep Website&lt;/a&gt; - For up to date information&lt;/p&gt;
+<p><a href="https://aws.amazon.com/certification/certification-prep/?cta=dev_examprep">Exam Prep Website</a> - For up to date information</p>
 
-&lt;h3 id=&quot;aws-training&quot;&gt;AWS Training&lt;/h3&gt;
+<h3 id="aws-training">AWS Training</h3>
 
-&lt;p&gt;Build your technical skills with these recommended courses:&lt;br /&gt; &lt;br /&gt; &lt;b&gt;&lt;a href=&quot;/training/classroom/aws-technical-essentials/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;AWS Technical Essentials&lt;/a&gt;&lt;/b&gt; | Classroom&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;https://www.aws.training/Details/Video?id=15878&amp;amp;ep=sec&amp;amp;sec=assoc_dev&quot; target=&quot;_blank&quot;&gt;Introduction to AWS Elastic Beanstalk&lt;/a&gt;&lt;/b&gt; | Digital&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;https://www.aws.training/Details/eLearning?id=27182&amp;amp;ep=sec&amp;amp;sec=assoc_dev&quot; target=&quot;_blank&quot;&gt;Introduction to Containers&lt;/a&gt;&lt;/b&gt; | Digital&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;https://www.aws.training/Details/eLearning?id=27074&amp;amp;ep=sec&amp;amp;sec=assoc_dev&quot; target=&quot;_blank&quot;&gt;Introduction to Serverless Development&lt;/a&gt;&lt;/b&gt; | Digital&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;/training/classroom/developing-on-aws/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;Developing on AWS&lt;/a&gt;&lt;/b&gt;&lt;span&gt; | Classroom&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;https://www.aws.training/Details/eLearning?id=30260&amp;amp;ep=sec&amp;amp;sec=assoc_dev&quot; target=&quot;_blank&quot;&gt;Amazon Elastic Container Service (ECS) Primer&lt;/a&gt;&lt;/b&gt; | Digital&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;https://www.aws.training/Details/eLearning?id=32894&amp;amp;ep=sec&amp;amp;sec=assoc_dev&quot; target=&quot;_blank&quot;&gt;Amazon Elastic Kubernetes Service (EKS) Primer&lt;/a&gt;&lt;/b&gt; | Digital&lt;br /&gt; &lt;b&gt;&lt;a href=&quot;https://www.aws.training/Details/eLearning?id=66768&amp;amp;ep=sec&amp;amp;sec=assoc_dev&quot; target=&quot;_blank&quot;&gt;Getting Started with DevOps on AWS&lt;/a&gt;&lt;/b&gt; | Digital&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+<p>Build your technical skills with these recommended courses:<br /> <br /> <b><a href="/training/classroom/aws-technical-essentials/?ep=sec&amp;sec=assoc_dev">AWS Technical Essentials</a></b> | Classroom<br /> <b><a href="https://www.aws.training/Details/Video?id=15878&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Introduction to AWS Elastic Beanstalk</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=27182&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Introduction to Containers</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=27074&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Introduction to Serverless Development</a></b> | Digital<br /> <b><a href="/training/classroom/developing-on-aws/?ep=sec&amp;sec=assoc_dev">Developing on AWS</a></b><span> | Classroom<br /> <b><a href="https://www.aws.training/Details/eLearning?id=30260&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Amazon Elastic Container Service (ECS) Primer</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=32894&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Amazon Elastic Kubernetes Service (EKS) Primer</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=66768&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Getting Started with DevOps on AWS</a></b> | Digital&nbsp;</span></p>
 
-&lt;h3 id=&quot;white-papers&quot;&gt;White Papers&lt;/h3&gt;
+<h3 id="white-papers">White Papers</h3>
 
-&lt;p&gt;&lt;b&gt;&lt;a href=&quot;https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html&quot;&gt;AWS Well-Architected Framework&lt;/a&gt;&lt;/b&gt; || &lt;a href=&quot;//d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Practicing Continuous Integration and Continuous Delivery on AWS Accelerating Software Delivery with DevOps&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;//d1.awsstatic.com/whitepapers/microservices-on-aws.pdf&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Microservices on AWS&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;//d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Serverless Architectures with AWS Lambda&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;//d1.awsstatic.com/whitepapers/optimizing-enterprise-economics-serverless-architectures.pdf&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Optimizing Enterprise Economics with Serverless Architectures&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;//d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Running Containerized Microservices on AWS&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;//d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Blue/Green Deployments on AWS&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+<p><b><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html">AWS Well-Architected Framework</a></b> || <a href="//d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf" target="_blank"><b>Practicing Continuous Integration and Continuous Delivery on AWS Accelerating Software Delivery with DevOps</b></a> || <a href="//d1.awsstatic.com/whitepapers/microservices-on-aws.pdf" target="_blank"><b>Microservices on AWS</b></a> || <a href="//d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf" target="_blank"><b>Serverless Architectures with AWS Lambda</b></a> || <a href="//d1.awsstatic.com/whitepapers/optimizing-enterprise-economics-serverless-architectures.pdf" target="_blank"><b>Optimizing Enterprise Economics with Serverless Architectures</b></a> || <a href="//d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf" target="_blank"><b>Running Containerized Microservices on AWS</b></a> || <a href="//d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf" target="_blank"><b>Blue/Green Deployments on AWS</b></a></p>
 
-&lt;h3 id=&quot;faqs&quot;&gt;FAQs&lt;/h3&gt;
+<h3 id="faqs">FAQs</h3>
 
-&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com//sqs/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;Amazon Simple Queue Service&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//dynamodb/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;Amazon DynamoDB&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//elasticache/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;Amazon ElastiCache&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//kinesis/data-streams/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;Amazon Kinesis&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//lambda/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;AWS Lambda&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//api-gateway/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;Amazon API Gateway&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//elasticbeanstalk/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;AWS Elastic Beanstalk&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//iam/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;AWS Identity and Access Management&lt;/b&gt;&lt;/a&gt; || &lt;a href=&quot;https://aws.amazon.com//kms/faqs/?ep=sec&amp;amp;sec=assoc_dev&quot;&gt;&lt;b&gt;AWS Key Management Service&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="study" /><category term="AWS" /><category term="DVA-C01" /><category term="study" /><category term="aws" /><summary type="html">Motivation</summary></entry><entry><title type="html">Think Again - Adam Grant</title><link href="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html" rel="alternate" type="text/html" title="Think Again - Adam Grant" /><published>2021-06-13T00:00:00+02:00</published><updated>2021-06-13T00:00:00+02:00</updated><id>https://tech.nosam.co.za//books/2021/06/13/thinkAgain</id><content type="html" xml:base="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html">&lt;p&gt;Book Review of Adam Grant’s Think Again.&lt;/p&gt;
+<p><a href="https://aws.amazon.com//sqs/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon Simple Queue Service</b></a> || <a href="https://aws.amazon.com//dynamodb/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon DynamoDB</b></a> || <a href="https://aws.amazon.com//elasticache/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon ElastiCache</b></a> || <a href="https://aws.amazon.com//kinesis/data-streams/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon Kinesis</b></a> || <a href="https://aws.amazon.com//lambda/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Lambda</b></a> || <a href="https://aws.amazon.com//api-gateway/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon API Gateway</b></a> || <a href="https://aws.amazon.com//elasticbeanstalk/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Elastic Beanstalk</b></a> || <a href="https://aws.amazon.com//iam/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Identity and Access Management</b></a> || <a href="https://aws.amazon.com//kms/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Key Management Service</b></a></p>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="AWS" /><category term="DVA-C01" /><category term="study" /><category term="aws" /><summary type="html"><![CDATA[Motivation]]></summary></entry><entry><title type="html">Think Again - Adam Grant</title><link href="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html" rel="alternate" type="text/html" title="Think Again - Adam Grant" /><published>2021-06-13T00:00:00+02:00</published><updated>2021-06-13T00:00:00+02:00</updated><id>https://tech.nosam.co.za//books/2021/06/13/thinkAgain</id><content type="html" xml:base="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html"><![CDATA[<p>Book Review of Adam Grant’s Think Again.</p>
 
-&lt;h2 id=&quot;key-takeaways&quot;&gt;Key takeaways&lt;/h2&gt;
+<h2 id="key-takeaways">Key takeaways</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;Think like a scientist&lt;/li&gt;
-  &lt;li&gt;Challenge assumptions&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Think like a scientist</li>
+  <li>Challenge assumptions</li>
+</ul>
 
-&lt;h3 id=&quot;would-i-recommend&quot;&gt;Would I recommend&lt;/h3&gt;
+<h3 id="would-i-recommend">Would I recommend</h3>
 
-&lt;p&gt;Yes!!!&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="books" /><category term="book" /><summary type="html">Book Review of Adam Grant’s Think Again.</summary></entry><entry><title type="html">I have a need for internet speed…..</title><link href="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html" rel="alternate" type="text/html" title="I have a need for internet speed….." /><published>2021-05-29T00:00:00+02:00</published><updated>2021-05-29T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/29/checkISP</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html">&lt;p&gt;Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.&lt;/p&gt;
+<p>Yes!!!</p>]]></content><author><name>vaughan mason</name></author><category term="books" /><category term="book" /><summary type="html"><![CDATA[Book Review of Adam Grant’s Think Again.]]></summary></entry><entry><title type="html">I have a need for internet speed…..</title><link href="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html" rel="alternate" type="text/html" title="I have a need for internet speed….." /><published>2021-05-29T00:00:00+02:00</published><updated>2021-05-29T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/29/checkISP</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html"><![CDATA[<p>Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.</p>
 
-&lt;h2 id=&quot;speedtest&quot;&gt;Speedtest&lt;/h2&gt;
+<h2 id="speedtest">Speedtest</h2>
 
-&lt;p&gt;So I’m not going to going to try of rebuilding something that is readily available. &lt;a href=&quot;https://www.speedtest.net/&quot;&gt;speedtest.net&lt;/a&gt;, has a great website for you to track you upload and download speeds. Depending on your ISP, they will usually accept these results with the slight exception that you have to remove all devices off the network (You can refer to my other post on networking, I would provide a link but have not gotten that fully working yet). Great thing about Speedtest, is that they now offer a CLI (Command Line Interface).&lt;/p&gt;
+<p>So I’m not going to going to try of rebuilding something that is readily available. <a href="https://www.speedtest.net/">speedtest.net</a>, has a great website for you to track you upload and download speeds. Depending on your ISP, they will usually accept these results with the slight exception that you have to remove all devices off the network (You can refer to my other post on networking, I would provide a link but have not gotten that fully working yet). Great thing about Speedtest, is that they now offer a CLI (Command Line Interface).</p>
 
-&lt;p&gt;Time to install:&lt;/p&gt;
+<p>Time to install:</p>
 
-&lt;h3 id=&quot;installing-cli&quot;&gt;Installing CLI&lt;/h3&gt;
+<h3 id="installing-cli">Installing CLI</h3>
 
-&lt;p&gt;Depending on your OS, you can follow the information &lt;a href=&quot;https://www.speedtest.net/apps/cli&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+<p>Depending on your OS, you can follow the information <a href="https://www.speedtest.net/apps/cli">here</a>.</p>
 
-&lt;p&gt;I did the following:&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+<p>I did the following:</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;curl &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; https://install.speedtest.net/app/cli/install.deb.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;speedtest
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</pre></td><td class="rouge-code"><pre>curl <span class="nt">-s</span> https://install.speedtest.net/app/cli/install.deb.sh | <span class="nb">sudo </span>bash
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>speedtest
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-&lt;p&gt;Then to check your speed your just type&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;speedtest
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Results&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+<p>Then to check your speed your just type</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>speedtest
+</pre></td></tr></tbody></table></code></pre></div></div>
+<p>Results</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
@@ -693,7 +736,7 @@ You need to rely on the people using the technology, once coined the new &lt;a h
 6
 7
 8
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;   Speedtest by Ookla
+</pre></td><td class="rouge-code"><pre>   Speedtest by Ookla
 
      Server: xxxxxxxx
         ISP: xxxxxxxx
@@ -701,116 +744,90 @@ You need to rely on the people using the technology, once coined the new &lt;a h
    Download:   252.52 Mbps (data used: 123.3 MB)
      Upload:    88.74 Mbps (data used: 44.6 MB)
 Packet Loss:     0.0%
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-&lt;p&gt;But now we need to automate this process….&lt;/p&gt;
+<p>But now we need to automate this process….</p>
 
-&lt;h3 id=&quot;automation-is-king&quot;&gt;Automation is king&lt;/h3&gt;
+<h3 id="automation-is-king">Automation is king</h3>
 
-&lt;p&gt;So as I am using a RaspberryPi (read Linux), I will be using a shell file and crontab to automate this process.&lt;/p&gt;
+<p>So as I am using a RaspberryPi (read Linux), I will be using a shell file and crontab to automate this process.</p>
 
-&lt;p&gt;Few things that I learned:&lt;/p&gt;
+<p>Few things that I learned:</p>
 
-&lt;ul&gt;
-  &lt;li&gt;Speedtest does not want you to automate
-    &lt;ul&gt;
-      &lt;li&gt;Bit of a half truth, as they just need you to confirm that you are using this for personal use. Which I am.&lt;/li&gt;
-      &lt;li&gt;If you add the following argument, –accept-license, it works.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;As I am still learning Linux, the folder structures, file locations and privileges took me a few minutes (read hour) to master.
-    &lt;ul&gt;
-      &lt;li&gt;Most of the time this goes to the root of the user that you logged in as.&lt;/li&gt;
-      &lt;li&gt;I went with the approach of a file per day, so make sure you append instead of over writting if you want to follow this approach (» over &amp;gt;).&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>Speedtest does not want you to automate
+    <ul>
+      <li>Bit of a half truth, as they just need you to confirm that you are using this for personal use. Which I am.</li>
+      <li>If you add the following argument, –accept-license, it works.</li>
+    </ul>
+  </li>
+  <li>As I am still learning Linux, the folder structures, file locations and privileges took me a few minutes (read hour) to master.
+    <ul>
+      <li>Most of the time this goes to the root of the user that you logged in as.</li>
+      <li>I went with the approach of a file per day, so make sure you append instead of over writting if you want to follow this approach (» over &gt;).</li>
+    </ul>
+  </li>
+</ul>
 
-&lt;p&gt;So I created a sh file, scheduled it with crontab and we are away.&lt;/p&gt;
+<p>So I created a sh file, scheduled it with crontab and we are away.</p>
 
-&lt;p&gt;Here is the basic script for the sh file update the user details&lt;/p&gt;
-&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+<p>Here is the basic script for the sh file update the user details</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;pushDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; +&lt;span class=&quot;s1&quot;&gt;'%Y%m%d'&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;nv&quot;&gt;FILE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/home/&amp;lt;user&amp;gt;/speedtest/logs/&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pushDate&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;.log
-&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;
+</pre></td><td class="rouge-code"><pre><span class="c">#!/bin/bash</span>
+<span class="nv">pushDate</span><span class="o">=</span><span class="si">$(</span><span class="nb">date</span> +<span class="s1">'%Y%m%d'</span><span class="si">)</span>
+<span class="nv">FILE</span><span class="o">=</span>/home/&lt;user&gt;/speedtest/logs/<span class="k">${</span><span class="nv">pushDate</span><span class="k">}</span>.log
+<span class="nb">date</span> <span class="o">&gt;&gt;</span><span class="nv">$FILE</span>
 
-speedtest &lt;span class=&quot;nt&quot;&gt;--accept-license&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$FILE&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+speedtest <span class="nt">--accept-license</span> <span class="o">&gt;&gt;</span><span class="nv">$FILE</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
 
-&lt;h2 id=&quot;why-is-this-important&quot;&gt;Why is this important&lt;/h2&gt;
+<h2 id="why-is-this-important">Why is this important</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;When developing apps in the cloud, you need to understand latency and network speed. If you go for a cheaper region, you need to be sure you meeting the technical specifications of your applications (think timeouts).&lt;/li&gt;
-  &lt;li&gt;Being cloud native means understanding what that cloud is built on. So that is why I am experimenting and continuing to learn in this environment.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="raspberrypi" /><summary type="html">Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.</summary></entry><entry><title type="html">We need to give AWS Amplify a fighting chance</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html" rel="alternate" type="text/html" title="We need to give AWS Amplify a fighting chance" /><published>2021-05-18T00:00:00+02:00</published><updated>2021-05-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html">&lt;p&gt;So going through the process of creating a static website on AWS&lt;/p&gt;
+<ul>
+  <li>When developing apps in the cloud, you need to understand latency and network speed. If you go for a cheaper region, you need to be sure you meeting the technical specifications of your applications (think timeouts).</li>
+  <li>Being cloud native means understanding what that cloud is built on. So that is why I am experimenting and continuing to learn in this environment.</li>
+</ul>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="raspberrypi" /><summary type="html"><![CDATA[Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.]]></summary></entry><entry><title type="html">We need to give AWS Amplify a fighting chance</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html" rel="alternate" type="text/html" title="We need to give AWS Amplify a fighting chance" /><published>2021-05-18T00:00:00+02:00</published><updated>2021-05-18T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/18/awsTech.html"><![CDATA[<p>So going through the process of creating a static website on AWS</p>
 
-&lt;p&gt;We are sitting in a bit of a waiting game with the SSL and the domain verification, it was a lot simpler on Azure for a third-party website verifications.
-&lt;img src=&quot;/assets/images/posts/awsWaiting.png&quot; alt=&quot;awsWaiting&quot; /&gt; So I may have done this wrong, it was a little confusing as AWS determines ownership first before it does DNS activation. Actually having to read the documentation to get this one right. The thing is when I did this step on Azure, it was simple and straight forward. If this does not work I am giving up
- &lt;a href=&quot;https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-a-third-party-dns-provider.html&quot;&gt;Documentation DNS Verification&lt;/a&gt; Crazy not simply&lt;/p&gt;
+<p>We are sitting in a bit of a waiting game with the SSL and the domain verification, it was a lot simpler on Azure for a third-party website verifications.
+<img src="/assets/images/posts/awsWaiting.png" alt="awsWaiting" /> So I may have done this wrong, it was a little confusing as AWS determines ownership first before it does DNS activation. Actually having to read the documentation to get this one right. The thing is when I did this step on Azure, it was simple and straight forward. If this does not work I am giving up
+ <a href="https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-a-third-party-dns-provider.html">Documentation DNS Verification</a> Crazy not simply</p>
 
-&lt;p&gt;So I partially blame myself and AWS, their documentation was not fully aligned to what need to be done.&lt;/p&gt;
+<p>So I partially blame myself and AWS, their documentation was not fully aligned to what need to be done.</p>
 
-&lt;p&gt;It is working now, and must have recreated the dns settings on website a couple of times. Editing DNS records is a dark art.&lt;/p&gt;
+<p>It is working now, and must have recreated the dns settings on website a couple of times. Editing DNS records is a dark art.</p>
 
-&lt;p&gt;Going to complete the build process whilst we wait. Okay that has been done. This is a little ridiculous.&lt;/p&gt;
+<p>Going to complete the build process whilst we wait. Okay that has been done. This is a little ridiculous.</p>
 
-&lt;p&gt;Verifications has gone over 15 mins, Azure site was up by now.&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="aws" /><category term="cloud" /><summary type="html">So going through the process of creating a static website on AWS</summary></entry><entry><title type="html">WHAT Azure has Static Web Apps now!</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech.html" rel="alternate" type="text/html" title="WHAT Azure has Static Web Apps now!" /><published>2021-05-17T00:00:00+02:00</published><updated>2021-05-17T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech.html">&lt;p&gt;Found out that I could host this website on Azure using Azure Static Apps. So the rest of the previous blog topics will be taking a backseat whilst we go on this ride.
+<p>Verifications has gone over 15 mins, Azure site was up by now.</p>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="aws" /><category term="cloud" /><summary type="html"><![CDATA[So going through the process of creating a static website on AWS]]></summary></entry><entry><title type="html">WHAT Azure has Static Web Apps now!</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech.html" rel="alternate" type="text/html" title="WHAT Azure has Static Web Apps now!" /><published>2021-05-17T00:00:00+02:00</published><updated>2021-05-17T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech.html"><![CDATA[<p>Found out that I could host this website on Azure using Azure Static Apps. So the rest of the previous blog topics will be taking a backseat whilst we go on this ride.
 Azure Static Apps went GA
-&lt;a href=&quot;https://azure.microsoft.com/en-gb/blog/develop-production-scale-modern-web-apps-quickly-with-azure-static-web-apps/&quot;&gt;Announcement&lt;/a&gt;&lt;/p&gt;
+<a href="https://azure.microsoft.com/en-gb/blog/develop-production-scale-modern-web-apps-quickly-with-azure-static-web-apps/">Announcement</a></p>
 
-&lt;p&gt;Read a bit of the documentation and realised that I can build my website to both GitHub Pages and Azure pages at the same time. I’m then going to allow users to context switch because why not.&lt;/p&gt;
+<p>Read a bit of the documentation and realised that I can build my website to both GitHub Pages and Azure pages at the same time. I’m then going to allow users to context switch because why not.</p>
 
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/azure/static-web-apps/publish-jekyll&quot;&gt;jekyll with Azure Static Apps&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://docs.microsoft.com/en-us/azure/static-web-apps/publish-jekyll">jekyll with Azure Static Apps</a></p>
 
-&lt;h2 id=&quot;got-it-running-in-5-mins&quot;&gt;Got it running in 5 mins&lt;/h2&gt;
+<h2 id="got-it-running-in-5-mins">Got it running in 5 mins</h2>
 
-&lt;p&gt;I did do a lot of reading and stuff but I got this website hosted and running in 5 mins&lt;/p&gt;
+<p>I did do a lot of reading and stuff but I got this website hosted and running in 5 mins</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/posts/helloAzure.png&quot; alt=&quot;azureTech&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/images/posts/helloAzure.png" alt="azureTech" /></p>
 
-&lt;h2 id=&quot;lets-get-this-website-published&quot;&gt;Let’s get this website published&lt;/h2&gt;
+<h2 id="lets-get-this-website-published">Let’s get this website published</h2>
 
-&lt;p&gt;I’ll be back…..&lt;/p&gt;
+<p>I’ll be back…..</p>
 
-&lt;p&gt;Only thing I needed to change in the config yml file was the destintation path. Will now be updating the deployment.sh file. Going to just create a duplicate.&lt;/p&gt;
+<p>Only thing I needed to change in the config yml file was the destintation path. Will now be updating the deployment.sh file. Going to just create a duplicate.</p>
 
-&lt;p&gt;Okay it works website is hosted at &lt;a href=&quot;azuretech.nosam.co.za&quot;&gt;azuretech.nosam.co.za&lt;/a&gt;&lt;/p&gt;
+<p>Okay it works website is hosted at <a href="azuretech.nosam.co.za">azuretech.nosam.co.za</a></p>
 
-&lt;p&gt;Website is now a complete replica of GitHub Pages. Basically which I will expand on later, the same source code is getting used to populate both sites.&lt;/p&gt;
+<p>Website is now a complete replica of GitHub Pages. Basically which I will expand on later, the same source code is getting used to populate both sites.</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;tech.nosam.co.za&quot;&gt;Github Pages&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;azuretech.nosam.co.za&quot;&gt;Azure Static Web App&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="azure" /><category term="cloud" /><summary type="html">Found out that I could host this website on Azure using Azure Static Apps. So the rest of the previous blog topics will be taking a backseat whilst we go on this ride. Azure Static Apps went GA Announcement</summary></entry><entry><title type="html">Networking - Moving away from WiFi</title><link href="https://tech.nosam.co.za//tech/2021/05/16/networking.html" rel="alternate" type="text/html" title="Networking - Moving away from WiFi" /><published>2021-05-16T00:00:00+02:00</published><updated>2021-05-16T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/16/networking</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/16/networking.html">&lt;p&gt;As soon as the threat of lockdown began appearing last year, I knew that working from home and the wifi network was not going to work. Don’t get me wrong, I have a mesh wifi installation that works for the majority of use cases but I also have a fast line that I want to use fully for work. In order to get the full benefit, I learnt a few networking fundamentals that I would like to discuss. Added complex because I live in South Africa with load shedding, the network needs to be up as much as possible.&lt;/p&gt;
-
-&lt;h2 id=&quot;simplistic-home-network-design&quot;&gt;Simplistic home network design&lt;/h2&gt;
-
-&lt;p&gt;This is a simplistic design of what might be in your home.
-&lt;img src=&quot;/assets/images/posts/network.png&quot; alt=&quot;homeNetwork&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You get your internet connection from you Internet Service Provider&lt;/li&gt;
-  &lt;li&gt;The signal is received by your home router&lt;/li&gt;
-  &lt;li&gt;You may have a separate wifi router&lt;/li&gt;
-  &lt;li&gt;Switch is used to break the signal into multiple parts&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;network-cable&quot;&gt;Network Cable&lt;/h2&gt;
-
-&lt;p&gt;If you did not have any wifi and you only had router, you would need to connect a cable from the router to your machine. This cable is called an Ethernet Cable. You can by these cable ready made or you can make them yourself.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-to-make-a-network-cable&quot;&gt;How to make a network cable&lt;/h3&gt;
-
-&lt;p&gt;You can follow the instruction here on how to make an &lt;a href=&quot;https://www.groundcontrol.com/galileo/ch5-ethernet.html&quot;&gt;ethernet cable&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A straight through cable is constructed like this:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.groundcontrol.com/galileo/images/Standard_Ethernet_Cable_RJ45.gif&quot; alt=&quot;rj45&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Basically you are ensuring that the wires are in the correct order on both sides.&lt;/p&gt;</content><author><name>vaughan mason</name></author><category term="tech" /><category term="networking" /><summary type="html">As soon as the threat of lockdown began appearing last year, I knew that working from home and the wifi network was not going to work. Don’t get me wrong, I have a mesh wifi installation that works for the majority of use cases but I also have a fast line that I want to use fully for work. In order to get the full benefit, I learnt a few networking fundamentals that I would like to discuss. Added complex because I live in South Africa with load shedding, the network needs to be up as much as possible.</summary></entry></feed>
+<ul>
+  <li><a href="tech.nosam.co.za">Github Pages</a></li>
+  <li><a href="azuretech.nosam.co.za">Azure Static Web App</a></li>
+</ul>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="azure" /><category term="cloud" /><summary type="html"><![CDATA[Found out that I could host this website on Azure using Azure Static Apps. So the rest of the previous blog topics will be taking a backseat whilst we go on this ride. Azure Static Apps went GA Announcement]]></summary></entry></feed>
