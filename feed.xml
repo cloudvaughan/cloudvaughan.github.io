@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2022-04-20T11:39:11+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Push Pull Legs</title><link href="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html" rel="alternate" type="text/html" title="Push Pull Legs" /><published>2022-02-20T00:00:00+02:00</published><updated>2022-02-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//fitness/2022/02/20/PPL</id><content type="html" xml:base="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html"><![CDATA[<h2 id="push">Push</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2022-04-20T11:50:35+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Studying towards Cybersecurity Architect</title><link href="https://tech.nosam.co.za//study/azure/2022/04/19/SC100.html" rel="alternate" type="text/html" title="Studying towards Cybersecurity Architect" /><published>2022-04-19T00:00:00+02:00</published><updated>2022-04-19T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/2022/04/19/SC100</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/2022/04/19/SC100.html"><![CDATA[<h2 id="exam-date">Exam Date</h2>
+
+<p>Need to commit to a date</p>
+
+<h2 id="exam-guide">Exam Guide</h2>
+
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/learn/certifications/exams/sc-100" target="_blank">Exam Page</a></li>
+  <li><a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWVbXN" target="_blank">Exam Skills Measured</a></li>
+</ul>
+
+<h3 id="topic-name">Topic Name</h3>
+
+<h4 id="design-a-zero-trust-strategy-and-architecture-3035">Design a Zero Trust strategy and architecture (30–35%)</h4>
+<h5 id="build-an-overall-security-strategy-and-architecture">Build an overall security strategy and architecture</h5>
+<ul>
+  <li>identify the integration points in an architecture by using Microsoft Cybersecurity Reference Architecture (MCRA)</li>
+  <li>translate business goals into security requirements</li>
+  <li>translate security requirements into technical capabilities, including security services, security products, and security processes</li>
+  <li>design security for a resiliency strategy</li>
+  <li>integrate a hybrid or multi-tenant environment into a security strategy</li>
+  <li>develop a technical and governance strategy for traffic filtering and segmentation</li>
+</ul>
+
+<h5 id="design-a-security-operations-strategy">Design a security operations strategy</h5>
+<ul>
+  <li>design a logging and auditing strategy to support security operations</li>
+  <li>develop security operations to support a hybrid or multi-cloud environment</li>
+  <li>design a strategy for SIEM and SOAR</li>
+  <li>evaluate security workflows</li>
+  <li>evaluate a security operations strategy for incident management lifecycle</li>
+  <li>evaluate a security operations strategy for sharing technical threat intelligence
+    <h5 id="design-an-identity-security-strategy">Design an identity security strategy</h5>
+    <p>Note: includes hybrid and multi-cloud</p>
+  </li>
+  <li>design a strategy for access to cloud resources</li>
+  <li>recommend an identity store (tenants, B2B, B2C, hybrid)</li>
+  <li>recommend an authentication strategy</li>
+  <li>recommend an authorization strategy</li>
+  <li>design a strategy for conditional access</li>
+  <li>design a strategy for role assignment and delegation</li>
+  <li>design security strategy for privileged role access to infrastructure including identitybased firewall rules, Azure PIM</li>
+  <li>design security strategy for privileged activities including PAM, entitlement management,
+cloud tenant administration</li>
+</ul>
+
+<h4 id="evaluate-governance-risk-compliance-grc-technical-strategies-and-security-operations-strategies-2025">Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies (20–25%)</h4>
+<h5 id="design-a-regulatory-compliance-strategy">Design a regulatory compliance strategy</h5>
+<ul>
+  <li>interpret compliance requirements and translate into specific technical capabilities (new or existing)</li>
+  <li>evaluate infrastructure compliance by using Microsoft Defender for Cloud</li>
+  <li>interpret compliance scores and recommend actions to resolve issues or improve security</li>
+  <li>design implementation of Azure Policy</li>
+  <li>design for data residency requirements</li>
+  <li>translate privacy requirements into requirements for security solutions</li>
+</ul>
+
+<h5 id="evaluate-security-posture-and-recommend-technical-strategies-to-manage-risk">Evaluate security posture and recommend technical strategies to manage risk</h5>
+<ul>
+  <li>evaluate security posture by using benchmarks (including Azure security benchmarks,
+ISO 2701, etc.)</li>
+  <li>evaluate security posture by using Microsoft Defender for Cloud</li>
+  <li>evaluate security posture by using Secure Scores</li>
+  <li>evaluate security posture of cloud workloads</li>
+  <li>design security for an Azure Landing Zone</li>
+  <li>interpret technical threat intelligence and recommend risk mitigations</li>
+  <li>recommend security capabilities or controls to mitigate identified risks</li>
+</ul>
+
+<h4 id="design-security-for-infrastructure-2025">Design security for infrastructure (20–25%)</h4>
+<h5 id="design-a-strategy-for-securing-server-and-client-endpoints">Design a strategy for securing server and client endpoints</h5>
+<p>NOTE: includes hybrid and multi-cloud</p>
+<ul>
+  <li>specify security baselines for server and client endpoints</li>
+  <li>specify security requirements for servers, including multiple platforms and operating
+systems</li>
+  <li>specify security requirements for mobile devices and clients, including endpoint
+protection, hardening, and configuration</li>
+  <li>specify requirements to secure Active Directory Domain Services</li>
+  <li>design a strategy to manage secrets, keys, and certificates</li>
+  <li>design a strategy for secure remote access</li>
+</ul>
+
+<h5 id="design-a-strategy-for-securing-saas-paas-and-iaas-services">Design a strategy for securing SaaS, PaaS, and IaaS services</h5>
+<ul>
+  <li>specify security baselines for SaaS, PaaS, and IaaS services</li>
+  <li>specify security requirements for IoT workloads</li>
+  <li>specify security requirements for data workloads, including SQL, Azure SQL Database, Azure Synapse, and Azure Cosmos DB</li>
+  <li>specify security requirements for web workloads, including Azure App Service</li>
+  <li>specify security requirements for storage workloads, including Azure Storage</li>
+  <li>specify security requirements for containers</li>
+  <li>specify security requirements for container orchestration</li>
+</ul>
+
+<h4 id="design-a-strategy-for-data-and-applications-2025">Design a strategy for data and applications (20–25%)</h4>
+<h5 id="specify-security-requirements-for-applications">Specify security requirements for applications</h5>
+<ul>
+  <li>specify priorities for mitigating threats to applications</li>
+  <li>specify a security standard for onboarding a new application</li>
+  <li>specify a security strategy for applications and APIs</li>
+</ul>
+
+<h5 id="design-a-strategy-for-securing-data">Design a strategy for securing data</h5>
+<ul>
+  <li>specify priorities for mitigating threats to data</li>
+  <li>design a strategy to identify and protect sensitive data</li>
+  <li>specify an encryption standard for data at rest and in motion</li>
+</ul>
+
+<h4 id="additional-comments">Additional Comments</h4>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="azure" /><category term="security" /><category term="study" /><summary type="html"><![CDATA[Exam Date]]></summary></entry><entry><title type="html">Push Pull Legs</title><link href="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html" rel="alternate" type="text/html" title="Push Pull Legs" /><published>2022-02-20T00:00:00+02:00</published><updated>2022-02-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//fitness/2022/02/20/PPL</id><content type="html" xml:base="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html"><![CDATA[<h2 id="push">Push</h2>
 <blockquote>
   <p>Chest Shoulders Triceps</p>
 </blockquote>
@@ -804,31 +913,4 @@ speedtest <span class="nt">--accept-license</span> <span class="o">&gt;&gt;</spa
 
 <p>Going to complete the build process whilst we wait. Okay that has been done. This is a little ridiculous.</p>
 
-<p>Verifications has gone over 15 mins, Azure site was up by now.</p>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="aws" /><category term="cloud" /><summary type="html"><![CDATA[So going through the process of creating a static website on AWS]]></summary></entry><entry><title type="html">WHAT Azure has Static Web Apps now!</title><link href="https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech.html" rel="alternate" type="text/html" title="WHAT Azure has Static Web Apps now!" /><published>2021-05-17T00:00:00+02:00</published><updated>2021-05-17T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech</id><content type="html" xml:base="https://tech.nosam.co.za//tech/cloud/2021/05/17/azureTech.html"><![CDATA[<p>Found out that I could host this website on Azure using Azure Static Apps. So the rest of the previous blog topics will be taking a backseat whilst we go on this ride.
-Azure Static Apps went GA
-<a href="https://azure.microsoft.com/en-gb/blog/develop-production-scale-modern-web-apps-quickly-with-azure-static-web-apps/">Announcement</a></p>
-
-<p>Read a bit of the documentation and realised that I can build my website to both GitHub Pages and Azure pages at the same time. I’m then going to allow users to context switch because why not.</p>
-
-<p><a href="https://docs.microsoft.com/en-us/azure/static-web-apps/publish-jekyll">jekyll with Azure Static Apps</a></p>
-
-<h2 id="got-it-running-in-5-mins">Got it running in 5 mins</h2>
-
-<p>I did do a lot of reading and stuff but I got this website hosted and running in 5 mins</p>
-
-<p><img src="/assets/images/posts/helloAzure.png" alt="azureTech" /></p>
-
-<h2 id="lets-get-this-website-published">Let’s get this website published</h2>
-
-<p>I’ll be back…..</p>
-
-<p>Only thing I needed to change in the config yml file was the destintation path. Will now be updating the deployment.sh file. Going to just create a duplicate.</p>
-
-<p>Okay it works website is hosted at <a href="azuretech.nosam.co.za">azuretech.nosam.co.za</a></p>
-
-<p>Website is now a complete replica of GitHub Pages. Basically which I will expand on later, the same source code is getting used to populate both sites.</p>
-
-<ul>
-  <li><a href="tech.nosam.co.za">Github Pages</a></li>
-  <li><a href="azuretech.nosam.co.za">Azure Static Web App</a></li>
-</ul>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="azure" /><category term="cloud" /><summary type="html"><![CDATA[Found out that I could host this website on Azure using Azure Static Apps. So the rest of the previous blog topics will be taking a backseat whilst we go on this ride. Azure Static Apps went GA Announcement]]></summary></entry></feed>
+<p>Verifications has gone over 15 mins, Azure site was up by now.</p>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="cloud" /><category term="aws" /><category term="cloud" /><summary type="html"><![CDATA[So going through the process of creating a static website on AWS]]></summary></entry></feed>
