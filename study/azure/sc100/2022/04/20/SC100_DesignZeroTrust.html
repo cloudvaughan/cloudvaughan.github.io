@@ -56,24 +56,65 @@ vaughan mason - 2022-04-20
   </li>
   <li>translate business goals into security requirements</li>
   <li>translate security requirements into technical capabilities, including security services, security products, and security processes</li>
-  <li>design security for a resiliency strategy</li>
-  <li>integrate a hybrid or multi-tenant environment into a security strategy</li>
-  <li>develop a technical and governance strategy for traffic filtering and segmentation</li>
+  <li>design security for a resiliency strategy
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/security/resilience">Resilience</a></li>
+    </ul>
+  </li>
+  <li>integrate a hybrid or multi-tenant environment into a security strategy
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/hybrid/hybrid-security">Hybrid Security</a></li>
+    </ul>
+  </li>
+  <li>develop a technical and governance strategy for traffic filtering and segmentation
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/secure/security-governance">Security Governance</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-segmentation">Design Segmentation</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="useful-links">Useful Links</h3>
 <ul>
   <li><a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/strategy/define-security-strategy">Define Security Strategy</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/secure/innovation-security">Innovation Security</a></li>
 </ul>
 
 <h2 id="design-a-security-operations-strategy">Design a security operations strategy</h2>
 <ul>
-  <li>design a logging and auditing strategy to support security operations</li>
-  <li>develop security operations to support a hybrid or multi-cloud environment</li>
-  <li>design a strategy for SIEM and SOAR</li>
-  <li>evaluate security workflows</li>
-  <li>evaluate a security operations strategy for incident management lifecycle</li>
-  <li>evaluate a security operations strategy for sharing technical threat intelligence</li>
+  <li>design a logging and auditing strategy to support security operations
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/log-audit">Log Audit</a></li>
+    </ul>
+  </li>
+  <li>develop security operations to support a hybrid or multi-cloud environment
+    <ul>
+      <li><a href="https://azure.microsoft.com/en-us/solutions/hybrid-cloud-app/">Hybrid Cloud App</a></li>
+      <li><a href="https://www.microsoft.com/security/blog/2021/01/27/protecting-multi-cloud-environments-with-azure-security-center/">Azure Security Center</a></li>
+    </ul>
+  </li>
+  <li>design a strategy for SIEM and SOAR
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/sentinel/overview">Sentinel</a></li>
+    </ul>
+  </li>
+  <li>evaluate security workflows
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/defender-for-cloud/workflow-automation">Workflow Automation</a></li>
+    </ul>
+  </li>
+  <li>evaluate a security operations strategy for incident management lifecycle
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/secure/security-operations">Security Operation</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/security-controls-v3-incident-response">Security Controls v3 Incident Response</a></li>
+    </ul>
+  </li>
+  <li>evaluate a security operations strategy for sharing technical threat intelligence
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/security/compass/security-operations-videos-and-decks">Security Operation</a></li>
+      <li><a href="https://www.microsoft.com/en-us/insidetrack/microsoft-uses-threat-intelligence-to-protect-detect-and-respond-to-threats">Threat Intelligence</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="useful-links-1">Useful Links</h3>
@@ -84,15 +125,57 @@ vaughan mason - 2022-04-20
 <h2 id="design-an-identity-security-strategy">Design an identity security strategy</h2>
 <p>Note: includes hybrid and multi-cloud</p>
 <ul>
-  <li>design a strategy for access to cloud resources</li>
-  <li>recommend an identity store (tenants, B2B, B2C, hybrid)</li>
-  <li>recommend an authentication strategy</li>
-  <li>recommend an authorization strategy</li>
-  <li>design a strategy for conditional access</li>
-  <li>design a strategy for role assignment and delegation</li>
-  <li>design security strategy for privileged role access to infrastructure including identity based firewall rules, Azure PIM</li>
-  <li>design security strategy for privileged activities including PAM, entitlement management,
-cloud tenant administration</li>
+  <li>design a strategy for access to cloud resources
+    <ul>
+      <li><a href="https://azure.microsoft.com/en-us/blog/designing-your-cloud-strategy-to-maximize-value-on-azure/">Design Cloud Strategy to maximize value on Azure</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/"> Build a cloud governance strategy on Azure</a></li>
+    </ul>
+  </li>
+  <li>recommend an identity store (tenants, B2B, B2C, hybrid)
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/external-identities/external-identities-overview">External Identities Overview</a></li>
+    </ul>
+  </li>
+  <li>recommend an authentication strategy
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-identity-authentication">Design Identity Authentication</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/authentication/concept-authentication-methods#:~:text=For%20flexibility%20and%20usability%2C%20we,push%20notifications%2C%20and%20OATH%20codes.">Concept Autehication Method</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/microsoft-365/education/deploy/design-credential-authentication-strategies">Design autehtication and credential strategies</a></li>
+    </ul>
+  </li>
+  <li>recommend an authorization strategy
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/security/design-identity-authorization">Design Identity Authorization</a></li>
+    </ul>
+  </li>
+  <li>design a strategy for conditional access
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/plan-conditional-access">Plan Conditional Access</a></li>
+    </ul>
+  </li>
+  <li>design a strategy for role assignment and delegation
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/roles/best-practices">Best Practices for Azure AD Roles</a></li>
+    </ul>
+  </li>
+  <li>design security strategy for privileged role access to infrastructure including identity based firewall rules, Azure PIM
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure">PIM Configure</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/firewall-manager-security-baseline">Azure security baseline for Azure Firewall Manager</a></li>
+    </ul>
+  </li>
+  <li>design security strategy for privileged activities including PAM, entitlement management, cloud tenant administration
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory/roles/security-planning">Security Planning</a></li>
+      <li><a href="https://docs.microsoft.com/en-us/security/compass/privileged-access-intermediaries">Privileged Access Intermediaries</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="useful-links-2">Useful Links</h2>
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/">Microsoft Azure Well-Architected Framework</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/overview">Overview of the Azure Security Benchmark</a></li>
 </ul>
 
 <p>
