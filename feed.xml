@@ -1,114 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2022-04-21T19:53:27+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">Studying towards Cybersecurity Architect</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100.html" rel="alternate" type="text/html" title="Studying towards Cybersecurity Architect" /><published>2022-04-20T00:00:00+02:00</published><updated>2022-04-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100.html"><![CDATA[<h2 id="exam-date">Exam Date</h2>
-
-<p>May the 4th be with you……. 2022/05/04</p>
-
-<h2 id="exam-guide">Exam Guide</h2>
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://tech.nosam.co.za//feed.xml" rel="self" type="application/atom+xml" /><link href="https://tech.nosam.co.za//" rel="alternate" type="text/html" /><updated>2022-04-22T08:10:37+02:00</updated><id>https://tech.nosam.co.za//feed.xml</id><entry><title type="html">SC100 Design a strategy for data and applications</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/22/SC100_SecData.html" rel="alternate" type="text/html" title="SC100 Design a strategy for data and applications" /><published>2022-04-22T00:00:00+02:00</published><updated>2022-04-22T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/22/SC100_SecData</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/22/SC100_SecData.html"><![CDATA[<h1 id="design-a-strategy-for-data-and-applications-2025">Design a strategy for data and applications (20–25%)</h1>
+<h2 id="specify-security-requirements-for-applications">Specify security requirements for applications</h2>
 <ul>
-  <li><a href="https://docs.microsoft.com/en-us/learn/certifications/exams/sc-100" target="_blank">Exam Page</a></li>
-  <li><a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWVbXN" target="_blank">Exam Skills Measured</a></li>
-</ul>
-
-<h3 id="topic-name">Topic Name</h3>
-
-<h4 id="design-a-zero-trust-strategy-and-architecture-3035">Design a Zero Trust strategy and architecture (30–35%)</h4>
-<p><a href="/study/azure/sc100/2022/04/20/SC100_DesignZeroTrust.html">Link</a></p>
-<h5 id="build-an-overall-security-strategy-and-architecture">Build an overall security strategy and architecture</h5>
-<ul>
-  <li>identify the integration points in an architecture by using Microsoft Cybersecurity Reference Architecture (MCRA)</li>
-  <li>translate business goals into security requirements</li>
-  <li>translate security requirements into technical capabilities, including security services, security products, and security processes</li>
-  <li>design security for a resiliency strategy</li>
-  <li>integrate a hybrid or multi-tenant environment into a security strategy</li>
-  <li>develop a technical and governance strategy for traffic filtering and segmentation</li>
-</ul>
-
-<h5 id="design-a-security-operations-strategy">Design a security operations strategy</h5>
-<ul>
-  <li>design a logging and auditing strategy to support security operations</li>
-  <li>develop security operations to support a hybrid or multi-cloud environment</li>
-  <li>design a strategy for SIEM and SOAR</li>
-  <li>evaluate security workflows</li>
-  <li>evaluate a security operations strategy for incident management lifecycle</li>
-  <li>evaluate a security operations strategy for sharing technical threat intelligence
-    <h5 id="design-an-identity-security-strategy">Design an identity security strategy</h5>
-    <p>Note: includes hybrid and multi-cloud</p>
+  <li>specify priorities for mitigating threats to applications
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/operational-overview">Operational Overview</a></li>
+    </ul>
   </li>
-  <li>design a strategy for access to cloud resources</li>
-  <li>recommend an identity store (tenants, B2B, B2C, hybrid)</li>
-  <li>recommend an authentication strategy</li>
-  <li>recommend an authorization strategy</li>
-  <li>design a strategy for conditional access</li>
-  <li>design a strategy for role assignment and delegation</li>
-  <li>design security strategy for privileged role access to infrastructure including identitybased firewall rules, Azure PIM</li>
-  <li>design security strategy for privileged activities including PAM, entitlement management,
-cloud tenant administration</li>
+  <li>specify a security standard for onboarding a new application</li>
+  <li>specify a security strategy for applications and APIs
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/api-management-security-baseline">Azure security baseline for API management</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h4 id="evaluate-governance-risk-compliance-grc-technical-strategies-and-security-operations-strategies-2025">Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies (20–25%)</h4>
-<h5 id="design-a-regulatory-compliance-strategy">Design a regulatory compliance strategy</h5>
+<h2 id="design-a-strategy-for-securing-data">Design a strategy for securing data</h2>
 <ul>
-  <li>interpret compliance requirements and translate into specific technical capabilities (new or existing)</li>
-  <li>evaluate infrastructure compliance by using Microsoft Defender for Cloud</li>
-  <li>interpret compliance scores and recommend actions to resolve issues or improve security</li>
-  <li>design implementation of Azure Policy</li>
-  <li>design for data residency requirements</li>
-  <li>translate privacy requirements into requirements for security solutions</li>
+  <li>specify priorities for mitigating threats to data</li>
+  <li>design a strategy to identify and protect sensitive data
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices">Data Encryption Best Practices</a></li>
+    </ul>
+  </li>
+  <li>specify an encryption standard for data at rest and in motion
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-overview">Encryption Overview</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h5 id="evaluate-security-posture-and-recommend-technical-strategies-to-manage-risk">Evaluate security posture and recommend technical strategies to manage risk</h5>
+<h2 id="go-back">Go Back</h2>
+<p><a href="/study/azure/sc100/2022/04/19/SC100.html">Link</a></p>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><category term="study" /><summary type="html"><![CDATA[Design a strategy for data and applications (20–25%) Specify security requirements for applications specify priorities for mitigating threats to applications Operational Overview specify a security standard for onboarding a new application specify a security strategy for applications and APIs Azure security baseline for API management]]></summary></entry><entry><title type="html">SC100 Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/21/SC100_GRC.html" rel="alternate" type="text/html" title="SC100 Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies" /><published>2022-04-21T00:00:00+02:00</published><updated>2022-04-21T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/21/SC100_GRC</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/21/SC100_GRC.html"><![CDATA[<h1 id="evaluate-governance-risk-compliance-grc-technical-strategies-and-security-operations-strategies-2025">Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies (20–25%)</h1>
+<h2 id="design-a-regulatory-compliance-strategy">Design a regulatory compliance strategy</h2>
+<ul>
+  <li>interpret compliance requirements and translate into specific technical capabilities (new or existing)
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/compliance/">Compliance</a></li>
+    </ul>
+  </li>
+  <li>evaluate infrastructure compliance by using Microsoft Defender for Cloud
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/defender-for-cloud/">Defender for Cloud</a></li>
+    </ul>
+  </li>
+  <li>interpret compliance scores and recommend actions to resolve issues or improve security
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/defender-for-cloud/review-security-recommendations">Review Security Recommendation</a></li>
+    </ul>
+  </li>
+  <li>design implementation of Azure Policy
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/governance/policy/overview">Azure Policy</a></li>
+    </ul>
+  </li>
+  <li>design for data residency requirements
+    <ul>
+      <li><a href="https://azure.microsoft.com/en-us/resources/achieving-compliant-data-residency-and-security-with-azure/">Enabling Data Residency and Data Protection in Microsoft Azure Regions</a></li>
+    </ul>
+  </li>
+  <li>translate privacy requirements into requirements for security solutions
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/protection-customer-data">Protection Customer Data</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="evaluate-security-posture-and-recommend-technical-strategies-to-manage-risk">Evaluate security posture and recommend technical strategies to manage risk</h2>
 <ul>
   <li>evaluate security posture by using benchmarks (including Azure security benchmarks,
-ISO 2701, etc.)</li>
+ISO 2701, etc.)
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/compliance/">Compliance</a></li>
+    </ul>
+  </li>
   <li>evaluate security posture by using Microsoft Defender for Cloud</li>
+  <li><a href="https://docs.microsoft.com/en-us/azure/defender-for-cloud/">Defender for Cloud</a></li>
   <li>evaluate security posture by using Secure Scores</li>
   <li>evaluate security posture of cloud workloads</li>
-  <li>design security for an Azure Landing Zone</li>
-  <li>interpret technical threat intelligence and recommend risk mitigations</li>
-  <li>recommend security capabilities or controls to mitigate identified risks</li>
+  <li>design security for an Azure Landing Zone
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/considerations/landing-zone-security">Landing Zone Security</a></li>
+    </ul>
+  </li>
+  <li>interpret technical threat intelligence and recommend risk mitigations
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/threat-detection">Threat Detection</a></li>
+    </ul>
+  </li>
+  <li>recommend security capabilities or controls to mitigate identified risks
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/technical-capabilities">Azure Security Technical Capabilities</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h4 id="design-security-for-infrastructure-2025">Design security for infrastructure (20–25%)</h4>
-<h5 id="design-a-strategy-for-securing-server-and-client-endpoints">Design a strategy for securing server and client endpoints</h5>
+<h2 id="useful-links">Useful Links</h2>
+
+<h2 id="go-back">Go Back</h2>
+<p><a href="/study/azure/sc100/2022/04/19/SC100.html">Link</a></p>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><summary type="html"><![CDATA[Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies (20–25%) Design a regulatory compliance strategy interpret compliance requirements and translate into specific technical capabilities (new or existing) Compliance evaluate infrastructure compliance by using Microsoft Defender for Cloud Defender for Cloud interpret compliance scores and recommend actions to resolve issues or improve security Review Security Recommendation design implementation of Azure Policy Azure Policy design for data residency requirements Enabling Data Residency and Data Protection in Microsoft Azure Regions translate privacy requirements into requirements for security solutions Protection Customer Data]]></summary></entry><entry><title type="html">SC100 Design security for infrastructure</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/21/SC100_SecInfra.html" rel="alternate" type="text/html" title="SC100 Design security for infrastructure" /><published>2022-04-21T00:00:00+02:00</published><updated>2022-04-21T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/21/SC100_SecInfra</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/21/SC100_SecInfra.html"><![CDATA[<h1 id="design-security-for-infrastructure-2025">Design security for infrastructure (20–25%)</h1>
+<h2 id="design-a-strategy-for-securing-server-and-client-endpoints">Design a strategy for securing server and client endpoints</h2>
 <p>NOTE: includes hybrid and multi-cloud</p>
 <ul>
-  <li>specify security baselines for server and client endpoints</li>
-  <li>specify security requirements for servers, including multiple platforms and operating
-systems</li>
-  <li>specify security requirements for mobile devices and clients, including endpoint
-protection, hardening, and configuration</li>
-  <li>specify requirements to secure Active Directory Domain Services</li>
-  <li>design a strategy to manage secrets, keys, and certificates</li>
-  <li>design a strategy for secure remote access</li>
+  <li>specify security baselines for server and client endpoints
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/mem/intune/protect/security-baselines">Security Baselines</a></li>
+    </ul>
+  </li>
+  <li>specify security requirements for servers, including multiple platforms and operating systems
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/overview">Overview</a></li>
+    </ul>
+  </li>
+  <li>specify security requirements for mobile devices and clients, including endpoint protection, hardening, and configuration
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/management">Management</a></li>
+    </ul>
+  </li>
+  <li>specify requirements to secure Active Directory Domain Services
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/active-directory-domain-services/secure-your-domain">Secure your domain</a></li>
+    </ul>
+  </li>
+  <li>design a strategy to manage secrets, keys, and certificates
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/key-vault/general/overview">About Azure Key Vault</a></li>
+    </ul>
+  </li>
+  <li>design a strategy for secure remote access
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/management">Security management in Azure</a></li>
+    </ul>
+  </li>
 </ul>
 
-<h5 id="design-a-strategy-for-securing-saas-paas-and-iaas-services">Design a strategy for securing SaaS, PaaS, and IaaS services</h5>
+<h2 id="design-a-strategy-for-securing-saas-paas-and-iaas-services">Design a strategy for securing SaaS, PaaS, and IaaS services</h2>
 <ul>
-  <li>specify security baselines for SaaS, PaaS, and IaaS services</li>
-  <li>specify security requirements for IoT workloads</li>
+  <li>specify security baselines for SaaS, PaaS, and IaaS services
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/cloud-services-security-baseline">Azure Security Baselines</a></li>
+    </ul>
+  </li>
+  <li>specify security requirements for IoT workloads
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/iot/iot-security">Security in IOT Workload</a></li>
+    </ul>
+  </li>
   <li>specify security requirements for data workloads, including SQL, Azure SQL Database, Azure Synapse, and Azure Cosmos DB</li>
   <li>specify security requirements for web workloads, including Azure App Service</li>
-  <li>specify security requirements for storage workloads, including Azure Storage</li>
-  <li>specify security requirements for containers</li>
+  <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/baselines/app-service-security-baseline">Azure Security baseline for App Services</a></li>
+  <li>specify security requirements for storage workloads, including Azure Storage
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/services/storage/storage-accounts/security">Storage Accounts and Security</a></li>
+    </ul>
+  </li>
+  <li>specify security requirements for containers
+    <ul>
+      <li><a href="https://docs.microsoft.com/en-us/azure/container-instances/container-instances-image-security">Conatiners Instances Image Security</a></li>
+    </ul>
+  </li>
   <li>specify security requirements for container orchestration</li>
 </ul>
 
-<h4 id="design-a-strategy-for-data-and-applications-2025">Design a strategy for data and applications (20–25%)</h4>
-<h5 id="specify-security-requirements-for-applications">Specify security requirements for applications</h5>
-<ul>
-  <li>specify priorities for mitigating threats to applications</li>
-  <li>specify a security standard for onboarding a new application</li>
-  <li>specify a security strategy for applications and APIs</li>
-</ul>
-
-<h5 id="design-a-strategy-for-securing-data">Design a strategy for securing data</h5>
-<ul>
-  <li>specify priorities for mitigating threats to data</li>
-  <li>design a strategy to identify and protect sensitive data</li>
-  <li>specify an encryption standard for data at rest and in motion</li>
-</ul>
-
-<h4 id="additional-comments">Additional Comments</h4>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><category term="study" /><summary type="html"><![CDATA[Exam Date]]></summary></entry><entry><title type="html">SC100 Design a Zero Trust strategy and architecture</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100_DesignZeroTrust.html" rel="alternate" type="text/html" title="SC100 Design a Zero Trust strategy and architecture" /><published>2022-04-20T00:00:00+02:00</published><updated>2022-04-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100_DesignZeroTrust</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100_DesignZeroTrust.html"><![CDATA[<h1 id="design-a-zero-trust-strategy-and-architecture-3035">Design a Zero Trust strategy and architecture (30–35%)</h1>
+<h2 id="go-back">Go Back</h2>
+<p><a href="/study/azure/sc100/2022/04/19/SC100.html">Link</a></p>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><category term="study" /><summary type="html"><![CDATA[Design security for infrastructure (20–25%) Design a strategy for securing server and client endpoints NOTE: includes hybrid and multi-cloud specify security baselines for server and client endpoints Security Baselines specify security requirements for servers, including multiple platforms and operating systems Overview specify security requirements for mobile devices and clients, including endpoint protection, hardening, and configuration Management specify requirements to secure Active Directory Domain Services Secure your domain design a strategy to manage secrets, keys, and certificates About Azure Key Vault design a strategy for secure remote access Security management in Azure]]></summary></entry><entry><title type="html">SC100 Design a Zero Trust strategy and architecture</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100_DesignZeroTrust.html" rel="alternate" type="text/html" title="SC100 Design a Zero Trust strategy and architecture" /><published>2022-04-20T00:00:00+02:00</published><updated>2022-04-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100_DesignZeroTrust</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/20/SC100_DesignZeroTrust.html"><![CDATA[<h1 id="design-a-zero-trust-strategy-and-architecture-3035">Design a Zero Trust strategy and architecture (30–35%)</h1>
 
 <h2 id="build-an-overall-security-strategy-and-architecture">Build an overall security strategy and architecture</h2>
 <ul>
@@ -239,7 +293,126 @@ protection, hardening, and configuration</li>
 <ul>
   <li><a href="https://docs.microsoft.com/en-us/azure/architecture/framework/">Microsoft Azure Well-Architected Framework</a></li>
   <li><a href="https://docs.microsoft.com/en-us/security/benchmark/azure/overview">Overview of the Azure Security Benchmark</a></li>
-</ul>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><summary type="html"><![CDATA[Design a Zero Trust strategy and architecture (30–35%)]]></summary></entry><entry><title type="html">Push Pull Legs</title><link href="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html" rel="alternate" type="text/html" title="Push Pull Legs" /><published>2022-02-20T00:00:00+02:00</published><updated>2022-02-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//fitness/2022/02/20/PPL</id><content type="html" xml:base="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html"><![CDATA[<h2 id="push">Push</h2>
+</ul>
+
+<h2 id="go-back">Go Back</h2>
+<p><a href="/study/azure/sc100/2022/04/19/SC100.html">Link</a></p>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><summary type="html"><![CDATA[Design a Zero Trust strategy and architecture (30–35%)]]></summary></entry><entry><title type="html">Studying towards Cybersecurity Architect</title><link href="https://tech.nosam.co.za//study/azure/sc100/2022/04/19/SC100.html" rel="alternate" type="text/html" title="Studying towards Cybersecurity Architect" /><published>2022-04-19T00:00:00+02:00</published><updated>2022-04-19T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/azure/sc100/2022/04/19/SC100</id><content type="html" xml:base="https://tech.nosam.co.za//study/azure/sc100/2022/04/19/SC100.html"><![CDATA[<h2 id="exam-date">Exam Date</h2>
+
+<p>May the 4th be with you……. 2022/05/04</p>
+
+<h2 id="exam-guide">Exam Guide</h2>
+
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/learn/certifications/exams/sc-100" target="_blank">Exam Page</a></li>
+  <li><a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWVbXN" target="_blank">Exam Skills Measured</a></li>
+</ul>
+
+<h3 id="topic-name">Topic Name</h3>
+
+<h4 id="design-a-zero-trust-strategy-and-architecture-3035">Design a Zero Trust strategy and architecture (30–35%)</h4>
+<p><a href="/study/azure/sc100/2022/04/20/SC100_DesignZeroTrust.html">Link</a></p>
+<h5 id="build-an-overall-security-strategy-and-architecture">Build an overall security strategy and architecture</h5>
+<ul>
+  <li>identify the integration points in an architecture by using Microsoft Cybersecurity Reference Architecture (MCRA)</li>
+  <li>translate business goals into security requirements</li>
+  <li>translate security requirements into technical capabilities, including security services, security products, and security processes</li>
+  <li>design security for a resiliency strategy</li>
+  <li>integrate a hybrid or multi-tenant environment into a security strategy</li>
+  <li>develop a technical and governance strategy for traffic filtering and segmentation</li>
+</ul>
+
+<h5 id="design-a-security-operations-strategy">Design a security operations strategy</h5>
+<ul>
+  <li>design a logging and auditing strategy to support security operations</li>
+  <li>develop security operations to support a hybrid or multi-cloud environment</li>
+  <li>design a strategy for SIEM and SOAR</li>
+  <li>evaluate security workflows</li>
+  <li>evaluate a security operations strategy for incident management lifecycle</li>
+  <li>evaluate a security operations strategy for sharing technical threat intelligence
+    <h5 id="design-an-identity-security-strategy">Design an identity security strategy</h5>
+    <p>Note: includes hybrid and multi-cloud</p>
+  </li>
+  <li>design a strategy for access to cloud resources</li>
+  <li>recommend an identity store (tenants, B2B, B2C, hybrid)</li>
+  <li>recommend an authentication strategy</li>
+  <li>recommend an authorization strategy</li>
+  <li>design a strategy for conditional access</li>
+  <li>design a strategy for role assignment and delegation</li>
+  <li>design security strategy for privileged role access to infrastructure including identitybased firewall rules, Azure PIM</li>
+  <li>design security strategy for privileged activities including PAM, entitlement management,
+cloud tenant administration</li>
+</ul>
+
+<h4 id="evaluate-governance-risk-compliance-grc-technical-strategies-and-security-operations-strategies-2025">Evaluate Governance Risk Compliance (GRC) technical strategies and security operations strategies (20–25%)</h4>
+<p><a href="/study/azure/sc100/2022/04/21/SC100_GRC.html">Link</a></p>
+<h5 id="design-a-regulatory-compliance-strategy">Design a regulatory compliance strategy</h5>
+<ul>
+  <li>interpret compliance requirements and translate into specific technical capabilities (new or existing)</li>
+  <li>evaluate infrastructure compliance by using Microsoft Defender for Cloud</li>
+  <li>interpret compliance scores and recommend actions to resolve issues or improve security</li>
+  <li>design implementation of Azure Policy</li>
+  <li>design for data residency requirements</li>
+  <li>translate privacy requirements into requirements for security solutions</li>
+</ul>
+
+<h5 id="evaluate-security-posture-and-recommend-technical-strategies-to-manage-risk">Evaluate security posture and recommend technical strategies to manage risk</h5>
+<ul>
+  <li>evaluate security posture by using benchmarks (including Azure security benchmarks,
+ISO 2701, etc.)</li>
+  <li>evaluate security posture by using Microsoft Defender for Cloud</li>
+  <li>evaluate security posture by using Secure Scores</li>
+  <li>evaluate security posture of cloud workloads</li>
+  <li>design security for an Azure Landing Zone</li>
+  <li>interpret technical threat intelligence and recommend risk mitigations</li>
+  <li>recommend security capabilities or controls to mitigate identified risks</li>
+</ul>
+
+<h4 id="design-security-for-infrastructure-2025">Design security for infrastructure (20–25%)</h4>
+<p><a href="/study/azure/sc100/2022/04/21/SC100_SecInfra.html">Link</a></p>
+<h5 id="design-a-strategy-for-securing-server-and-client-endpoints">Design a strategy for securing server and client endpoints</h5>
+<p>NOTE: includes hybrid and multi-cloud</p>
+<ul>
+  <li>specify security baselines for server and client endpoints</li>
+  <li>specify security requirements for servers, including multiple platforms and operating
+systems</li>
+  <li>specify security requirements for mobile devices and clients, including endpoint
+protection, hardening, and configuration</li>
+  <li>specify requirements to secure Active Directory Domain Services</li>
+  <li>design a strategy to manage secrets, keys, and certificates</li>
+  <li>design a strategy for secure remote access</li>
+</ul>
+
+<h5 id="design-a-strategy-for-securing-saas-paas-and-iaas-services">Design a strategy for securing SaaS, PaaS, and IaaS services</h5>
+<ul>
+  <li>specify security baselines for SaaS, PaaS, and IaaS services</li>
+  <li>specify security requirements for IoT workloads</li>
+  <li>specify security requirements for data workloads, including SQL, Azure SQL Database, Azure Synapse, and Azure Cosmos DB</li>
+  <li>specify security requirements for web workloads, including Azure App Service</li>
+  <li>specify security requirements for storage workloads, including Azure Storage</li>
+  <li>specify security requirements for containers</li>
+  <li>specify security requirements for container orchestration</li>
+</ul>
+
+<h4 id="design-a-strategy-for-data-and-applications-2025">Design a strategy for data and applications (20–25%)</h4>
+<p><a href="/study/azure/sc100/2022/04/22/SC100_SecData.html">Link</a></p>
+<h5 id="specify-security-requirements-for-applications">Specify security requirements for applications</h5>
+<ul>
+  <li>specify priorities for mitigating threats to applications</li>
+  <li>specify a security standard for onboarding a new application</li>
+  <li>specify a security strategy for applications and APIs</li>
+</ul>
+
+<h5 id="design-a-strategy-for-securing-data">Design a strategy for securing data</h5>
+<ul>
+  <li>specify priorities for mitigating threats to data</li>
+  <li>design a strategy to identify and protect sensitive data</li>
+  <li>specify an encryption standard for data at rest and in motion</li>
+</ul>
+
+<h4 id="additional-comments">Additional Comments</h4>
+<ul>
+  <li><a href="https://docs.microsoft.com/en-us/azure/security/fundamentals/">Security Fundamentals</a></li>
+</ul>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="Azure" /><category term="SC100" /><category term="azure" /><category term="security" /><category term="study" /><summary type="html"><![CDATA[Exam Date]]></summary></entry><entry><title type="html">Push Pull Legs</title><link href="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html" rel="alternate" type="text/html" title="Push Pull Legs" /><published>2022-02-20T00:00:00+02:00</published><updated>2022-02-20T00:00:00+02:00</updated><id>https://tech.nosam.co.za//fitness/2022/02/20/PPL</id><content type="html" xml:base="https://tech.nosam.co.za//fitness/2022/02/20/PPL.html"><![CDATA[<h2 id="push">Push</h2>
 <blockquote>
   <p>Chest Shoulders Triceps</p>
 </blockquote>
@@ -854,183 +1027,4 @@ You need to rely on the people using the technology, once coined the new <a href
 <span class="k">SELECT</span> <span class="k">COUNT</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="n">DaysOnPlanet</span> <span class="k">FROM</span> <span class="o">#</span><span class="n">days</span><span class="p">;</span>
 <span class="c1">--Always good to clean up</span>
 <span class="k">drop</span> <span class="k">table</span> <span class="o">#</span><span class="n">days</span><span class="p">;</span>
-</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>vaughan mason</name></author><category term="life" /><summary type="html"><![CDATA[So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.]]></summary></entry><entry><title type="html">Studying towards becoming an AWS developer</title><link href="https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01.html" rel="alternate" type="text/html" title="Studying towards becoming an AWS developer" /><published>2021-06-23T00:00:00+02:00</published><updated>2021-06-23T00:00:00+02:00</updated><id>https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01</id><content type="html" xml:base="https://tech.nosam.co.za//study/aws/dva-c01/2021/06/23/DVAC01.html"><![CDATA[<h2 id="motivation">Motivation</h2>
-
-<ul>
-  <li>Can you get a certification without paying for anything?</li>
-  <li>Developer certificaiton will help validate skills in leading an Engineering team.</li>
-  <li>The reason I’m choosing to start in AWS is that I have been putting it off for a long time.</li>
-</ul>
-
-<h2 id="study-plan">Study plan</h2>
-
-<ul>
-  <li>Going to spend an hour each day researching the topic. Finding additional material and creating a blog post for each one.</li>
-  <li>Then will dive deeper into each section refining the blog posts.</li>
-</ul>
-
-<h2 id="exam-date">Exam Date</h2>
-
-<p>Need to commit to a date - 31 September 2021 (12 weeks)</p>
-
-<h3 id="free-training-exam">Free training exam</h3>
-
-<p><a href="https://pages.awscloud.com/Globa_traincert_Get_AWS_Certified_Developer_Associate.html">Link to Free Training exam</a></p>
-
-<h2 id="exam-guide">Exam Guide</h2>
-
-<p><a href="//d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf" target="_blank">Download the exam guide</a></p>
-
-<h3 id="domain-1-deployment">Domain 1: Deployment</h3>
-
-<p>1.1 Deploy written code in AWS using existing CI/CD pipelines, processes, and patterns</p>
-
-<p>1.2 Deploy applications using Elastic Beanstalk</p>
-
-<p>1.3 Prepare the application deployment package to be deployed to AWS</p>
-
-<p>1.4 Deploy serverless applications</p>
-
-<h4 id="domain-2-security">Domain 2: Security</h4>
-
-<p>2.1 Make authenticated calls to AWS services</p>
-
-<p>2.2 Implement encryption using AWS services</p>
-
-<p>2.3 Implement application authentication, and authorization</p>
-
-<h4 id="domain-3-development-with-aws-services">Domain 3: Development with AWS Services</h4>
-
-<p>3.1 Write code for serverless applications</p>
-
-<p>3.2 Translate functional requirements into application design</p>
-
-<p>3.3 Implement application design into application code</p>
-
-<p>3.4 Write code that interacts with AWS services by using APIs, SDKs, and AWS CLI</p>
-
-<h4 id="domain-4-refactoring">Domain 4: Refactoring</h4>
-
-<p>4.1 Optimize application to best use AWS services and features</p>
-
-<p>4.2 Migrate existing application code to run on AWS</p>
-
-<h4 id="domain-5-monitoring-and-troubleshooting">Domain 5: Monitoring and Troubleshooting</h4>
-
-<p>5.1 Write code that can be monitored</p>
-
-<p>5.2 Perform root cause analysis on faults found in testing or production</p>
-
-<h2 id="aws-exam-prep">AWS Exam Prep</h2>
-
-<p><a href="https://aws.amazon.com/certification/certification-prep/?cta=dev_examprep">Exam Prep Website</a> - For up to date information</p>
-
-<h3 id="aws-training">AWS Training</h3>
-
-<p>Build your technical skills with these recommended courses:<br /> <br /> <b><a href="/training/classroom/aws-technical-essentials/?ep=sec&amp;sec=assoc_dev">AWS Technical Essentials</a></b> | Classroom<br /> <b><a href="https://www.aws.training/Details/Video?id=15878&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Introduction to AWS Elastic Beanstalk</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=27182&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Introduction to Containers</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=27074&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Introduction to Serverless Development</a></b> | Digital<br /> <b><a href="/training/classroom/developing-on-aws/?ep=sec&amp;sec=assoc_dev">Developing on AWS</a></b><span> | Classroom<br /> <b><a href="https://www.aws.training/Details/eLearning?id=30260&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Amazon Elastic Container Service (ECS) Primer</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=32894&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Amazon Elastic Kubernetes Service (EKS) Primer</a></b> | Digital<br /> <b><a href="https://www.aws.training/Details/eLearning?id=66768&amp;ep=sec&amp;sec=assoc_dev" target="_blank">Getting Started with DevOps on AWS</a></b> | Digital&nbsp;</span></p>
-
-<h3 id="white-papers">White Papers</h3>
-
-<p><b><a href="https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html">AWS Well-Architected Framework</a></b> || <a href="//d1.awsstatic.com/whitepapers/DevOps/practicing-continuous-integration-continuous-delivery-on-AWS.pdf" target="_blank"><b>Practicing Continuous Integration and Continuous Delivery on AWS Accelerating Software Delivery with DevOps</b></a> || <a href="//d1.awsstatic.com/whitepapers/microservices-on-aws.pdf" target="_blank"><b>Microservices on AWS</b></a> || <a href="//d1.awsstatic.com/whitepapers/serverless-architectures-with-aws-lambda.pdf" target="_blank"><b>Serverless Architectures with AWS Lambda</b></a> || <a href="//d1.awsstatic.com/whitepapers/optimizing-enterprise-economics-serverless-architectures.pdf" target="_blank"><b>Optimizing Enterprise Economics with Serverless Architectures</b></a> || <a href="//d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf" target="_blank"><b>Running Containerized Microservices on AWS</b></a> || <a href="//d1.awsstatic.com/whitepapers/AWS_Blue_Green_Deployments.pdf" target="_blank"><b>Blue/Green Deployments on AWS</b></a></p>
-
-<h3 id="faqs">FAQs</h3>
-
-<p><a href="https://aws.amazon.com//sqs/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon Simple Queue Service</b></a> || <a href="https://aws.amazon.com//dynamodb/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon DynamoDB</b></a> || <a href="https://aws.amazon.com//elasticache/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon ElastiCache</b></a> || <a href="https://aws.amazon.com//kinesis/data-streams/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon Kinesis</b></a> || <a href="https://aws.amazon.com//lambda/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Lambda</b></a> || <a href="https://aws.amazon.com//api-gateway/faqs/?ep=sec&amp;sec=assoc_dev"><b>Amazon API Gateway</b></a> || <a href="https://aws.amazon.com//elasticbeanstalk/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Elastic Beanstalk</b></a> || <a href="https://aws.amazon.com//iam/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Identity and Access Management</b></a> || <a href="https://aws.amazon.com//kms/faqs/?ep=sec&amp;sec=assoc_dev"><b>AWS Key Management Service</b></a></p>]]></content><author><name>vaughan mason</name></author><category term="study" /><category term="AWS" /><category term="DVA-C01" /><category term="study" /><category term="aws" /><summary type="html"><![CDATA[Motivation]]></summary></entry><entry><title type="html">Think Again - Adam Grant</title><link href="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html" rel="alternate" type="text/html" title="Think Again - Adam Grant" /><published>2021-06-13T00:00:00+02:00</published><updated>2021-06-13T00:00:00+02:00</updated><id>https://tech.nosam.co.za//books/2021/06/13/thinkAgain</id><content type="html" xml:base="https://tech.nosam.co.za//books/2021/06/13/thinkAgain.html"><![CDATA[<p>Book Review of Adam Grant’s Think Again.</p>
-
-<h2 id="key-takeaways">Key takeaways</h2>
-
-<ul>
-  <li>Think like a scientist</li>
-  <li>Challenge assumptions</li>
-</ul>
-
-<h3 id="would-i-recommend">Would I recommend</h3>
-
-<p>Yes!!!</p>]]></content><author><name>vaughan mason</name></author><category term="books" /><category term="book" /><summary type="html"><![CDATA[Book Review of Adam Grant’s Think Again.]]></summary></entry><entry><title type="html">I have a need for internet speed…..</title><link href="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html" rel="alternate" type="text/html" title="I have a need for internet speed….." /><published>2021-05-29T00:00:00+02:00</published><updated>2021-05-29T00:00:00+02:00</updated><id>https://tech.nosam.co.za//tech/2021/05/29/checkISP</id><content type="html" xml:base="https://tech.nosam.co.za//tech/2021/05/29/checkISP.html"><![CDATA[<p>Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.</p>
-
-<h2 id="speedtest">Speedtest</h2>
-
-<p>So I’m not going to going to try of rebuilding something that is readily available. <a href="https://www.speedtest.net/">speedtest.net</a>, has a great website for you to track you upload and download speeds. Depending on your ISP, they will usually accept these results with the slight exception that you have to remove all devices off the network (You can refer to my other post on networking, I would provide a link but have not gotten that fully working yet). Great thing about Speedtest, is that they now offer a CLI (Command Line Interface).</p>
-
-<p>Time to install:</p>
-
-<h3 id="installing-cli">Installing CLI</h3>
-
-<p>Depending on your OS, you can follow the information <a href="https://www.speedtest.net/apps/cli">here</a>.</p>
-
-<p>I did the following:</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>curl <span class="nt">-s</span> https://install.speedtest.net/app/cli/install.deb.sh | <span class="nb">sudo </span>bash
-<span class="nb">sudo </span>apt-get <span class="nb">install </span>speedtest
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>Then to check your speed your just type</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>speedtest
-</pre></td></tr></tbody></table></code></pre></div></div>
-<p>Results</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre>   Speedtest by Ookla
-
-     Server: xxxxxxxx
-        ISP: xxxxxxxx
-    Latency:     1.40 ms   (0.07 ms jitter)
-   Download:   252.52 Mbps (data used: 123.3 MB)
-     Upload:    88.74 Mbps (data used: 44.6 MB)
-Packet Loss:     0.0%
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<p>But now we need to automate this process….</p>
-
-<h3 id="automation-is-king">Automation is king</h3>
-
-<p>So as I am using a RaspberryPi (read Linux), I will be using a shell file and crontab to automate this process.</p>
-
-<p>Few things that I learned:</p>
-
-<ul>
-  <li>Speedtest does not want you to automate
-    <ul>
-      <li>Bit of a half truth, as they just need you to confirm that you are using this for personal use. Which I am.</li>
-      <li>If you add the following argument, –accept-license, it works.</li>
-    </ul>
-  </li>
-  <li>As I am still learning Linux, the folder structures, file locations and privileges took me a few minutes (read hour) to master.
-    <ul>
-      <li>Most of the time this goes to the root of the user that you logged in as.</li>
-      <li>I went with the approach of a file per day, so make sure you append instead of over writting if you want to follow this approach (» over &gt;).</li>
-    </ul>
-  </li>
-</ul>
-
-<p>So I created a sh file, scheduled it with crontab and we are away.</p>
-
-<p>Here is the basic script for the sh file update the user details</p>
-<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre><span class="c">#!/bin/bash</span>
-<span class="nv">pushDate</span><span class="o">=</span><span class="si">$(</span><span class="nb">date</span> +<span class="s1">'%Y%m%d'</span><span class="si">)</span>
-<span class="nv">FILE</span><span class="o">=</span>/home/&lt;user&gt;/speedtest/logs/<span class="k">${</span><span class="nv">pushDate</span><span class="k">}</span>.log
-<span class="nb">date</span> <span class="o">&gt;&gt;</span><span class="nv">$FILE</span>
-
-speedtest <span class="nt">--accept-license</span> <span class="o">&gt;&gt;</span><span class="nv">$FILE</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
-
-<h2 id="why-is-this-important">Why is this important</h2>
-
-<ul>
-  <li>When developing apps in the cloud, you need to understand latency and network speed. If you go for a cheaper region, you need to be sure you meeting the technical specifications of your applications (think timeouts).</li>
-  <li>Being cloud native means understanding what that cloud is built on. So that is why I am experimenting and continuing to learn in this environment.</li>
-</ul>]]></content><author><name>vaughan mason</name></author><category term="tech" /><category term="raspberrypi" /><summary type="html"><![CDATA[Anyone who has a fast internet connectivity at home, checks whether they are getting what they paid for. So obviously, I have been doing the same. With most things in life, automation, the more frequently and the smallest detail you meaure, the more accurate your decision making process will be. So I want to see if I could autmate the process of collecting these stats. Will not be covering how to show them visually besides stored in a log file.]]></summary></entry></feed>
+</pre></td></tr></tbody></table></code></pre></div></div>]]></content><author><name>vaughan mason</name></author><category term="life" /><summary type="html"><![CDATA[So I have been around for a few days, 13000 of them to be exact. It is a really random association but it is fun to acknowledge.]]></summary></entry></feed>
